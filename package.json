@@ -2,18 +2,18 @@
   "name": "bq-importer",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lib/server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "amphora": "^2.12.1",
+    "bluebird": "^3.5.0",
     "body-parser": "^1.17.1",
-    "express": "^4.15.2",
     "fs": "0.0.1-security",
-    "fs-writefile-promise": "^2.0.0",
     "lodash": "^4.17.4",
     "request-promise": "^4.2.0"
   }
