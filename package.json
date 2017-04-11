@@ -1,13 +1,22 @@
 {
   "name": "bq-importer",
   "version": "1.0.0",
-  "description": "",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node lib/server.js"
+  "description": "Import pages from clay to big query.",
+  "author": "New York Media",
+  "license": "NONE",
+  "private": true,
+  "engines": {
+    "node": "6.10.1"
   },
-  "author": "",
-  "license": "ISC",
+  "main": "lib/server.js",
+  "scripts": {
+    "test": "npm run lint && mocha",
+    "start": "node lib/server.js",
+    "lint": "eslint --max-warnings 0 lib"
+  },
+  "pre-push": [
+    "lint"
+  ],
   "dependencies": {
     "amphora": "^2.12.1",
     "bluebird": "^3.5.0",
@@ -15,5 +24,11 @@
     "graceful-fs": "^4.1.11",
     "limit-request-promise": "^0.1.2",
     "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.19.0",
+    "mocha": "^3.2.0",
+    "sinon": "^2.1.0"
   }
 }
