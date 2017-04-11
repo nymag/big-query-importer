@@ -64,11 +64,6 @@
     "mode": "nullable"
   },
   {
-    "name": "vertical",
-    "type": "string",
-    "mode": "nullable"
-  },
-  {
     "name": "rubric",
     "type": "string",
     "mode": "nullable"
@@ -79,12 +74,22 @@
     "mode": "nullable"
   },
   {
-    "name": "ogTitle",
+    "name": "facebookTitle",
     "type": "string",
     "mode": "nullable"
   },
   {
     "name": "syndicatedUrl",
+    "type": "string",
+    "mode": "nullable"
+  },
+  {
+    "name": "siteName",
+    "type": "string",
+    "mode": "nullable"
+  },
+  {
+    "name": "clayType",
     "type": "string",
     "mode": "nullable"
   }
