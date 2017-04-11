@@ -10,7 +10,7 @@
   },
   "main": "lib/server.js",
   "scripts": {
-    "test": "npm run lint && npm run karma",
+    "test": "npm run lint && mocha",
     "start": "node lib/server.js",
     "lint": "eslint --max-warnings 0 lib"
   },
