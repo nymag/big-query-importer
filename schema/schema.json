@@ -84,7 +84,7 @@
     "mode": "nullable"
   },
   {
-    "name": "siteName",
+    "name": "vertical",
     "type": "string",
     "mode": "nullable"
   },
