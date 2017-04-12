@@ -74,7 +74,7 @@
     "mode": "nullable"
   },
   {
-    "name": "facebookTitle",
+    "name": "ogTitle",
     "type": "string",
     "mode": "nullable"
   },
@@ -84,7 +84,7 @@
     "mode": "nullable"
   },
   {
-    "name": "vertical",
+    "name": "siteName",
     "type": "string",
     "mode": "nullable"
   },
