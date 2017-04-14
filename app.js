@@ -1,3 +1,5 @@
+'use strict';
+
 const pages = require('./lib/pages.js'),
   fs = require('graceful-fs'),
   path = require('path'),
@@ -7,7 +9,7 @@ const pages = require('./lib/pages.js'),
     url: {
       alias: 'u',
       demandOption: true,
-      describe: 'Fetch page data from a clay url',
+      describe: 'Fetch page data from a Clay url',
       string: true
     }
   })

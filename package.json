@@ -11,13 +11,14 @@
   "main": "app.js",
   "scripts": {
     "test": "npm run lint && mocha",
-    "start": "node lib/server.js",
+    "start": "node services/big-query.js",
     "lint": "eslint --max-warnings 0 lib"
   },
   "pre-push": [
     "lint"
   ],
   "dependencies": {
+    "@google-cloud/bigquery": "^0.9.2",
     "amphora": "^2.12.1",
     "bluebird": "^3.5.0",
     "body-parser": "^1.17.1",
