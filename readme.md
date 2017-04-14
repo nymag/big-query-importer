@@ -1,41 +1,32 @@
-Overview
+Big Query Importer
 ========
 
-This repo gets all published pages from clay, maps their data to big query format, and saves to file.
+bq-importer gets all published pages from <a href="https://github.com/nymag/sites">Clay</a>, maps their data to a schema that <a href="https://cloud.google.com/bigquery/">Google Big Query</a> accepts, and saves to file.
 
-Any logic beyond mapping values from clay to values in bq should be avoided if possible.
+Any logic beyond mapping values from Clay to values in Big Query should be avoided.
 
 Development
 ===========
 
-## directory structure
-```
-/lib/server.js - main script
-```
+## Usage
+All commands require a `--url` argument, which is the `pages` url of the site to get data from, e.g. `http://nymag.com/scienceofus/pages/`
 
-## setup
-
-Clone this repo.
-
-## local dev
-
+## Local Development
 `npm test` - runs eslint and mocha tests
 
-`npm run start` - runs main script
+`node app.js --url http://nymag.com/scienceofus/pages/` - appends a site's page data to a file in the `data` directory
 
-## code style
+## Code Style
 
 Matches other New York Media repos; linted by eslint.
 
-Flow
-====
+## Flow
 
-1. run for each site: saves to file
-2. upload files to bq through ui
+1. Run command for each site: saves to file in the /data/ dir
+2. Upload files to Big Query via their <a href="https://bigquery.cloud.google.com">UI</a>
 
-TODO
-====
+# TODO
 
-* tests
-* script to upload files to big query
-* runs tests on circle ci on PRs
+* Write tests
+* Write data directly to a Big Query dataset instead of to a file
+* Runs tests on CircleCi on open PRs
