@@ -8,7 +8,7 @@
   "engines": {
     "node": "6.10.1"
   },
-  "main": "lib/server.js",
+  "main": "app.js",
   "scripts": {
     "test": "npm run lint && mocha",
     "start": "node lib/server.js",
@@ -23,7 +23,8 @@
     "body-parser": "^1.17.1",
     "graceful-fs": "^4.1.11",
     "limit-request-promise": "^0.1.2",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "yargs": "^7.1.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
