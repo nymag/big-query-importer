@@ -2,9 +2,14 @@
 
 const pages = require('./lib/pages.js'),
   bq = require('./services/big-query.js'),
-  fs = require('fs'),
   path = require('path'),
-  file = path.join(__dirname, './data/data.json'),
+  fs = require('fs'),
+  date = Date.now(),
+  datasetName = `clay_data_${date}`,
+  tableId = 'clay_data',
+  schemaFile = path.join(__dirname, './data/schema.json'),
+  schema = fs.readFileSync(schemaFile, 'utf8'),
+  options = JSON.parse(schema),
   yargs = require('yargs')
   .options({
     url: {
@@ -19,9 +24,7 @@ const pages = require('./lib/pages.js'),
   .argv;
 
 pages.page(yargs.url)
-.map((data) => {
-  // write objects to a file to upload to Big Query
-  // TODO: connect to BQ's API directly
-  fs.appendFile(file, JSON.stringify(data) + '\n');
+.then((data) => {
+  return bq.createDatasetAndInsertData(datasetName, tableId, options, data);
 })
 
