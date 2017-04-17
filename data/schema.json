@@ -1,96 +1,100 @@
-[ {
-    "name": "date",
-    "type": "string",
-    "mode": "nullable"
-  },
-  {
-    "name": "canonicalUrl",
-    "type": "string",
-    "mode": "nullable"
-  },
-  {
-    "name": "primaryHeadline",
-    "type": "string",
-    "mode": "nullable"
-  },
-  {
-    "name": "seoHeadline",
-    "type": "string",
-    "mode": "nullable"
-  },
-  {
-    "name": "overrideHeadline",
-    "type": "string",
-    "mode": "nullable"
-  },
-  {
-    "name": "shortHeadline",
-    "type": "string",
-    "mode": "nullable"
-  },
-  {
-    "name": "featureTypes",
-    "type": "string",
-    "mode": "repeated"
-  },
-  {
-    "name": "tags",
-    "type": "string",
-    "mode": "repeated"
-  },
-  {
-    "name": "contentChannel",
-    "type": "string",
-    "mode": "nullable"
-  },
-  {
-    "name": "authors",
-    "type": "string",
-    "mode": "repeated"
-  },
-  {
-    "name": "pageUri",
-    "type": "string",
-    "mode": "required"
-  },
-  {
-    "name": "cmsSource",
-    "mode": "nullable",
-    "type": "string"
-  },
-  {
-    "name": "domain",
-    "type": "string",
-    "mode": "nullable"
-  },
-  {
-    "name": "rubric",
-    "type": "string",
-    "mode": "nullable"
-  },
-  {
-    "name": "twitterTitle",
-    "type": "string",
-    "mode": "nullable"
-  },
-  {
-    "name": "ogTitle",
-    "type": "string",
-    "mode": "nullable"
-  },
-  {
-    "name": "syndicatedUrl",
-    "type": "string",
-    "mode": "nullable"
-  },
-  {
-    "name": "siteName",
-    "type": "string",
-    "mode": "nullable"
-  },
-  {
-    "name": "clayType",
-    "type": "string",
-    "mode": "nullable"
+{ "schema": {
+    "fields": [ 
+      {
+        "name": "date",
+        "type": "string",
+        "mode": "nullable"
+      },
+      {
+        "name": "canonicalUrl",
+        "type": "string",
+        "mode": "nullable"
+      },
+      {
+        "name": "primaryHeadline",
+        "type": "string",
+        "mode": "nullable"
+      },
+      {
+        "name": "seoHeadline",
+        "type": "string",
+        "mode": "nullable"
+      },
+      {
+        "name": "overrideHeadline",
+        "type": "string",
+        "mode": "nullable"
+      },
+      {
+        "name": "shortHeadline",
+        "type": "string",
+        "mode": "nullable"
+      },
+      {
+        "name": "featureTypes",
+        "type": "string",
+        "mode": "repeated"
+      },
+      {
+        "name": "tags",
+        "type": "string",
+        "mode": "repeated"
+      },
+      {
+        "name": "contentChannel",
+        "type": "string",
+        "mode": "nullable"
+      },
+      {
+        "name": "authors",
+        "type": "string",
+        "mode": "repeated"
+      },
+      {
+        "name": "pageUri",
+        "type": "string",
+        "mode": "required"
+      },
+      {
+        "name": "cmsSource",
+        "mode": "nullable",
+        "type": "string"
+      },
+      {
+        "name": "domain",
+        "type": "string",
+        "mode": "nullable"
+      },
+      {
+        "name": "rubric",
+        "type": "string",
+        "mode": "nullable"
+      },
+      {
+        "name": "twitterTitle",
+        "type": "string",
+        "mode": "nullable"
+      },
+      {
+        "name": "ogTitle",
+        "type": "string",
+        "mode": "nullable"
+      },
+      {
+        "name": "syndicatedUrl",
+        "type": "string",
+        "mode": "nullable"
+      },
+      {
+        "name": "siteName",
+        "type": "string",
+        "mode": "nullable"
+      },
+      {
+        "name": "clayType",
+        "type": "string",
+        "mode": "nullable"
+      }
+    ]
   }
-]
+}

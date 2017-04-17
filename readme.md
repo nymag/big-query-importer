@@ -1,9 +1,9 @@
-Big Query Importer
+Google BigQuery Importer
 ========
 
-bq-importer gets all published pages from <a href="https://github.com/nymag/sites">Clay</a>, maps their data to a schema that <a href="https://cloud.google.com/bigquery/">Google Big Query</a> accepts, and saves to file.
+bq-importer gets all published pages from <a href="https://github.com/nymag/sites">Clay</a>, maps their data to a schema that <a href="https://cloud.google.com/bigquery/">Google BigQuery</a> accepts, and saves to file.
 
-Any logic beyond mapping values from Clay to values in Big Query should be avoided.
+Any logic beyond mapping values from Clay to values in BigQuery should be avoided.
 
 Development
 ===========
@@ -23,10 +23,10 @@ Matches other New York Media repos; linted by eslint.
 ## Flow
 
 1. Run command for each site: saves to file in the /data/ dir
-2. Upload files to Big Query via their <a href="https://bigquery.cloud.google.com">UI</a>
+2. Upload files to BigQuery via their <a href="https://bigquery.cloud.google.com">UI</a>
 
 # TODO
 
 * Write tests
-* Write data directly to a Big Query dataset instead of to a file
+* Write data directly to a BigQuery dataset instead of to a file
 * Runs tests on CircleCi on open PRs

@@ -1,7 +1,8 @@
 'use strict';
 
 const pages = require('./lib/pages.js'),
-  fs = require('graceful-fs'),
+  bq = require('./services/big-query.js'),
+  fs = require('fs'),
   path = require('path'),
   file = path.join(__dirname, './data/data.json'),
   yargs = require('yargs')
@@ -16,7 +17,6 @@ const pages = require('./lib/pages.js'),
   .help('h')
   .alias('h', 'help')
   .argv;
-
 
 pages.page(yargs.url)
 .map((data) => {
