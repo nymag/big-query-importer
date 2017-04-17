@@ -2,6 +2,7 @@
 
 const BigQuery = require('@google-cloud/bigquery'),
   projectId = 'nymag-analaytics-dev',
+  _ = require('lodash'),
   path = require('path'),
   fs = require('fs'),
   bigquery = require('@google-cloud/bigquery')({
@@ -37,9 +38,8 @@ function createDatasetAndInsertData(datasetName, tableId, options, data) {
     .then((results) => {
       return createTable(results, tableId, options)
         .then((table) => {
-          data.forEach(function (item){
-            return table.insert(item)
-          })
+          let clayData = _.map(data, item => table.insert(item))
+          return clayData;
         })
     });
 }
