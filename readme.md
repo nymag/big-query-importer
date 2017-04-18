@@ -20,6 +20,12 @@ Development
 
 `node app.js --url http:nymag.com/selectall/pages --dataset selectall_dataset --table selectall_table` - imports Clay page data to BigQuery
 
+## Updating the Schema
+All updates to the BigQuery JSON schema should be reflected in <a href="https://github.com/nymag/bq-importer/blob/master/data/schema.json">/data/schema.json</a>.
+
+## Authenticating Requests to BigQuery API
+bq-importer uses its own default service account credentials to access BigQuery tables. Ask another dev for the local keyfile or download the bq-importer service account keys from<a href="https://console.cloud.google.com/apis/credentials?project=nymag-analaytics-dev">Google Cloud Platform</a>.
+
 ## Code Style
 
 Matches other New York Media repos; linted by eslint.
