@@ -18,7 +18,7 @@ Development
 ## Local Development
 `npm test` - runs eslint and mocha tests
 
-`node app.js --url http://nymag.com/scienceofus/pages/` - appends a site's page data to a file in the `data` directory
+`node app.js --url http:nymag.com/selectall/pages --dataset selectall_dataset --table selectall_table` - imports Clay page data to BigQuery
 
 ## Code Style
 
