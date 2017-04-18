@@ -9,7 +9,9 @@ Any logic beyond mapping values from Clay to values in BigQuery should be avoide
 All commands require the following arguments:
 
 `--url`: The `pages` url of the site to get data from, e.g. `http://nymag.com/scienceofus/pages/`
+
 `--dataset`: A new or existing BigQuery dataset to write data to, e.g. `clay_dataset`
+
 `--table`: A new or existing BigQuery table (within a new/existing dataset) to write data to, e.g. `clay_table`
 
 Development
@@ -24,7 +26,7 @@ Development
 All updates to the BigQuery JSON schema should be reflected in <a href="https://github.com/nymag/bq-importer/blob/master/data/schema.json">/data/schema.json</a>.
 
 ## Authenticating Requests to BigQuery API
-bq-importer uses its own default service account credentials to access BigQuery tables. Ask another dev for the local keyfile or download the bq-importer service account keys from<a href="https://console.cloud.google.com/apis/credentials?project=nymag-analaytics-dev">Google Cloud Platform</a>.
+bq-importer uses its own default service account credentials to access BigQuery tables. Ask another dev for the local keyfile or download the bq-importer service account keys from <a href="https://console.cloud.google.com/apis/credentials?project=nymag-analaytics-dev">Google Cloud Platform</a>.
 
 ## Code Style
 
