@@ -4,9 +4,6 @@ const pages = require('./lib/pages.js'),
   bq = require('./services/big-query.js'),
   path = require('path'),
   fs = require('fs'),
-  date = Date.now(),
-  datasetName = `clay_data_${date}`,
-  tableId = 'clay_data',
   schemaFile = path.join(__dirname, './data/schema.json'),
   schema = fs.readFileSync(schemaFile, 'utf8'),
   options = JSON.parse(schema),
@@ -15,7 +12,19 @@ const pages = require('./lib/pages.js'),
     url: {
       alias: 'u',
       demandOption: true,
-      describe: 'Fetch page data from a Clay url',
+      describe: 'Provide a Clay page url',
+      string: true
+    },
+    dataset: {
+      alias: 'd',
+      demandOption: true,
+      describe: 'Provide the name of a BigQuery dataset',
+      string: true
+    },
+    table: {
+      alias: 't',
+      demandOption: true,
+      describe: 'Provide the name of a BigQuery table',
       string: true
     }
   })
@@ -25,6 +34,6 @@ const pages = require('./lib/pages.js'),
 
 pages.page(yargs.url)
 .then((data) => {
-  return bq.createDatasetAndInsertData(datasetName, tableId, options, data);
+  return bq.insertDataAsStream(yargs.dataset, yargs.table, options, data);
 })
 
