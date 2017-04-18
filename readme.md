@@ -1,15 +1,19 @@
 Google BigQuery Importer
 ========
 
-bq-importer gets all published pages from <a href="https://github.com/nymag/sites">Clay</a>, maps their data to a schema that <a href="https://cloud.google.com/bigquery/">Google BigQuery</a> accepts, and saves to file.
+bq-importer gets all published pages from <a href="https://github.com/nymag/sites">Clay</a>, maps their data to a schema that <a href="https://cloud.google.com/bigquery/">Google BigQuery</a> accepts, and imports the data as a stream directly to a specified dataset and table.
 
 Any logic beyond mapping values from Clay to values in BigQuery should be avoided.
 
+## Usage
+All commands require the following arguments:
+
+`--url`: The `pages` url of the site to get data from, e.g. `http://nymag.com/scienceofus/pages/`
+`--dataset`: A new or existing BigQuery dataset to write data to, e.g. `clay_dataset`
+`--table`: A new or existing BigQuery table (within a new/existing dataset) to write data to, e.g. `clay_table`
+
 Development
 ===========
-
-## Usage
-All commands require a `--url` argument, which is the `pages` url of the site to get data from, e.g. `http://nymag.com/scienceofus/pages/`
 
 ## Local Development
 `npm test` - runs eslint and mocha tests
@@ -22,11 +26,10 @@ Matches other New York Media repos; linted by eslint.
 
 ## Flow
 
-1. Run command for each site: saves to file in the /data/ dir
-2. Upload files to BigQuery via their <a href="https://bigquery.cloud.google.com">UI</a>
+1. Run a command for each site, e.g. `node app.js --url http:nymag.com/selectall/pages --dataset selectall_dataset --table selectall_table`
+2. View imported data via the <a href="https://bigquery.cloud.google.com">BigQuery UI</a>
 
 # TODO
 
 * Write tests
-* Write data directly to a BigQuery dataset instead of to a file
 * Runs tests on CircleCi on open PRs
