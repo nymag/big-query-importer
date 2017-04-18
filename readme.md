@@ -1,7 +1,7 @@
 Google BigQuery Importer
 ========
 
-bq-importer gets all published pages from <a href="https://github.com/nymag/sites">Clay</a>, maps their data to a schema that <a href="https://cloud.google.com/bigquery/">Google BigQuery</a> accepts, and imports the data as a stream directly to a specified dataset and table.
+bq-importer gets all published pages from <a href="https://github.com/nymag/sites">Clay</a>, maps their data to a schema that <a href="https://cloud.google.com/bigquery/">Google BigQuery</a> accepts, and imports the data as a stream directly to a specified table within a specified dataset.
 
 Any logic beyond mapping values from Clay to values in BigQuery should be avoided.
 
