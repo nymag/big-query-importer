@@ -64,8 +64,8 @@ function createTable(dataset, tableId, options) {
 function createDatasetifDoesntExist(datasetName) {
   return bigquery.getDatasets()
     .then((data) => {
-      const dataset = data[0],
-        matchDataset = _.find(dataset, {'id': datasetName}),
+      const datasets = data[0],
+        matchDataset = _.find(datasets, {'id': datasetName}),
         result = matchDataset ? matchDataset : createDataset(datasetName);
 
         return result;
@@ -82,8 +82,8 @@ function createDatasetifDoesntExist(datasetName) {
 function createTableIfDoesntExist(dataset, tableId, options) {
   return dataset.getTables()
     .then((data) => {
-      const table = data[0],
-        matchTable= _.find(table, {'id': tableId}),
+      const tables = data[0],
+        matchTable= _.find(tables, {'id': tableId}),
         result = matchTable ? matchTable : createTable(dataset, tableId, options)
 
         return result;
