@@ -41,3 +41,4 @@ Matches other <a href="https://github.com/nymag">New York Media</a> repos; linte
 
 * Write tests
 * Runs tests on CircleCi on open PRs
+* Memory limits

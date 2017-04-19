@@ -5,6 +5,9 @@ const BigQuery = require('@google-cloud/bigquery'),
   _ = require('lodash'),
   path = require('path'),
   fs = require('fs'), 
+  schemaFile = path.join(__dirname, '../data/schema.json'),
+  schema = fs.readFileSync(schemaFile, 'utf8'),
+  options = JSON.parse(schema),
   bigquery = require('@google-cloud/bigquery')({
     projectId: projectId,
     keyFilename: './keyfile.json'
@@ -13,7 +16,7 @@ const BigQuery = require('@google-cloud/bigquery'),
 /**
  * Create BigQuery dataset
  * @param {string} datasetName
- * @returns {dataset}
+ * @returns {Promise}
  */
 function createDataset(datasetName) {
   return bigquery.createDataset(datasetName)
@@ -21,7 +24,7 @@ function createDataset(datasetName) {
       const dataset = results[0];
 
       console.log(`Dataset ${dataset.id} created.`);
-      return dataset;
+      return dataset;;
   });
 }
 
@@ -30,7 +33,7 @@ function createDataset(datasetName) {
  * @param {string} dataset
  * @param {string} tableId
  * @param {[]} options, i.e. json schema to pass to BigQuery
- * @returns {table}
+ * @returns {Promise}
  */
 function createTable(dataset, tableId, options) {
   return dataset.createTable(tableId, options)
@@ -45,22 +48,16 @@ function createTable(dataset, tableId, options) {
 /**
  * Create a BigQuery dataset if it doesn't exist
  * @param {string} datasetName
- * @returns {dataset}
+ * @returns {Promise}
  */
 function createDatasetifDoesntExist(datasetName) {
   return bigquery.getDatasets()
-    .then((results) => {
-      const datasets = _.map(results[0], item => item.id),
-        matchDataset = _.find(datasets, function(item) {
-            return item == datasetName;
-        });
+    .then((data) => {
+      const dataset = data[0],
+        matchDataset = _.find(dataset, {'id': datasetName}),
+        result = matchDataset ? matchDataset : createDataset(datasetName);
 
-      if (matchDataset === undefined) {
-        console.log(`${datasetName} doesn't exist. Creating one...`)
-        return createDataset(datasetName);
-      }
-
-      return matchDataset;
+        return result;
     });
 }
 
@@ -71,22 +68,14 @@ function createDatasetifDoesntExist(datasetName) {
  * @param {[]} options, i.e. json schema to pass to BigQuery
  * @returns {table}
  */
-function createTableIfDoesntExist(datasetName, tableId, options) {
-  const dataset = bigquery.dataset(datasetName.id);
-
+function createTableIfDoesntExist(dataset, tableId, options) {
   return dataset.getTables()
-    .then((results) => {
-      const tables = _.map(results[0], item => item.id),
-        matchTable = _.find(tables, function(item) {
-            return item == tableId;
-        });
+    .then((data) => {
+      const table = data[0],
+        matchTable= _.find(table, {'id': tableId}),
+        result = matchTable ? matchTable : createTable(dataset, tableId, options)
 
-      if (matchTable === undefined) {
-        console.log(`${tableId} doesn't exist for the ${datasetName.id} dataset. Creating one...`)
-        return createTable(dataset, tableId, options);
-      }
-
-      return matchTable;
+        return result;
     });
 }
 
@@ -105,12 +94,12 @@ function insertDataAsStream(datasetName, tableId, options, data) {
         .then((table) => {
           let clayData = _.map(data, item => table.insert(item));
           return clayData;
-        })
-    });
+      })
+    })
 }
 
 // Use this for testing
-/*insertDataAsStream('automate_test', 'dalia_data', options, [{"twitterTitle":"Select All – Technology and Our Lives Online","ogTitle":"Select All – Technology and Our Lives Online","clayType":"Section Page","siteName":"","pageUri":"types.nymag.sites.aws.nymetro.com/selectall/pages/index","cmsSource":"clay","featureTypes":[],"domain":"nymag.com"}]);*/
+//insertDataAsStream('automate_2', 'dalia_data_2', options, [{"date":"2017-04-10T16:28:42+00:00","canonicalUrl":"http://types.nymag.sites.aws.nymetro.com/selectall/2017/04/original-video-on-selectall.html","primaryHeadline":"original video on SelectAll","seoHeadline":"","overrideHeadline":"original video on SelectAll","shortHeadline":"original video on SelectAll","syndicatedUrl":"","featureTypes":["First-Person Essay"],"tags":["original video"],"contentChannel":"Products-Apps-Software","authors":["Mediha Aziz"],"clayType":"Video Pages","siteName":"Select All","pageUri":"types.nymag.sites.aws.nymetro.com/selectall/pages/cj1cboxz0001s0hs90wae4pfo","cmsSource":"clay","domain":"nymag.com"}]);
 
 module.exports.createDataset = createDataset;
 module.exports.createTable = createTable;
