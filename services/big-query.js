@@ -2,16 +2,27 @@
 
 const BigQuery = require('@google-cloud/bigquery'),
   projectId = 'nymag-analaytics-dev',
+  log = require('amphora').log.withStandardPrefix(__filename),
   _ = require('lodash'),
   path = require('path'),
   fs = require('fs'), 
-  schemaFile = path.join(__dirname, '../data/schema.json'),
-  schema = fs.readFileSync(schemaFile, 'utf8'),
-  options = JSON.parse(schema),
   bigquery = require('@google-cloud/bigquery')({
     projectId: projectId,
     keyFilename: './keyfile.json'
   });
+
+
+/**
+ * log error, do not throw
+ * @param {object} data
+ * @returns {Function}
+ */
+function logError(data) {
+  return function (err) {
+    log('error', err);
+    return data;
+  };
+}
 
 /**
  * Create BigQuery dataset
@@ -66,7 +77,7 @@ function createDatasetifDoesntExist(datasetName) {
  * @param {string} dataset
  * @param {string} tableId
  * @param {[]} options, i.e. json schema to pass to BigQuery
- * @returns {table}
+ * @returns {Promise}
  */
 function createTableIfDoesntExist(dataset, tableId, options) {
   return dataset.getTables()
@@ -94,12 +105,11 @@ function insertDataAsStream(datasetName, tableId, options, data) {
         .then((table) => {
           let clayData = _.map(data, item => table.insert(item));
           return clayData;
-      })
+        })
+        .catch(logError)
     })
+    .catch(logError)
 }
-
-// Use this for testing
-//insertDataAsStream('automate_2', 'dalia_data_2', options, [{"date":"2017-04-10T16:28:42+00:00","canonicalUrl":"http://types.nymag.sites.aws.nymetro.com/selectall/2017/04/original-video-on-selectall.html","primaryHeadline":"original video on SelectAll","seoHeadline":"","overrideHeadline":"original video on SelectAll","shortHeadline":"original video on SelectAll","syndicatedUrl":"","featureTypes":["First-Person Essay"],"tags":["original video"],"contentChannel":"Products-Apps-Software","authors":["Mediha Aziz"],"clayType":"Video Pages","siteName":"Select All","pageUri":"types.nymag.sites.aws.nymetro.com/selectall/pages/cj1cboxz0001s0hs90wae4pfo","cmsSource":"clay","domain":"nymag.com"}]);
 
 module.exports.createDataset = createDataset;
 module.exports.createTable = createTable;
