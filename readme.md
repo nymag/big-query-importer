@@ -1,44 +1,54 @@
 Google BigQuery Importer
-========
+========================
 
-bq-importer gets all published pages from <a href="https://github.com/nymag/sites">Clay</a>, maps their data to a schema that <a href="https://cloud.google.com/bigquery/">Google BigQuery</a> accepts, and imports the data as a stream directly to a specified table within a specified dataset.
+bq-importer gets all published pages from [Clay](https://github.com/nymag/sites), maps their data to a schema that [Google BigQuery](https://cloud.google.com/bigquery/) accepts, and imports the data as a stream directly to a specified table within a specified dataset.
 
 Any logic beyond mapping values from Clay to values in BigQuery should be avoided.
 
-## Usage
-All commands require the following arguments:
+Setup
+=====
 
-`--url`: The `pages` url of the site to get data from, e.g. `http://nymag.com/scienceofus/pages/`
+- git clone
+- nvm install v6
+- npm install
+- create `keyfile.json` with BigQuery account keys
+    - ask another dev or download the bq-importer service account keys from [Google Cloud Platform](https://console.cloud.google.com/apis/credentials?project=nymag-analaytics-dev).
 
-`--dataset`: A new or existing BigQuery dataset to write data to, e.g. `clay_dataset`
+Commands
+========
 
-`--table`: A new or existing BigQuery table (within a new/existing dataset) to write data to, e.g. `clay_table`
+- `npm test` - runs eslint and mocha tests
+- `node app.js` - imports Clay page data to BigQuery
+    - For help run `node app.js --help`
+    - Normal usage:
+        - Run command for each site
+        - View imported data in [BigQuery UI](https://bigquery.cloud.google.com)
 
 Development
 ===========
 
-## Local Development
-`npm test` - runs eslint and mocha tests
+## Directory Structure
 
-`node app.js --url http:nymag.com/selectall/pages --dataset selectall_dataset --table selectall_table` - imports Clay page data to BigQuery
-
-## Updating the Schema
-Any updates to the BigQuery data schema should be reflected in <a href="https://github.com/nymag/bq-importer/blob/master/data/schema.json">data/schema.json</a>.
-
-## Authenticating Requests to BigQuery API
-bq-importer uses its own default service account credentials to access BigQuery tables. Ask another dev for the local keyfile or download the bq-importer service account keys from <a href="https://console.cloud.google.com/apis/credentials?project=nymag-analaytics-dev">Google Cloud Platform</a>.
+```
+    app.js              - entrypoint for yargs
+    lib/                - main library called by app.js
+    modules/            - each type of instance may need a different mapping to big query
+        page/           - example of one module for page instances
+            schema.json - the app assumes this file describes the Big Query table
+            transform.js- the app assunes this file converts composed instance json to big query data object
+```
 
 ## Code Style
 
 Matches other <a href="https://github.com/nymag">New York Media</a> repos; linted by <a href="https://github.com/eslint/eslint">eslint</a>.
 
-## Flow
+We are using bluebird for promises and lodash for basic utilities; otherwise vanilla.
 
-1. Run a command for each site, e.g. `node app.js --url http:nymag.com/selectall/pages --dataset selectall_dataset --table selectall_table`
-2. View imported data via the <a href="https://bigquery.cloud.google.com">BigQuery UI</a>
-
-# TODO
+## TODO
 
 * Write tests
 * Runs tests on CircleCi on open PRs
 * Memory limits
+* `--offset` and `--limit` options to do partial imports
+* Import any component into big query e.g. `--url http://nymag.com/selectall/components/ads/instances`?
+* Import/update individual page e.g. `--url http://nymag.com/selectall/pages/ciok8qoo300qrmxy8kjobasli`?

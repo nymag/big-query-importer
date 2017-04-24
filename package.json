@@ -15,7 +15,7 @@
   "scripts": {
     "test": "npm run lint && mocha",
     "start": "node services/big-query.js",
-    "lint": "eslint --max-warnings 0 lib"
+    "lint": "eslint --max-warnings 0 lib modules servies"
   },
   "pre-push": [
     "lint"

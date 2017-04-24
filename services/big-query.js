@@ -1,11 +1,10 @@
 'use strict';
 
-const BigQuery = require('@google-cloud/bigquery'),
-  projectId = 'nymag-analaytics-dev',
+const projectId = 'nymag-analaytics-dev',
   log = require('amphora').log.withStandardPrefix(__filename),
   _ = require('lodash'),
   path = require('path'),
-  fs = require('fs'), 
+  fs = require('fs'),
   bigquery = require('@google-cloud/bigquery')({
     projectId: projectId,
     keyFilename: './keyfile.json'
