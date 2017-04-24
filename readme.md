@@ -18,7 +18,7 @@ Commands
 ========
 
 - `npm test` - runs eslint and mocha tests
-- `node app.js` - imports Clay page data to BigQuery
+- `./bin/cli.js` - imports Clay page data to BigQuery
     - For help run `node app.js --help`
     - Normal usage:
         - Run command for each site
@@ -46,8 +46,8 @@ We are using bluebird for promises and lodash for basic utilities; otherwise van
 
 ## TODO
 
-* Write tests
-* Runs tests on CircleCi on open PRs
+* Write tests for services
+* Tests for modules
 * Memory limits
 * `--offset` and `--limit` options to do partial imports
 * Import any component into big query e.g. `--url http://nymag.com/selectall/components/ads/instances`?
