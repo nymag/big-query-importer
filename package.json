@@ -34,6 +34,6 @@
     "sinon": "^2.1.0"
   },
   "bin": {
-    "importer": "./bin/importer.js"
+    "bq-importer": "./bin/cli.js"
   }
 }
