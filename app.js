@@ -8,7 +8,7 @@ const pages = require('./lib/pages.js'),
   schema = fs.readFileSync(schemaFile, 'utf8'),
   options = JSON.parse(schema),
   cli = function() {
-    yargs = require('yargs')
+    const yargs = require('yargs')
     .options({
       url: {
         alias: 'u',

@@ -9,6 +9,9 @@
     "node": "6.10.1"
   },
   "main": "app.js",
+  "bin": {
+    "bq-importer": "./bin/cli.js"
+  },
   "scripts": {
     "test": "npm run lint && mocha",
     "start": "node services/big-query.js",
@@ -32,8 +35,5 @@
     "eslint": "^3.19.0",
     "mocha": "^3.2.0",
     "sinon": "^2.1.0"
-  },
-  "bin": {
-    "bq-importer": "./bin/cli.js"
   }
 }
