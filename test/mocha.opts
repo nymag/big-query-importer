@@ -2,3 +2,5 @@
 --ui bdd
 --recursive
 lib/*.test.js
+modules/*/*.test.js
+services/*.test.js
