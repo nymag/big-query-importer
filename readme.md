@@ -19,7 +19,7 @@ Commands
 
 - `npm test` - runs eslint and mocha tests
 - `./bin/cli.js` - imports Clay page data to BigQuery
-    - For help run `node app.js --help`
+    - For help run `./bin/cli.js --help`
     - Normal usage:
         - Run command for each site
         - View imported data in [BigQuery UI](https://bigquery.cloud.google.com)

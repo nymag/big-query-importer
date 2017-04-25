@@ -29,6 +29,13 @@ const cli = function () {
           demandOption: true,
           describe: 'Provide the name of a BigQuery table',
           string: true
+        },
+        list: {
+          alias: 'l',
+          demandOption: false,
+          default: false,
+          describe: 'Is this a list of instances',
+          boolean: true
         }
       })
       .example('Full example: node app.js --url http://nymag.com/selectall/pages --moduleName page --dataset selectall_dataset --table selectall_table')
@@ -39,9 +46,13 @@ const cli = function () {
     schema = require(`${ modulePath }/schema.json`),
     transform = require(`${ modulePath }/transform`);
 
-  fetch.fetchListInstances(yargs.url, transform.toBigQuery)
-    .then(data => bq.insertDataAsStream(yargs.dataset, yargs.table, schema, data));
-
+    if (yargs.list) {
+      fetch.fetchListInstances(yargs.url, transform.toBigQuery)
+        .then(data => bq.insertDataAsStream(yargs.dataset, yargs.table, schema, data));
+    } else {
+      fetch.fetchInstance(yargs.url, transform.toBigQuery)
+        .then(data => bq.insertDataAsStream(yargs.dataset, yargs.table, schema, [data]));
+    }
 };
 
 module.exports.cli = cli;
