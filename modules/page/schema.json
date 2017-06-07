@@ -91,7 +91,7 @@
         "mode": "nullable"
       },
       {
-        "name": "clayType",
+        "name": "pageType",
         "type": "string",
         "mode": "nullable"
       }

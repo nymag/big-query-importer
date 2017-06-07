@@ -19,51 +19,41 @@ function resolveObj(items) {
  * @returns {object}
  */
 function articleToBigQuery(instanceUri, instanceJson) {
-  let articleFields = ['date', 'canonicalUrl', 'primaryHeadline', 'seoHeadline', 'overrideHeadline', 'shortHeadline', 'syndicatedUrl', 'featureTypes', 'tags', 'contentChannel', 'authors', 'rubric'],
-    headFields = ['clayType', 'twitterTitle', 'siteName', 'ogTitle'],
-    articlesData = {},
-    mainData = _.get(instanceJson, 'main[0]', {}),
-    splashHeaderData = _.get(instanceJson, 'splashHeader[0]', {}),
-    headLayoutData = _.get(instanceJson, 'headLayout', {}),
-    // primaryHeadData = _.get(instanceJson, 'head', {}),
+  //console.log('what is instanceJson', instanceJson)
+  let pageData = {},
+    articleFields = ['date', 'canonicalUrl', 'primaryHeadline', 'seoHeadline', 'overrideHeadline', 'shortHeadline', 'syndicatedUrl', 'featureTypes', 'tags', 'contentChannel', 'authors', 'rubric'],
+    headFields = ['twitterTitle', 'ogTitle', 'syndicatedUrl'],
+    headLayoutFields = ['siteName', 'pageType'],
+    getMainArticleData = _.pick(_.get(instanceJson, 'main[0]', {}), articleFields),
+    getSplashHeaderData = _.get(instanceJson, 'splashHeader[0]', {}),
+    getHeadLayoutData = _.get(instanceJson, 'headLayout', {}),
+    getHeadData = _.get(instanceJson, 'head', {}),
     headData,
+    headLayoutData,
     filteredHeadData,
-    allHeadData,
-    allArticleData,
-    obj = {};
+    filteredHeadLayoutData;
 
-  headData = _.map(headLayoutData, item => _.pick(item, headFields));
+  headData = _.map(getHeadData, item => _.pick(item, headFields));
   filteredHeadData = headData.filter(value => Object.keys(value).length !== 0);
-  // clean this up..probably a better way to do it
-  allHeadData = filteredHeadData.reduce(function (data, item) {
-    let keys = Object.keys(item),
-      x = keys[0],
-      y = keys[1];
+  headLayoutData = _.map(getHeadLayoutData, item => _.pick(item, headLayoutFields));
+  filteredHeadLayoutData = headLayoutData.filter(value => Object.keys(value).length !== 0);
 
-    data[x] = item[x];
-    if (y) {
-      data[y] = item[y];
-    }
-    return data;
-  },{});
+  // Assign headData, headLayoutData, splashHeaderData, and mainData to the articlesData obj
+  Object.assign(pageData, filteredHeadData[0], filteredHeadLayoutData[0], getSplashHeaderData, getMainArticleData);
 
-  Object.assign(articlesData, mainData, splashHeaderData);
-  allArticleData = _.pick(articlesData, articleFields);
-
-  // Assign all article data and head data to obj
-  Object.assign(obj, allArticleData, allHeadData);
-  obj.pageUri = instanceUri;
-  obj.cmsSource = 'clay';
-  if (obj.authors) {
-    obj.authors = resolveObj(obj.authors);
+  pageData.pageUri = 'http://' + instanceUri;
+  pageData.cmsSource = 'clay';
+  if (pageData.authors) {
+    pageData.authors = resolveObj(pageData.authors);
   }
-  if (obj.tags) {
-    obj.tags = resolveObj(obj.tags.items);
+  if (pageData.tags) {
+    pageData.tags = resolveObj(pageData.tags.items);
   }
-  obj.featureTypes = _.keys(_.pickBy(obj.featureTypes));
-  obj.domain = 'nymag.com';
+  pageData.featureTypes = _.keys(_.pickBy(pageData.featureTypes));
+  pageData.domain = 'nymag.com';
 
-  return obj;
+  console.log('what is our page data', pageData);
+  return pageData;
 }
 
 module.exports.toBigQuery = articleToBigQuery;
