@@ -1,5 +1,5 @@
 { "schema": {
-    "fields": [ 
+    "fields": [
       {
         "name": "date",
         "type": "string",
@@ -92,6 +92,11 @@
       },
       {
         "name": "pageType",
+        "type": "string",
+        "mode": "nullable"
+      },
+      {
+        "name": "magazineIssueDate",
         "type": "string",
         "mode": "nullable"
       }
