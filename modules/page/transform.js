@@ -19,7 +19,7 @@ function resolveObj(items) {
  * @returns {object}
  */
 function articleToBigQuery(instanceUri, instanceJson) {
-  //console.log('what is instanceJson', instanceJson)
+  // console.log('what is instanceJson', instanceJson)
   let pageData = {},
     articleFields = ['date', 'canonicalUrl', 'primaryHeadline', 'seoHeadline', 'overrideHeadline', 'shortHeadline', 'syndicatedUrl', 'featureTypes', 'tags', 'contentChannel', 'authors', 'rubric'],
     headFields = ['twitterTitle', 'ogTitle', 'syndicatedUrl'],
