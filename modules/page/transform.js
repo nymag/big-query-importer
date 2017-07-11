@@ -23,7 +23,7 @@ function articleToBigQuery(instanceUri, instanceJson) {
   let pageData = {},
     articleFields = ['date', 'canonicalUrl', 'primaryHeadline', 'seoHeadline', 'overrideHeadline', 'shortHeadline', 'syndicatedUrl', 'featureTypes', 'tags', 'contentChannel', 'authors', 'rubric', 'magazineIssueDate'],
     headFields = ['twitterTitle', 'ogTitle', 'syndicatedUrl'],
-    headLayoutFields = ['siteName', 'pageType'],
+    headLayoutFields = ['siteName', 'pageType', 'vertical'],
     getMainArticleData = _.pick(_.get(instanceJson, 'main[0]', {}), articleFields),
     getSplashHeaderData = _.get(instanceJson, 'splashHeader[0]', {}),
     getHeadLayoutData = _.get(instanceJson, 'headLayout', {}),

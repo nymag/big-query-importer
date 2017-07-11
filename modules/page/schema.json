@@ -96,6 +96,11 @@
         "mode": "nullable"
       },
       {
+        "name": "vertical",
+        "type": "string",
+        "mode": "nullable"
+      },
+      {
         "name": "magazineIssueDate",
         "type": "string",
         "mode": "nullable"
