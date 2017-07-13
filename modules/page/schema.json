@@ -56,6 +56,16 @@
         "mode": "repeated"
       },
       {
+        "name": "productIds",
+        "type": "string",
+        "mode": "repeated"
+      },
+      {
+        "name": "productBuyUrls",
+        "type": "string",
+        "mode": "repeated"
+      },
+      {
         "name": "pageUri",
         "type": "string",
         "mode": "required"
