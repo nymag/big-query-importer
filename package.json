@@ -4,7 +4,6 @@
   "description": "Import pages from Clay to Google BigQuery.",
   "author": "New York Media",
   "license": "MIT",
-  "private": true,
   "engines": {
     "node": "6.10.1"
   },
