@@ -1,7 +1,7 @@
 Google BigQuery Importer
 ========================
 
-bq-importer gets all published pages from [Clay](https://github.com/nymag/sites), maps their data to a schema that [Google BigQuery](https://cloud.google.com/bigquery/) accepts, and imports the data as a stream directly to a specified table within a specified dataset.
+big-query-importer gets all published pages from [Clay](https://github.com/nymag/sites), maps their data to a schema that [Google BigQuery](https://cloud.google.com/bigquery/) accepts, and imports the data as a stream directly to a specified table within a specified dataset.
 
 Any logic beyond mapping values from Clay to values in BigQuery should be avoided.
 
@@ -12,7 +12,7 @@ Setup
 - nvm install v6
 - npm install
 - create `keyfile.json` with BigQuery account keys
-    - ask another dev or download the bq-importer service account keys from [Google Cloud Platform](https://console.cloud.google.com/apis/credentials?project=nymag-analaytics-dev).
+    - ask another dev or download the big-query-importer service account keys from [Google Cloud Platform](https://console.cloud.google.com/apis/credentials?project=nymag-analaytics-dev).
 
 Commands
 ========

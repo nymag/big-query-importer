@@ -1,16 +1,16 @@
 {
-  "name": "bq-importer",
+  "name": "big-query-importer",
   "version": "1.0.0",
   "description": "Import pages from Clay to Google BigQuery.",
   "author": "New York Media",
-  "license": "NONE",
+  "license": "MIT",
   "private": true,
   "engines": {
     "node": "6.10.1"
   },
   "main": "app.js",
   "bin": {
-    "bq-importer": "./bin/cli.js"
+    "big-query-importer": "./bin/cli.js"
   },
   "scripts": {
     "test": "npm run lint && mocha",
