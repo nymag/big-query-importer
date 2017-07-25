@@ -1,7 +1,7 @@
 'use strict';
 
 const _ = require('lodash'),
-  stripTags = require('stripTags'),
+  stripTags = require('striptags'),
   count = require('word-count'),
   product = '/components/product';
 
