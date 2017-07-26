@@ -1,6 +1,6 @@
 {
   "name": "big-query-importer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Import pages from Clay to Google BigQuery.",
   "author": "New York Media",
   "license": "MIT",
@@ -16,6 +16,17 @@
     "start": "node services/big-query.js",
     "lint": "eslint --max-warnings 0 lib modules servies"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nymag/big-query-importer.git"
+  },
+  "keywords": [
+    "clay",
+    "nymag",
+    "big query",
+    "big query importer"
+  ],
+  "homepage": "https://github.com/nymag/big-query-importer",
   "pre-push": [
     "lint"
   ],

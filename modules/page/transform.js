@@ -11,14 +11,16 @@ const _ = require('lodash'),
  * @returns {Array}
  */
 function resolveObj(items) {
-  return items.reduce((arr, item) => {
-    if (item.description && item.description.length > 0) {
-      // product components have description fields
-      return arr.concat(item.text, item.description[0].text);
-    } else { 
-      return arr.concat(item.text);
-    }
-  }, []);
+  if (items !== undefined) {
+    return items.reduce((arr, item) => {
+      if (item.description && item.description.length > 0) {
+        // product components have description fields
+        return arr.concat(item.text, item.description[0].text);
+      } else { 
+        return arr.concat(item.text);
+      }
+    }, []);
+  }
 }
 
 /**
@@ -27,7 +29,9 @@ function resolveObj(items) {
  * @returns {Array}
  */
 function resolveObjProperty(items, property) {
-  return items.reduce((arr, item) => arr.concat(item[property]), []);
+  if (items !== undefined) {
+    return items.reduce((arr, item) => arr.concat(item[property]), []);
+  }
 }
 
 /**
