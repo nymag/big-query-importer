@@ -38,7 +38,7 @@ const cli = function () {
           boolean: true
         }
       })
-      .example('Example for a list of page instances: ./bin/cli.js --url http://nymag.com/selectall/pages --moduleName page --dataset selectall_dataset_pages --table selectall_table -list')
+      .example('Example for a list of page instances: ./bin/cli.js --url http://nymag.com/selectall/pages --moduleName page --dataset selectall_dataset_pages --table selectall_table --list')
       .example('Example for an individual page instance: ./bin/cli.js --url http://qa.nymag.com/travel/pages/cj3fuvbj5004jbwye1ret8k7h --moduleName page --dataset travel_dataset --table travel_table')
       .help('help')
       .alias('help', 'h')

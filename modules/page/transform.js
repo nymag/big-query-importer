@@ -98,7 +98,6 @@ function articleToBigQuery(instanceUri, instanceJson) {
   pageData.featureTypes = _.keys(_.pickBy(pageData.featureTypes));
   pageData.domain = 'nymag.com';
 
-  // console.log('what is page data, pageData', pageData);
   // Remove content because we don't need to import it to big query
   pageData = _.omit(pageData, 'content');
 

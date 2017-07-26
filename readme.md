@@ -50,5 +50,4 @@ We are using bluebird for promises and lodash for basic utilities; otherwise van
 * Tests for modules
 * Memory limits
 * `--offset` and `--limit` options to do partial imports
-* Import any component into big query e.g. `--url http://nymag.com/selectall/components/ads/instances`?
-* Import/update individual page e.g. `--url http://nymag.com/selectall/pages/ciok8qoo300qrmxy8kjobasli`?
+* Import any component into big query e.g. `--url http://nymag.com/selectall/components/ads/instances`
