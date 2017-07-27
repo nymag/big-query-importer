@@ -101,6 +101,8 @@ function articleToBigQuery(instanceUri, instanceJson) {
   pageData.cmsSource = 'clay';
   pageData.featureTypes = _.keys(_.pickBy(pageData.featureTypes));
   pageData.domain = 'nymag.com';
+  // Add a timestamp for every entry creation
+  pageData.timestamp = new Date().toISOString();
 
   // Remove content because we don't need to import it to big query
   pageData = _.omit(pageData, 'content');

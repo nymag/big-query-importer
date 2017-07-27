@@ -1,6 +1,11 @@
 { "schema": {
     "fields": [
       {
+        "name": "timestamp",
+        "type": "string",
+        "mode": "required"
+      },
+      {
         "name": "date",
         "type": "string",
         "mode": "nullable"
