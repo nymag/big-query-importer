@@ -3,7 +3,8 @@
 const _ = require('lodash'),
   stripTags = require('striptags'),
   count = require('word-count'),
-  product = '/components/product';
+  product = '/components/product',
+  urls = require('url');
 
 /**
  * Resolve object values, e.g. [{text:tag}{text:tag}] becomes [tag, tag]
@@ -42,8 +43,8 @@ function resolveObjProperty(items, property) {
  * @returns {object}
  */
 function articleToBigQuery(instanceUri, instanceJson) {
-  // console.log('what is instanceJson', instanceJson)
   let pageData = {},
+    instanceUriHost = 'http://' + instanceUri,
     articleFields = ['date', 'canonicalUrl', 'primaryHeadline', 'seoHeadline', 'overrideHeadline', 'shortHeadline', 'syndicatedUrl', 'featureTypes', 'tags', 'contentChannel', 'authors', 'rubric', 'magazineIssueDate', 'content'],
     headFields = ['twitterTitle', 'ogTitle', 'syndicatedUrl'],
     headLayoutFields = ['siteName', 'pageType', 'vertical'],
@@ -80,11 +81,16 @@ function articleToBigQuery(instanceUri, instanceJson) {
   resolvedArticleProductRefs = _.filter(resolvedArticleRefs, function(x) {return x.indexOf(product) !== -1});
   resolvedArticleProductBuyUrls = _.compact(resolveObjProperty(pageData.content, 'buyUrls'));
 
-    // Only display a word count for pages that have article content
   if (pageData.content) {
     // Calculate total # of words in article content and page-level fields
     // TODO: clean this up
     pageData.wordCount = _.sum([totalWordsInArticleContent, count(pageData.ogTitle), count(pageData.primaryHeadline), count(pageData.shortHeadline)]);
+  } else {
+    pageData.wordCount = 0;
+  }
+
+  if (pageData.shortHeadline) {
+    pageData.shortHeadline = stripTags(pageData.shortHeadline);
   }
 
   if (pageData.authors) {
@@ -95,12 +101,15 @@ function articleToBigQuery(instanceUri, instanceJson) {
     pageData.tags = resolveObj(pageData.tags.items);
   }
 
+
+  pageData.contentChannel = pageData.contentChannel || '';
+  pageData.primaryHeadline = stripTags(pageData.primaryHeadline) || '';
   pageData.productIds = resolvedArticleProductRefs;
   pageData.productBuyUrls = resolvedArticleProductBuyUrls;
-  pageData.pageUri = 'http://' + instanceUri;
+  pageData.pageUri = instanceUri;
   pageData.cmsSource = 'clay';
   pageData.featureTypes = _.keys(_.pickBy(pageData.featureTypes));
-  pageData.domain = 'nymag.com';
+  pageData.domain = urls.parse(instanceUriHost).hostname;
   // Add a timestamp for every entry creation
   pageData.timestamp = new Date().toISOString();
 

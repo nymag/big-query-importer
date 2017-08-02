@@ -18,7 +18,7 @@
       {
         "name": "primaryHeadline",
         "type": "string",
-        "mode": "nullable"
+        "mode": "required"
       },
       {
         "name": "seoHeadline",
@@ -38,7 +38,7 @@
       {
         "name": "wordCount",
         "type": "integer",
-        "mode": "nullable"
+        "mode": "required"
       },
       {
         "name": "featureTypes",
@@ -47,13 +47,13 @@
       },
       {
         "name": "tags",
-        "type": "string",
-        "mode": "repeated"
+        "type": "STRING",
+        "mode": "REPEATED"
       },
       {
         "name": "contentChannel",
         "type": "string",
-        "mode": "nullable"
+        "mode": "required"
       },
       {
         "name": "authors",
@@ -93,12 +93,12 @@
       {
         "name": "twitterTitle",
         "type": "string",
-        "mode": "nullable"
+        "mode": "required"
       },
       {
         "name": "ogTitle",
         "type": "string",
-        "mode": "nullable"
+        "mode": "required"
       },
       {
         "name": "syndicatedUrl",
@@ -108,17 +108,17 @@
       {
         "name": "siteName",
         "type": "string",
-        "mode": "nullable"
+        "mode": "required"
       },
       {
         "name": "pageType",
         "type": "string",
-        "mode": "nullable"
+        "mode": "required"
       },
       {
         "name": "vertical",
         "type": "string",
-        "mode": "nullable"
+        "mode": "required"
       },
       {
         "name": "magazineIssueDate",

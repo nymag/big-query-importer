@@ -1,6 +1,6 @@
 'use strict';
 
-const projectId = 'nymag-analaytics-dev',
+const projectId = 'nymag-analytics-157315', // TODO: This needs to be an env var
   log = require('amphora').log.withStandardPrefix(__filename),
   _ = require('lodash'),
   path = require('path'),
@@ -89,6 +89,7 @@ function createTableIfDoesntExist(dataset, tableId, options) {
     });
 }
 
+
 /**
  * Insert BigQuery data as a stream
  * @param {string} datasetName
@@ -98,17 +99,25 @@ function createTableIfDoesntExist(dataset, tableId, options) {
  * @returns {}
  */
 function insertDataAsStream(datasetName, tableId, options, data) {
+  console.log('what is data', data);
   return createDatasetifDoesntExist(datasetName)
     .then((results) => {
-      return createTableIfDoesntExist(results, tableId, options)
-        .then((table) => {
-          let clayData = _.map(data, item => table.insert(item));
-          return clayData;
-        })
-        .catch(logError)
+      return createTableIfDoesntExist(results, tableId, options);
     })
-    .catch(logError)
-}
+    .then((table) => {
+      return table.insert(data)
+        .then((results) => {
+          console.log('Results:', results[0]);
+        })
+        .catch((err) => {
+          // An API error or partial failure occurred.
+          if (err.name === 'PartialFailureError') {
+            console.log('Errors:', err.errors[0]);
+          }
+        });
+    })
+    // .then(_.partialRight(_.tap, console.log));
+  }
 
 module.exports.createDataset = createDataset;
 module.exports.createTable = createTable;
