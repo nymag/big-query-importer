@@ -5,7 +5,7 @@
   "author": "New York Media",
   "license": "MIT",
   "engines": {
-    "node": "6.10.1"
+    "node": "6.10.2"
   },
   "main": "app.js",
   "bin": {
