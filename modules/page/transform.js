@@ -4,6 +4,8 @@ const _ = require('lodash'),
   stripTags = require('striptags'),
   count = require('word-count'),
   product = '/components/product',
+  bq = require('../../services/big-query.js'),
+  schema = require('./schema.json'), // wrapped so that it can be stubbed
   urls = require('url');
 
 /**
@@ -43,6 +45,8 @@ function resolveObjProperty(items, property) {
  * @returns {object}
  */
 function articleToBigQuery(instanceUri, instanceJson) {
+  console.log('data passed to the transform', instanceJson);
+  // console.log('waht is instanceUri', instanceUri);
   let pageData = {},
     instanceUriHost = 'http://' + instanceUri,
     articleFields = ['date', 'canonicalUrl', 'primaryHeadline', 'seoHeadline', 'overrideHeadline', 'shortHeadline', 'syndicatedUrl', 'featureTypes', 'tags', 'contentChannel', 'authors', 'rubric', 'magazineIssueDate', 'content'],
@@ -81,7 +85,7 @@ function articleToBigQuery(instanceUri, instanceJson) {
   resolvedArticleProductRefs = _.filter(resolvedArticleRefs, function(x) {return x.indexOf(product) !== -1});
   resolvedArticleProductBuyUrls = _.compact(resolveObjProperty(pageData.content, 'buyUrls'));
 
-  if (pageData.content) {
+  if (pageData.content && pageData.ogTitle && pageData.primaryHeadline && pageData.shortHeadline) {
     // Calculate total # of words in article content and page-level fields
     // TODO: clean this up
     pageData.wordCount = _.sum([totalWordsInArticleContent, count(pageData.ogTitle), count(pageData.primaryHeadline), count(pageData.shortHeadline)]);
@@ -101,22 +105,27 @@ function articleToBigQuery(instanceUri, instanceJson) {
     pageData.tags = resolveObj(pageData.tags.items);
   }
 
-
+  pageData.ogTitle = pageData.ogTitle || '';
+  pageData.pageType = pageData.pageType || '';
+  pageData.siteName = pageData.siteName || '';
+  pageData.twitterTitle = pageData.twitterTitle || '';
+  pageData.vertical = pageData.vertical || '';
   pageData.contentChannel = pageData.contentChannel || '';
   pageData.primaryHeadline = stripTags(pageData.primaryHeadline) || '';
   pageData.productIds = resolvedArticleProductRefs;
   pageData.productBuyUrls = resolvedArticleProductBuyUrls;
-  pageData.pageUri = instanceUri;
+  pageData.pageUri = instanceUri.replace('172.24.17.157', 'nymag.com');
   pageData.cmsSource = 'clay';
   pageData.featureTypes = _.keys(_.pickBy(pageData.featureTypes));
-  pageData.domain = urls.parse(instanceUriHost).hostname;
+  pageData.domain = 'thecut.com';
   // Add a timestamp for every entry creation
   pageData.timestamp = new Date().toISOString();
 
   // Remove content because we don't need to import it to big query
   pageData = _.omit(pageData, 'content');
 
-  return pageData;
+  return bq.insertDataAsStream('the_cut_prd', 'thecut_data_test', schema, [pageData]);
+
 }
 
 module.exports.toBigQuery = articleToBigQuery;

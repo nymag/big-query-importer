@@ -62,11 +62,10 @@ const cli = function () {
     transform = require(`${ modulePath }/transform`);
 
     if (yargs.list) {
-      fetch.fetchListInstances(yargs.url, transform.toBigQuery, yargs.offset, yargs.limit)
-        .then(data => bq.insertDataAsStream(yargs.dataset, yargs.table, schema, data));
+      fetch.fetchListInstances(yargs.url)
     } else {
-      fetch.fetchInstance(yargs.url, transform.toBigQuery)
-        .then(data => bq.insertDataAsStream(yargs.dataset, yargs.table, schema, [data]));
+      fetch.fetchSingleInstance(yargs.url)
+        // .then(data => bq.insertDataAsStream(yargs.dataset, yargs.table, schema, [data]));
     }
 };
 
