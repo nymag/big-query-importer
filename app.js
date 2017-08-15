@@ -65,7 +65,6 @@ const cli = function () {
       fetch.fetchListInstances(yargs.url)
     } else {
       fetch.fetchSingleInstance(yargs.url)
-        // .then(data => bq.insertDataAsStream(yargs.dataset, yargs.table, schema, [data]));
     }
 };
 

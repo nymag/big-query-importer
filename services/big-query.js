@@ -90,6 +90,7 @@ function createTableIfDoesntExist(dataset, tableId, options) {
 }
 
 
+
 /**
  * Insert BigQuery data as a stream
  * @param {string} datasetName
@@ -98,26 +99,24 @@ function createTableIfDoesntExist(dataset, tableId, options) {
  * @param {[{}]} Clay page data
  * @returns {}
  */
-function insertDataAsStream(datasetName, tableId, options, data) {
-  console.log('what is data', data);
-  return createDatasetifDoesntExist(datasetName)
-    .then((results) => {
-      return createTableIfDoesntExist(results, tableId, options);
+function insertDataAsStream(datasetId, tableId, rows) {
+  return bigquery
+    .dataset(datasetId)
+    .table(tableId)
+    .insert(rows)
+    .then((insertErrors) => {
+      rows.forEach((row) => console.log('Done'));
+
+      if (insertErrors && insertErrors.length > 0) {
+        // console.log('Insert errors:');
+        insertErrors.forEach((err) => console.error(err));
+      }
     })
-    .then((table) => {
-      return table.insert(data)
-        .then((results) => {
-          console.log('Results:', results[0]);
-        })
-        .catch((err) => {
-          // An API error or partial failure occurred.
-          if (err.name === 'PartialFailureError') {
-            console.log('Errors:', err.errors[0]);
-          }
-        });
-    })
+    .catch((err) => {
+      console.log('ERROR:', err.errors[0]);
+  });
     // .then(_.partialRight(_.tap, console.log));
-  }
+}
 
 module.exports.createDataset = createDataset;
 module.exports.createTable = createTable;

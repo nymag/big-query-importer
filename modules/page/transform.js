@@ -45,15 +45,15 @@ function resolveObjProperty(items, property) {
  * @returns {object}
  */
 function articleToBigQuery(instanceUri, instanceJson) {
-  console.log('data passed to the transform', instanceJson);
-  // console.log('waht is instanceUri', instanceUri);
+  //console.log('data passed to the transform', instanceJson);
+  console.log(instanceUri);
   let pageData = {},
     instanceUriHost = 'http://' + instanceUri,
     articleFields = ['date', 'canonicalUrl', 'primaryHeadline', 'seoHeadline', 'overrideHeadline', 'shortHeadline', 'syndicatedUrl', 'featureTypes', 'tags', 'contentChannel', 'authors', 'rubric', 'magazineIssueDate', 'content'],
     headFields = ['twitterTitle', 'ogTitle', 'syndicatedUrl'],
     headLayoutFields = ['siteName', 'pageType', 'vertical'],
     getMainArticleData = _.pick(_.get(instanceJson, 'main[0]', {}), articleFields),
-    getSplashHeaderData = _.get(instanceJson, 'splashHeader[0]', {}),
+    // getSplashHeaderData = _.get(instanceJson, 'splashHeader[0]', {}),
     getHeadLayoutData = _.get(instanceJson, 'headLayout', {}),
     getHeadData = _.get(instanceJson, 'head', {}),
     resolvedArticleContent,
@@ -73,7 +73,7 @@ function articleToBigQuery(instanceUri, instanceJson) {
   filteredHeadLayoutData = _.compact(headLayoutData);
 
   // Assign headData, headLayoutData, splashHeaderData, and mainData to the pageData obj
-  Object.assign(pageData, filteredHeadData[0], filteredHeadLayoutData[0], getSplashHeaderData, getMainArticleData);
+  Object.assign(pageData, filteredHeadData[0], filteredHeadLayoutData[0], getMainArticleData);
 
   // Strip html, remove falsey values, and count # of words
   resolvedArticleContent = _.map(resolveObj(pageData.content), item => stripTags(item));
@@ -114,7 +114,7 @@ function articleToBigQuery(instanceUri, instanceJson) {
   pageData.primaryHeadline = stripTags(pageData.primaryHeadline) || '';
   pageData.productIds = resolvedArticleProductRefs;
   pageData.productBuyUrls = resolvedArticleProductBuyUrls;
-  pageData.pageUri = instanceUri.replace('172.24.17.157', 'nymag.com');
+  pageData.pageUri = instanceUri.replace('http://172.24.17.157', 'www.thecut.com');
   pageData.cmsSource = 'clay';
   pageData.featureTypes = _.keys(_.pickBy(pageData.featureTypes));
   pageData.domain = 'thecut.com';
@@ -124,7 +124,7 @@ function articleToBigQuery(instanceUri, instanceJson) {
   // Remove content because we don't need to import it to big query
   pageData = _.omit(pageData, 'content');
 
-  return bq.insertDataAsStream('the_cut_prd', 'thecut_data_test', schema, [pageData]);
+  return bq.insertDataAsStream('clay_test', 'test_data', [pageData]);
 
 }
 
