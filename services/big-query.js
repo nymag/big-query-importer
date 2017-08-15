@@ -99,13 +99,14 @@ function createTableIfDoesntExist(dataset, tableId, options) {
  * @param {[{}]} Clay page data
  * @returns {}
  */
-function insertDataAsStream(datasetId, tableId, rows) {
-  return bigquery
+function insertDataAsStream(datasetId, tableId, data) {
+  console.log('what is rows', data);
+/*  return bigquery
     .dataset(datasetId)
     .table(tableId)
-    .insert(rows)
+    .insert(data)
     .then((insertErrors) => {
-      rows.forEach((row) => console.log('Done'));
+      data.forEach((row) => console.log('Done'));
 
       if (insertErrors && insertErrors.length > 0) {
         // console.log('Insert errors:');
@@ -114,7 +115,7 @@ function insertDataAsStream(datasetId, tableId, rows) {
     })
     .catch((err) => {
       console.log('ERROR:', err.errors[0]);
-  });
+  });*/
     // .then(_.partialRight(_.tap, console.log));
 }
 

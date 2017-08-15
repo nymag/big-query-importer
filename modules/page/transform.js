@@ -45,8 +45,7 @@ function resolveObjProperty(items, property) {
  * @returns {object}
  */
 function articleToBigQuery(instanceUri, instanceJson) {
-  //console.log('data passed to the transform', instanceJson);
-  console.log(instanceUri);
+  //console.log(instanceJson);
   let pageData = {},
     instanceUriHost = 'http://' + instanceUri,
     articleFields = ['date', 'canonicalUrl', 'primaryHeadline', 'seoHeadline', 'overrideHeadline', 'shortHeadline', 'syndicatedUrl', 'featureTypes', 'tags', 'contentChannel', 'authors', 'rubric', 'magazineIssueDate', 'content'],
@@ -124,7 +123,7 @@ function articleToBigQuery(instanceUri, instanceJson) {
   // Remove content because we don't need to import it to big query
   pageData = _.omit(pageData, 'content');
 
-  return bq.insertDataAsStream('clay_test', 'test_data', [pageData]);
+  return pageData;
 
 }
 

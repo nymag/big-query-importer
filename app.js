@@ -34,21 +34,20 @@ const cli = function () {
           alias: 'l',
           demandOption: false,
           default: false,
-          describe: 'Is this a list of instances?',
+          describe: 'Specify a list of instances',
           boolean: true
         },
-        limit: {
-          alias: 'lt',
+        start: {
+          alias: 's',
           demandOption: false,
-          default: 10,
-          describe: 'Limit number of articles to import',
+          describe: 'Integer representing index to start reading from source (inclusive)',
           integer: true
         },
-        offset: {
-          alias: 'o',
+        end: {
+          alias: 'e',
           demandOption: false,
           default: 0,
-          describe: 'Offset number of articles to import',
+          describe: 'Integer representing index to stop reading from source (exclusive)',
           integer: true
         }
       })
@@ -58,13 +57,14 @@ const cli = function () {
       .alias('help', 'h')
       .argv,
     modulePath = path.join(__dirname, `./modules/${ yargs.moduleName }`),
-    schema = require(`${ modulePath }/schema.json`),
     transform = require(`${ modulePath }/transform`);
 
     if (yargs.list) {
-      fetch.fetchListInstances(yargs.url)
+      fetch.fetchListInstances(yargs.url, yargs.start, yargs.end)
+        .then(data => bq.insertDataAsStream(yargs.dataset, yargs.table, data));
     } else {
-      fetch.fetchSingleInstance(yargs.url)
+      fetch.fetchSingleInstance(yargs.url, transform.toBigQuery)
+        .then(data => console.log('what is data', data));
     }
 };
 
