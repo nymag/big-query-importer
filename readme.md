@@ -47,7 +47,7 @@ We are using bluebird for promises and lodash for basic utilities; otherwise van
 ## TODO
 
 * Write tests for services
+* Better documentation
 * Tests for modules
 * Memory limits
-* `--offset` and `--limit` options to do partial imports
 * Import any component into big query e.g. `--url http://nymag.com/selectall/components/ads/instances`
