@@ -45,7 +45,6 @@ function resolveObjProperty(items, property) {
  * @returns {object}
  */
 function articleToBigQuery(instanceUri, instanceJson) {
-  //console.log('data passed to the transform', instanceJson);
   console.log(instanceUri);
   let pageData = {},
     instanceUriHost = 'http://' + instanceUri,
@@ -114,17 +113,17 @@ function articleToBigQuery(instanceUri, instanceJson) {
   pageData.primaryHeadline = stripTags(pageData.primaryHeadline) || '';
   pageData.productIds = resolvedArticleProductRefs;
   pageData.productBuyUrls = resolvedArticleProductBuyUrls;
-  pageData.pageUri = instanceUri.replace('http://172.24.17.157', 'www.thecut.com');
+  pageData.pageUri = instanceUri.replace('http://172.24.17.157', 'nymag.com');
   pageData.cmsSource = 'clay';
   pageData.featureTypes = _.keys(_.pickBy(pageData.featureTypes));
-  pageData.domain = 'thecut.com';
+  pageData.domain = 'nymag.com';
   // Add a timestamp for every entry creation
   pageData.timestamp = new Date().toISOString();
 
   // Remove content because we don't need to import it to big query
   pageData = _.omit(pageData, 'content');
 
-  return bq.insertDataAsStream('clay_test', 'test_data', [pageData]);
+  return bq.insertDataAsStream('dailyintelligencer', 'dailyintelligencer_page_data', [pageData]);
 
 }
 
