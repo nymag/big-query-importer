@@ -4,7 +4,9 @@ const _ = require('lodash'),
   stripTags = require('striptags'),
   count = require('word-count'),
   product = '/components/product',
-  urls = require('url');
+  bq = require('../../services/big-query.js'),
+  urls = require('url'),
+  protocol = 'http://';
 
 /**
  * Resolve object values, e.g. [{text:tag}{text:tag}] becomes [tag, tag]
@@ -49,7 +51,7 @@ function articleToBigQuery(instanceUri, instanceJson) {
     headFields = ['twitterTitle', 'ogTitle', 'syndicatedUrl'],
     headLayoutFields = ['siteName', 'pageType', 'vertical'],
     getMainArticleData = _.pick(_.get(instanceJson, 'main[0]', {}), articleFields),
-    getSplashHeaderData = _.get(instanceJson, 'splashHeader[0]', {}),
+    // getSplashHeaderData = _.get(instanceJson, 'splashHeader[0]', {}),
     getHeadLayoutData = _.get(instanceJson, 'headLayout', {}),
     getHeadData = _.get(instanceJson, 'head', {}),
     resolvedArticleContent,
@@ -69,7 +71,7 @@ function articleToBigQuery(instanceUri, instanceJson) {
   filteredHeadLayoutData = _.compact(headLayoutData);
 
   // Assign headData, headLayoutData, splashHeaderData, and mainData to the pageData obj
-  Object.assign(pageData, filteredHeadData[0], filteredHeadLayoutData[0], getSplashHeaderData, getMainArticleData);
+  Object.assign(pageData, filteredHeadData[0], filteredHeadLayoutData[0], getMainArticleData);
 
   // Strip html, remove falsey values, and count # of words
   resolvedArticleContent = _.map(resolveObj(pageData.content), item => stripTags(item));
@@ -81,7 +83,7 @@ function articleToBigQuery(instanceUri, instanceJson) {
   resolvedArticleProductRefs = _.filter(resolvedArticleRefs, function(x) {return x.indexOf(product) !== -1});
   resolvedArticleProductBuyUrls = _.compact(resolveObjProperty(pageData.content, 'buyUrls'));
 
-  if (pageData.content) {
+  if (pageData.content && pageData.ogTitle && pageData.primaryHeadline && pageData.shortHeadline) {
     // Calculate total # of words in article content and page-level fields
     // TODO: clean this up
     pageData.wordCount = _.sum([totalWordsInArticleContent, count(pageData.ogTitle), count(pageData.primaryHeadline), count(pageData.shortHeadline)]);
@@ -101,7 +103,12 @@ function articleToBigQuery(instanceUri, instanceJson) {
     pageData.tags = resolveObj(pageData.tags.items);
   }
 
-
+  // TODO: ugly, so fix
+  pageData.ogTitle = pageData.ogTitle || '';
+  pageData.pageType = pageData.pageType || '';
+  pageData.siteName = pageData.siteName || '';
+  pageData.twitterTitle = pageData.twitterTitle || '';
+  pageData.vertical = pageData.vertical || '';
   pageData.contentChannel = pageData.contentChannel || '';
   pageData.primaryHeadline = stripTags(pageData.primaryHeadline) || '';
   pageData.productIds = resolvedArticleProductRefs;
@@ -109,14 +116,25 @@ function articleToBigQuery(instanceUri, instanceJson) {
   pageData.pageUri = instanceUri;
   pageData.cmsSource = 'clay';
   pageData.featureTypes = _.keys(_.pickBy(pageData.featureTypes));
-  pageData.domain = urls.parse(instanceUriHost).hostname;
+  pageData.domain = urls.parse(instanceUri).hostname;
+
   // Add a timestamp for every entry creation
   pageData.timestamp = new Date().toISOString();
 
   // Remove content because we don't need to import it to big query
   pageData = _.omit(pageData, 'content');
 
-  return pageData;
+  return Promise.resolve(pageData);
+
 }
 
-module.exports.toBigQuery = articleToBigQuery;
+function toBigQuery(url, data, dataset, table, schema) {
+  return articleToBigQuery(url, data)
+    .then((results) => {
+      return bq.insertDataAsStream(dataset, table, schema, results);
+    })
+    // .then(_.partialRight(_.tap, console.log));
+  }
+
+
+module.exports.toBigQuery = toBigQuery;

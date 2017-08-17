@@ -34,39 +34,35 @@ const cli = function () {
           alias: 'l',
           demandOption: false,
           default: false,
-          describe: 'Is this a list of instances?',
+          describe: 'Specify a list of instances',
           boolean: true
         },
-        limit: {
-          alias: 'lt',
+        start: {
+          alias: 's',
           demandOption: false,
-          default: 10,
-          describe: 'Limit number of articles to import',
+          describe: 'Integer representing index to start reading from source (inclusive)',
           integer: true
         },
-        offset: {
-          alias: 'o',
+        end: {
+          alias: 'e',
           demandOption: false,
           default: 0,
-          describe: 'Offset number of articles to import',
+          describe: 'Integer representing index to stop reading from source (exclusive)',
           integer: true
         }
       })
-      .example('Example for a list of page instances: ./bin/cli.js --url http://qa.nymag.com/selectall/pages --moduleName page --dataset selectall_dataset_pages --table selectall_table --list --offset 20 --limit 50')
+      .example('Example for a list of page instances: ./bin/cli.js --url http://qa.nymag.com/selectall/pages --moduleName page --dataset selectall_dataset_pages --table selectall_table --list --start 20 --end 50')
       .example('Example for an individual page instance: ./bin/cli.js --url http://qa.nymag.com/travel/pages/cj3fuvbj5004jbwye1ret8k7h --moduleName page --dataset travel_dataset --table travel_table')
       .help('help')
       .alias('help', 'h')
       .argv,
     modulePath = path.join(__dirname, `./modules/${ yargs.moduleName }`),
-    schema = require(`${ modulePath }/schema.json`),
-    transform = require(`${ modulePath }/transform`);
+    schema = require(`${ modulePath }/schema`);
 
     if (yargs.list) {
-      fetch.fetchListInstances(yargs.url, transform.toBigQuery, yargs.offset, yargs.limit)
-        .then(data => bq.insertDataAsStream(yargs.dataset, yargs.table, schema, data));
+      fetch.fetchListInstances(yargs.url, yargs.dataset, yargs.table, schema, yargs.start, yargs.end)
     } else {
-      fetch.fetchInstance(yargs.url, transform.toBigQuery)
-        .then(data => bq.insertDataAsStream(yargs.dataset, yargs.table, schema, [data]));
+      fetch.fetchSingleInstance(yargs.url, yargs.dataset, yargs.table, schema)
     }
 };
 

@@ -89,7 +89,6 @@ function createTableIfDoesntExist(dataset, tableId, options) {
     });
 }
 
-
 /**
  * Insert BigQuery data as a stream
  * @param {string} datasetName
@@ -99,7 +98,6 @@ function createTableIfDoesntExist(dataset, tableId, options) {
  * @returns {}
  */
 function insertDataAsStream(datasetName, tableId, options, data) {
-  console.log('what is data', data);
   return createDatasetifDoesntExist(datasetName)
     .then((results) => {
       return createTableIfDoesntExist(results, tableId, options);
