@@ -46,7 +46,6 @@ const cli = function () {
         end: {
           alias: 'e',
           demandOption: false,
-          default: 0,
           describe: 'Integer representing index to stop reading from source (exclusive)',
           integer: true
         }
