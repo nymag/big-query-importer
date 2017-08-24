@@ -74,22 +74,17 @@ function articleToBigQuery(instanceUri, instanceJson) {
   Object.assign(pageData, filteredHeadData[0], filteredHeadLayoutData[0], getMainArticleData);
 
   // Strip html, remove falsey values, and count # of words
-  resolvedArticleContent = _.map(resolveObj(pageData.content), item => stripTags(item));
-  filteredArticleContent = _.compact(resolvedArticleContent);
-  totalWordsInArticleContent = count(filteredArticleContent.toString());
+  filteredArticleContent = _.map(_.compact(resolveObj(pageData.content)), item => stripTags(item));
+  totalWordsInArticleContent = [count(filteredArticleContent.toString()), count(pageData.ogTitle), count(pageData.primaryHeadline), count(pageData.shortHeadline)]
+
 
   // Get all product refs and buy urls on the page
   resolvedArticleRefs = _.compact(resolveObjProperty(pageData.content, '_ref'));
   resolvedArticleProductRefs = _.filter(resolvedArticleRefs, function(x) {return x.indexOf(product) !== -1});
   resolvedArticleProductBuyUrls = _.compact(resolveObjProperty(pageData.content, 'buyUrls'));
 
-  if (pageData.content && pageData.ogTitle && pageData.primaryHeadline && pageData.shortHeadline) {
-    // Calculate total # of words in article content and page-level fields
-    // TODO: clean this up
-    pageData.wordCount = _.sum([totalWordsInArticleContent, count(pageData.ogTitle), count(pageData.primaryHeadline), count(pageData.shortHeadline)]);
-  } else {
-    pageData.wordCount = 0;
-  }
+  // Calculate total # of words in article content and page-level fields
+  pageData.wordCount = totalWordsInArticleContent.reduce(function(sum, val) { return sum + val; }, 0)
 
   if (pageData.shortHeadline) {
     pageData.shortHeadline = stripTags(pageData.shortHeadline);
