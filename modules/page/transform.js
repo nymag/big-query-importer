@@ -75,7 +75,7 @@ function articleToBigQuery(instanceUri, instanceJson) {
 
   // Strip html, remove falsey values, and count # of words
   filteredArticleContent = _.map(_.compact(resolveObj(pageData.content)), item => stripTags(item));
-  totalWordsInArticleContent = [count(filteredArticleContent.toString()), count(pageData.ogTitle), count(pageData.primaryHeadline), count(pageData.shortHeadline)]
+  totalWordsInArticleContent = _.map(_.compact([filteredArticleContent.toString(), pageData.ogTitle, pageData.primaryHeadline, pageData.shortHeadline]), item => count(item));
 
 
   // Get all product refs and buy urls on the page
