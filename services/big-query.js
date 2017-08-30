@@ -113,7 +113,7 @@ function insertDataAsStream(datasetId, tableId, rows) {
       }
     })
     .catch((err) => {
-      console.log('ERROR:', err.errors[0]);
+      console.log(err.errors[0]);
   });
     // .then(_.partialRight(_.tap, console.log));
 }
