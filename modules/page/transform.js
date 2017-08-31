@@ -42,12 +42,11 @@ function resolveObjProperty(items, property) {
  */
 function articleToBigQuery(instanceUri, instanceJson) {
   let pageData = {},
-    instanceUriHost = urls.parse(instanceUri).host,
     articleFields = ['date', 'canonicalUrl', 'primaryHeadline', 'seoHeadline', 'overrideHeadline', 'shortHeadline', 'syndicatedUrl', 'featureTypes', 'tags', 'contentChannel', 'authors', 'rubric', 'magazineIssueDate', 'content'],
     headFields = ['twitterTitle', 'ogTitle', 'syndicatedUrl'],
     headLayoutFields = ['siteName', 'pageType', 'vertical'],
     getMainArticleData = _.pick(_.get(instanceJson, 'main[0]', {}), articleFields),
-    // getSplashHeaderData = _.get(instanceJson, 'splashHeader[0]', {}),
+    getSplashHeaderData = _.pick(_.get(instanceJson, 'splashHeader[0]', {}), articleFields), // Video articles store article data in the splashHeader
     getHeadLayoutData = _.get(instanceJson, 'headLayout', {}),
     getHeadData = _.get(instanceJson, 'head', {}),
     resolvedArticleContent,
@@ -62,7 +61,7 @@ function articleToBigQuery(instanceUri, instanceJson) {
   headLayoutData = _.compact(_.map(getHeadLayoutData, item => _.pick(item, headLayoutFields)));
 
   // Assign headData, headLayoutData, splashHeaderData, and mainData to the pageData obj
-  Object.assign(pageData, headData[0], headLayoutData[0], getMainArticleData);
+  Object.assign(pageData, headData[0], headLayoutData[0], getSplashHeaderData, getMainArticleData);
 
   // Strip html, remove falsey values, and count # of words
   resolvedArticleContent = _.map(resolveObj(_.compact(pageData.content)), item => stripTags(item));
@@ -76,9 +75,6 @@ function articleToBigQuery(instanceUri, instanceJson) {
   // Calculate total # of words in article content and page-level fields
   pageData.wordCount = totalWordsInArticleContent.reduce(function(sum, val) { return sum + val; }, 0)
 
-  if (pageData.shortHeadline) {
-    pageData.shortHeadline = stripTags(pageData.shortHeadline);
-  }
 
   if (pageData.authors) {
     pageData.authors = resolveObj(pageData.authors);
@@ -87,20 +83,17 @@ function articleToBigQuery(instanceUri, instanceJson) {
   if (pageData.tags) {
     pageData.tags = resolveObj(pageData.tags.items);
   }
-  
-  pageData.ogTitle = stripTags(pageData.ogTitle);
-  pageData.pageType = pageData.pageType;
-  pageData.siteName = pageData.siteName;
-  pageData.twitterTitle = stripTags(pageData.twitterTitle);
-  pageData.vertical = pageData.vertical;
-  pageData.contentChannel = pageData.contentChannel;
+
+  pageData.ogTitle = stripTags(pageData.shortHeadline);
+  pageData.overrideHeadline = stripTags(pageData.shortHeadline);
+  pageData.shortHeadline = stripTags(pageData.shortHeadline);
   pageData.primaryHeadline = stripTags(pageData.primaryHeadline);
   pageData.productIds = resolvedArticleProductRefs;
   pageData.productBuyUrls = resolvedArticleProductBuyUrls;
-  pageData.pageUri = instanceUri.replace('http://172.24.17.157', 'nymag.com');
+  pageData.pageUri = instanceUri.replace('http://172.24.17.157', 'http://nymag.com');
   pageData.cmsSource = 'clay';
   pageData.featureTypes = _.keys(_.pickBy(pageData.featureTypes));
-  pageData.domain = instanceUriHost;
+  pageData.domain = urls.parse(pageData.pageUri).host;
 
   // Add a timestamp for every entry creation
   pageData.timestamp = new Date();
@@ -108,7 +101,7 @@ function articleToBigQuery(instanceUri, instanceJson) {
   // Remove content because we don't need to import it to big query
   pageData = _.omit(pageData, 'content');
 
-  return bq.insertDataAsStream('thestrategist', 'thestrategist_page_data', [pageData]);
+  return bq.insertDataAsStream('selectall', 'selectall_page_data', [pageData]);
 
 }
 
