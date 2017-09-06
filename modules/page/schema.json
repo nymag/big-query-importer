@@ -53,7 +53,7 @@
       {
         "name": "contentChannel",
         "type": "string",
-        "mode": "nullable"
+        "mode": "required"
       },
       {
         "name": "authors",

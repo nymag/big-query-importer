@@ -14,15 +14,27 @@ const _ = require('lodash'),
  * @returns {Array}
  */
 function resolveObj(items) {
-  return items.reduce((arr, item) => {
-    if (item.description && item.description.length > 0) {
-      // product components have description fields
-      return arr.concat(item.text, item.description[0].text);
-    } else { 
-      return arr.concat(item.text);
-    }
-  }, []);
+  if (items !== undefined) {
+    return items.reduce((arr, item) => {
+      if (item.description && item.description.length > 0) {
+        // product components have description fields
+        return arr.concat(item.text, item.description[0].text);
+      } else { 
+        return arr.concat(item.text);
+      }
+    }, []);
+  }
 }
+
+/**
+ * Capitalizes the first letter in a string
+ * @param string
+ * @returns string
+ */
+function capitalizeFirstLetter(str) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
 
 /**
  * Resolve a specified object property within article content, e.g. [{ref:uri}{ref:uri}] becomes [uri, uri]
@@ -84,13 +96,22 @@ function articleToBigQuery(instanceUri, instanceJson) {
     pageData.tags = resolveObj(pageData.tags.items);
   }
 
+  // Normalize Ambrose data
+  // This is only necessary for batch importing legacy data
+  if (pageData.contentChannel === 'other') {
+    pageData.contentChannel = capitalizeFirstLetter(pageData.contentChannel);
+  }
+  else {
+    pageData.contentChannel = pageData.contentChannel;
+  }
+
   pageData.ogTitle = stripTags(pageData.shortHeadline);
   pageData.overrideHeadline = stripTags(pageData.shortHeadline);
   pageData.shortHeadline = stripTags(pageData.shortHeadline);
   pageData.primaryHeadline = stripTags(pageData.primaryHeadline);
   pageData.productIds = resolvedArticleProductRefs;
   pageData.productBuyUrls = resolvedArticleProductBuyUrls;
-  pageData.pageUri = instanceUri.replace('http://172.24.17.157', 'http://nymag.com');
+  pageData.pageUri = instanceUri.replace('http://172.24.17.157', 'http://vulture.com');
   pageData.cmsSource = 'clay';
   pageData.featureTypes = _.keys(_.pickBy(pageData.featureTypes));
   pageData.domain = urls.parse(pageData.pageUri).host;
@@ -101,7 +122,7 @@ function articleToBigQuery(instanceUri, instanceJson) {
   // Remove content because we don't need to import it to big query
   pageData = _.omit(pageData, 'content');
 
-  return bq.insertDataAsStream('selectall', 'selectall_page_data', [pageData]);
+  return bq.insertDataAsStream('clay', 'test_new_data', [pageData]);
 
 }
 
