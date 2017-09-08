@@ -53,6 +53,8 @@ function articleToBigQuery(instanceUri, instanceJson) {
     resolvedArticleRefs,
     resolvedArticleProductRefs,
     resolvedArticleProductBuyUrls,
+    resolvedArticleVideoRefs,
+    resolvedArticleOoyalaRefs,
     totalWordsInArticleContent,
     headData,
     headLayoutData;
@@ -67,9 +69,10 @@ function articleToBigQuery(instanceUri, instanceJson) {
   resolvedArticleContent = _.map(resolveObj(_.compact(pageData.content)), item => stripTags(item));
   totalWordsInArticleContent = _.map(_.compact([resolvedArticleContent.toString(), pageData.ogTitle, pageData.primaryHeadline, pageData.shortHeadline]), item => count(item));
 
-  // Get all product refs and buy urls on the page
-  resolvedArticleRefs = resolveObjProperty(_.compact(pageData.content), '_ref');
-  resolvedArticleProductRefs = _.filter(resolvedArticleRefs, function(x) {return x.indexOf(product) !== -1});
+  resolvedArticleProductRefs = _.filter(_.compact(resolvedArticleRefs), function(x) {return x.indexOf(product) !== -1});
+  resolvedArticleVideoRefs = _.filter(_.compact(resolvedArticleRefs), function(x) {return x.indexOf(video) !== -1});
+  resolvedArticleOoyalaRefs = _.filter(_.compact(resolvedArticleRefs), function(x) {return x.indexOf(ooyala) !== -1});
+  
   resolvedArticleProductBuyUrls = _.compact(resolveObjProperty(_.compact(pageData.content), 'buyUrlHistory'));
 
   // Calculate total # of words in article content and page-level fields
@@ -89,6 +92,11 @@ function articleToBigQuery(instanceUri, instanceJson) {
   pageData.shortHeadline = stripTags(pageData.shortHeadline);
   pageData.primaryHeadline = stripTags(pageData.primaryHeadline);
   pageData.productIds = resolvedArticleProductRefs;
+  pageData.productIdsCount = resolvedArticleProductRefs.length;
+  pageData.videoIds = resolvedArticleVideoRefs;
+  pageData.ooyalaIds = resolvedArticleOoyalaRefs;
+  pageData.videoIdsCount = resolvedArticleVideoRefs.length;
+  pageData.ooyalaIdsCount = resolvedArticleOoyalaRefs.length;
   pageData.productBuyUrls = resolvedArticleProductBuyUrls;
   pageData.pageUri = instanceUri;
   pageData.cmsSource = 'clay';
