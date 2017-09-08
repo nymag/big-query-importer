@@ -66,6 +66,31 @@
         "mode": "repeated"
       },
       {
+        "name": "productIdsCount",
+        "type": "integer",
+        "mode": "nullable"
+      },
+      {
+        "name": "videoIds",
+        "type": "string",
+        "mode": "repeated"
+      },
+      {
+        "name": "videoIdsCount",
+        "type": "integer",
+        "mode": "nullable"
+      },
+      {
+        "name": "ooyalaIds",
+        "type": "string",
+        "mode": "repeated"
+      },
+      {
+        "name": "ooyalaIdsCount",
+        "type": "integer",
+        "mode": "nullable"
+      },
+      {
         "name": "productBuyUrls",
         "type": "string",
         "mode": "repeated"

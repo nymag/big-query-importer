@@ -4,6 +4,9 @@ const _ = require('lodash'),
   stripTags = require('striptags'),
   count = require('word-count'),
   product = '/components/product',
+  video = '/components/video/',
+  ooyala = 'components/ooyala-player',
+  image = 'pixel.nymag.com',
   bq = require('../../services/big-query.js'),
   schema = require('./schema.json'), // wrapped so that it can be stubbed
   urls = require('url');
@@ -65,6 +68,9 @@ function articleToBigQuery(instanceUri, instanceJson) {
     resolvedArticleRefs,
     resolvedArticleProductRefs,
     resolvedArticleProductBuyUrls,
+    resolvedArticleVideoRefs,
+    resolvedArticleOoyalaRefs,
+    resolvedArticleImageRefs,
     totalWordsInArticleContent,
     headData,
     headLayoutData;
@@ -81,7 +87,12 @@ function articleToBigQuery(instanceUri, instanceJson) {
 
   // Get all product refs and buy urls on the page
   resolvedArticleRefs = resolveObjProperty(_.compact(pageData.content), '_ref');
-  resolvedArticleProductRefs = _.filter(resolvedArticleRefs, function(x) {return x.indexOf(product) !== -1});
+
+  // TODO: create a fn for these
+  resolvedArticleProductRefs = _.filter(_.compact(resolvedArticleRefs), function(x) {return x.indexOf(product) !== -1});
+  resolvedArticleVideoRefs = _.filter(_.compact(resolvedArticleRefs), function(x) {return x.indexOf(video) !== -1});
+  resolvedArticleOoyalaRefs = _.filter(_.compact(resolvedArticleRefs), function(x) {return x.indexOf(ooyala) !== -1});
+
   resolvedArticleProductBuyUrls = _.compact(resolveObjProperty(_.compact(pageData.content), 'buyUrlHistory'));
 
   // Calculate total # of words in article content and page-level fields
@@ -102,16 +113,27 @@ function articleToBigQuery(instanceUri, instanceJson) {
     pageData.contentChannel = capitalizeFirstLetter(pageData.contentChannel);
   }
   else {
-    pageData.contentChannel = pageData.contentChannel;
+    pageData.contentChannel = pageData.contentChannel || '';
   }
 
+  // Ugly, but handles potentially missing legacy data
+  pageData.pageType = pageData.pageType || '';
+  pageData.siteName = pageData.siteName || '';
+  pageData.twitterTitle = pageData.twitterTitle || '';
+  pageData.vertical = pageData.vertical || '';
   pageData.ogTitle = stripTags(pageData.shortHeadline);
   pageData.overrideHeadline = stripTags(pageData.shortHeadline);
   pageData.shortHeadline = stripTags(pageData.shortHeadline);
   pageData.primaryHeadline = stripTags(pageData.primaryHeadline);
   pageData.productIds = resolvedArticleProductRefs;
+  pageData.productIdsCount = resolvedArticleProductRefs.length;
+  pageData.videoIds = resolvedArticleVideoRefs;
+  pageData.ooyalaIds = resolvedArticleOoyalaRefs;
+  pageData.videoIdsCount = resolvedArticleVideoRefs.length;
+  pageData.ooyalaIdsCount = resolvedArticleOoyalaRefs.length;
+
   pageData.productBuyUrls = resolvedArticleProductBuyUrls;
-  pageData.pageUri = instanceUri.replace('http://172.24.17.157', 'http://vulture.com');
+  pageData.pageUri = instanceUri.replace('http://172.24.17.157', 'http://nymag.com');
   pageData.cmsSource = 'clay';
   pageData.featureTypes = _.keys(_.pickBy(pageData.featureTypes));
   pageData.domain = urls.parse(pageData.pageUri).host;
@@ -122,7 +144,7 @@ function articleToBigQuery(instanceUri, instanceJson) {
   // Remove content because we don't need to import it to big query
   pageData = _.omit(pageData, 'content');
 
-  return bq.insertDataAsStream('clay', 'test_new_data', [pageData]);
+  return bq.insertDataAsStream('clay', 'clay_test_data', [pageData]);
 
 }
 
