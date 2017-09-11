@@ -91,6 +91,36 @@
         "mode": "nullable"
       },
       {
+        "name": "imageIds",
+        "type": "string",
+        "mode": "repeated"
+      },
+      {
+        "name": "imageIdsCount",
+        "type": "integer",
+        "mode": "nullable"
+      },
+      {
+        "name": "singleRelatedStoryIds",
+        "type": "string",
+        "mode": "repeated"
+      },
+      {
+        "name": "singleRelatedStoryIdsCount",
+        "type": "integer",
+        "mode": "nullable"
+      },
+      {
+        "name": "relatedStoryIds",
+        "type": "string",
+        "mode": "repeated"
+      },
+      {
+        "name": "relatedStoryIdsCount",
+        "type": "integer",
+        "mode": "nullable"
+      },
+      {
         "name": "productBuyUrls",
         "type": "string",
         "mode": "repeated"

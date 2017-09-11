@@ -3,7 +3,12 @@
 const _ = require('lodash'),
   stripTags = require('striptags'),
   count = require('word-count'),
-  product = '/components/product',
+  product = 'components/product',
+  video = 'components/video',
+  ooyala = 'components/ooyala-player',
+  image = 'pixel.nymag.com',
+  singleRelatedStory = 'components/single-related-story',
+  relatedStory = 'components/related-story',
   bq = require('../../services/big-query.js'),
   schema = require('./schema.json'), // wrapped so that it can be stubbed
   urls = require('url');
@@ -22,6 +27,16 @@ function resolveObj(items) {
       return arr.concat(item.text);
     }
   }, []);
+}
+
+
+function resolveContentValues(items) {
+  return items.reduce((arr, item) => {
+      if (item._ref) {
+        item = item._ref;
+      }
+      return arr.concat(JSON.stringify(item));
+    }, []);
 }
 
 /**
@@ -50,6 +65,10 @@ function articleToBigQuery(instanceUri, instanceJson) {
     getHeadLayoutData = _.get(instanceJson, 'headLayout', {}),
     getHeadData = _.get(instanceJson, 'head', {}),
     resolvedArticleContent,
+    resolvedArticleContentValues,
+    resolvedSingleRelatedStory,
+    resolvedRelatedStory,
+    resolvedArticleContentImages,
     resolvedArticleRefs,
     resolvedArticleProductRefs,
     resolvedArticleProductBuyUrls,
@@ -65,14 +84,21 @@ function articleToBigQuery(instanceUri, instanceJson) {
   // Assign headData, headLayoutData, splashHeaderData, and mainData to the pageData obj
   Object.assign(pageData, headData[0], headLayoutData[0], getSplashHeaderData, getMainArticleData);
 
-  // Strip html, remove falsey values, and count # of words
+  resolvedArticleRefs = _.compact(resolveObjProperty(pageData.content, '_ref'));
   resolvedArticleContent = _.map(resolveObj(_.compact(pageData.content)), item => stripTags(item));
+  // Object.values doesn't have full browser support yet. Womp.
+  resolvedArticleContentValues = _.compact(_.flattenDeep(_.map(pageData.content, item => Object.keys(item).map(key => item[key]))));
+
   totalWordsInArticleContent = _.map(_.compact([resolvedArticleContent.toString(), pageData.ogTitle, pageData.primaryHeadline, pageData.shortHeadline]), item => count(item));
 
-  resolvedArticleProductRefs = _.filter(_.compact(resolvedArticleRefs), function(x) {return x.indexOf(product) !== -1});
-  resolvedArticleVideoRefs = _.filter(_.compact(resolvedArticleRefs), function(x) {return x.indexOf(video) !== -1});
-  resolvedArticleOoyalaRefs = _.filter(_.compact(resolvedArticleRefs), function(x) {return x.indexOf(ooyala) !== -1});
-  
+  // TODO: Can probably consolidate all of these filtered vars
+  resolvedArticleContentImages = _.filter(resolveContentValues(resolvedArticleContentValues), item => item.indexOf(image) !== -1)
+  resolvedArticleProductRefs = _.filter(_.compact(resolvedArticleRefs), item => item.indexOf(product) !== -1);
+  resolvedArticleVideoRefs = _.filter(_.compact(resolvedArticleRefs), item => item.indexOf(video) !== -1);
+  resolvedArticleOoyalaRefs = _.filter(_.compact(resolvedArticleRefs), item => item.indexOf(ooyala) !== -1);
+  resolvedSingleRelatedStory = _.filter(resolveContentValues(resolvedArticleContentValues), item => item.indexOf(singleRelatedStory) !== -1)
+  resolvedRelatedStory = _.filter(resolveContentValues(resolvedArticleContentValues), item => item.indexOf(relatedStory) !== -1)
+
   resolvedArticleProductBuyUrls = _.compact(resolveObjProperty(_.compact(pageData.content), 'buyUrlHistory'));
 
   // Calculate total # of words in article content and page-level fields
@@ -98,6 +124,12 @@ function articleToBigQuery(instanceUri, instanceJson) {
   pageData.videoIdsCount = resolvedArticleVideoRefs.length;
   pageData.ooyalaIdsCount = resolvedArticleOoyalaRefs.length;
   pageData.productBuyUrls = resolvedArticleProductBuyUrls;
+  pageData.imageIds = resolvedArticleContentImages;
+  pageData.imageIdsCount = resolvedArticleContentImages.length;
+  pageData.singleRelatedStoryIds = resolvedSingleRelatedStory;
+  pageData.singleRelatedStoryIdsCount = resolvedSingleRelatedStory.length;
+  pageData.relatedStoryIds = resolvedRelatedStory;
+  pageData.relatedStoryIdsCount = resolvedRelatedStory.length;
   pageData.pageUri = instanceUri;
   pageData.cmsSource = 'clay';
   pageData.featureTypes = _.keys(_.pickBy(pageData.featureTypes));
