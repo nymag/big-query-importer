@@ -68,7 +68,7 @@
       {
         "name": "productIdsCount",
         "type": "integer",
-        "mode": "nullable"
+        "mode": "required"
       },
       {
         "name": "videoIds",
@@ -78,7 +78,7 @@
       {
         "name": "videoIdsCount",
         "type": "integer",
-        "mode": "nullable"
+        "mode": "required"
       },
       {
         "name": "ooyalaIds",
@@ -88,7 +88,37 @@
       {
         "name": "ooyalaIdsCount",
         "type": "integer",
-        "mode": "nullable"
+        "mode": "required"
+      },
+      {
+        "name": "imageIds",
+        "type": "string",
+        "mode": "repeated"
+      },
+      {
+        "name": "imageIdsCount",
+        "type": "integer",
+        "mode": "required"
+      },
+      {
+        "name": "singleRelatedStoryIds",
+        "type": "string",
+        "mode": "repeated"
+      },
+      {
+        "name": "singleRelatedStoryIdsCount",
+        "type": "integer",
+        "mode": "required"
+      },
+      {
+        "name": "relatedStoryIds",
+        "type": "string",
+        "mode": "repeated"
+      },
+      {
+        "name": "relatedStoryIdsCount",
+        "type": "integer",
+        "mode": "required"
       },
       {
         "name": "productBuyUrls",
