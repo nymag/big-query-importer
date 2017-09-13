@@ -57,7 +57,7 @@ function resolveObjProperty(items, property) {
  */
 function articleToBigQuery(instanceUri, instanceJson) {
   let pageData = {},
-    articleFields = ['date', 'canonicalUrl', 'primaryHeadline', 'seoHeadline', 'overrideHeadline', 'shortHeadline', 'syndicatedUrl', 'featureTypes', 'tags', 'contentChannel', 'authors', 'rubric', 'magazineIssueDate', 'content'],
+    articleFields = ['date', 'canonicalUrl', 'primaryHeadline', 'seoHeadline', 'overrideHeadline', 'shortHeadline', 'syndicatedUrl', 'featureTypes', 'tags', 'contentChannel', 'authors', 'rubric', 'magazineIssueDate', 'content', 'contentVideo'],
     headFields = ['twitterTitle', 'ogTitle', 'syndicatedUrl'],
     headLayoutFields = ['siteName', 'pageType', 'vertical'],
     getMainArticleData = _.pick(_.get(instanceJson, 'main[0]', {}), articleFields),
@@ -66,10 +66,12 @@ function articleToBigQuery(instanceUri, instanceJson) {
     getHeadData = _.get(instanceJson, 'head', {}),
     resolvedArticleContent,
     resolvedArticleContentValues,
+    articleVideoLayoutRefs,
     resolvedSingleRelatedStory,
     resolvedRelatedStory,
     resolvedArticleContentImages,
-    resolvedArticleRefs,
+    resolvedArticleLayoutRefs,
+    resolvedVideoLayoutRefs,
     resolvedArticleProductRefs,
     resolvedArticleProductBuyUrls,
     resolvedArticleVideoRefs,
@@ -84,7 +86,11 @@ function articleToBigQuery(instanceUri, instanceJson) {
   // Assign headData, headLayoutData, splashHeaderData, and mainData to the pageData obj
   Object.assign(pageData, headData[0], headLayoutData[0], getSplashHeaderData, getMainArticleData);
 
-  resolvedArticleRefs = _.compact(resolveObjProperty(pageData.content, '_ref'));
+  resolvedArticleLayoutRefs = _.compact(resolveObjProperty(_.compact(pageData.content), '_ref'));
+  resolvedVideoLayoutRefs = _.get(pageData.contentVideo, '_ref');
+  articleVideoLayoutRefs = resolvedArticleLayoutRefs.concat([resolvedVideoLayoutRefs]);
+
+  //console.log(articleVideoLayoutRefs);
   resolvedArticleContent = _.map(resolveObj(_.compact(pageData.content)), item => stripTags(item));
   // Object.values doesn't have full browser support yet. Womp.
   resolvedArticleContentValues = _.compact(_.flattenDeep(_.map(pageData.content, item => Object.keys(item).map(key => item[key]))));
@@ -93,9 +99,9 @@ function articleToBigQuery(instanceUri, instanceJson) {
 
   // TODO: Can probably consolidate all of these filtered vars
   resolvedArticleContentImages = _.filter(resolveContentValues(resolvedArticleContentValues), item => item.indexOf(image) !== -1)
-  resolvedArticleProductRefs = _.filter(_.compact(resolvedArticleRefs), item => item.indexOf(product) !== -1);
-  resolvedArticleVideoRefs = _.filter(_.compact(resolvedArticleRefs), item => item.indexOf(video) !== -1);
-  resolvedArticleOoyalaRefs = _.filter(_.compact(resolvedArticleRefs), item => item.indexOf(ooyala) !== -1);
+  resolvedArticleProductRefs = _.filter(_.compact(resolvedArticleLayoutRefs), item => item.indexOf(product) !== -1);
+  resolvedArticleVideoRefs = _.filter(_.compact(articleVideoLayoutRefs), item => item.indexOf(video) !== -1);
+  resolvedArticleOoyalaRefs = _.filter(_.compact(articleVideoLayoutRefs), item => item.indexOf(ooyala) !== -1);
   resolvedSingleRelatedStory = _.filter(resolveContentValues(resolvedArticleContentValues), item => item.indexOf(singleRelatedStory) !== -1)
   resolvedRelatedStory = _.filter(resolveContentValues(resolvedArticleContentValues), item => item.indexOf(relatedStory) !== -1)
 
@@ -139,7 +145,7 @@ function articleToBigQuery(instanceUri, instanceJson) {
   pageData.timestamp = new Date();
 
   // Remove content because we don't need to import it to big query
-  pageData = _.omit(pageData, 'content');
+  pageData = _.omit(pageData, ['content', 'contentVideo']);
 
   return Promise.resolve(pageData);
 
