@@ -61,6 +61,8 @@ function articleToBigQuery(instanceUri, instanceJson) {
     headFields = ['twitterTitle', 'ogTitle', 'syndicatedUrl'],
     headLayoutFields = ['siteName', 'pageType', 'vertical'],
     getMainArticleData = _.pick(_.get(instanceJson, 'main[0]', {}), articleFields),
+    getMainArticleUri = _.get(instanceJson, 'main[0]._ref'),
+    getVideoArticleUri = _.get(instanceJson, 'splashHeader[0]._ref'),
     getSplashHeaderData = _.pick(_.get(instanceJson, 'splashHeader[0]', {}), articleFields), // Video articles store article data in the splashHeader
     getHeadLayoutData = _.get(instanceJson, 'headLayout', {}),
     getHeadData = _.get(instanceJson, 'head', {}),
@@ -143,6 +145,16 @@ function articleToBigQuery(instanceUri, instanceJson) {
 
   // Add a timestamp for every entry creation
   pageData.timestamp = new Date();
+
+
+  // The article uri is stored in a different obj depending on pageType 
+  if (pageData.pageType === 'Video') {
+    pageData.articleUri = getVideoArticleUri;
+  } else {
+    pageData.articleUri = getMainArticleUri;
+  }
+
+  console.log('what is page', pageData.articleUri);
 
   // Remove content because we don't need to import it to big query
   pageData = _.omit(pageData, ['content', 'contentVideo']);

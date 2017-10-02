@@ -21,6 +21,11 @@
         "mode": "nullable"
       },
       {
+        "name": "articleUri",
+        "type": "string",
+        "mode": "required"
+      },
+      {
         "name": "seoHeadline",
         "type": "string",
         "mode": "nullable"
