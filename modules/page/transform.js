@@ -7,6 +7,7 @@ const _ = require('lodash'),
   video = 'components/video',
   ooyala = 'components/ooyala-player',
   image = 'pixel.nymag.com',
+  article = 'components/article',
   singleRelatedStory = 'components/single-related-story',
   relatedStory = 'components/related-story',
   bq = require('../../services/big-query.js'),
@@ -65,12 +66,15 @@ function articleToBigQuery(instanceUri, instanceJson) {
     headFields = ['twitterTitle', 'ogTitle', 'syndicatedUrl'],
     headLayoutFields = ['siteName', 'pageType', 'vertical'],
     getMainArticleData = _.pick(_.get(instanceJson, 'main[0]', {}), articleFields),
+    getMainArticleUri = _.get(instanceJson, 'main[0]._ref'),
+    getVideoArticleUri = _.get(instanceJson, 'splashHeader[0]._ref'),
     getSplashHeaderData = _.pick(_.get(instanceJson, 'splashHeader[0]', {}), articleFields), // Video articles store article data in the splashHeader
     getHeadLayoutData = _.get(instanceJson, 'headLayout', {}),
     getHeadData = _.get(instanceJson, 'head', {}),
     resolvedArticleContent,
     resolvedArticleContentValues,
     resolvedSingleRelatedStory,
+    resolvedArticleUri,
     resolvedRelatedStory,
     resolvedArticleContentImages,
     resolvedArticleRefs,
@@ -96,12 +100,13 @@ function articleToBigQuery(instanceUri, instanceJson) {
   totalWordsInArticleContent = _.map(_.compact([resolvedArticleContent.toString(), pageData.ogTitle, pageData.primaryHeadline, pageData.shortHeadline]), item => count(item));
 
   // TODO: Can probably consolidate all of these filtered vars
+  resolvedArticleUri = _.filter(resolveContentValues(resolvedArticleContentValues), item => item.indexOf(article) !== -1);
   resolvedArticleContentImages = _.filter(resolveContentValues(resolvedArticleContentValues), item => item.indexOf(image) !== -1)
   resolvedArticleProductRefs = _.filter(_.compact(resolvedArticleRefs), item => item.indexOf(product) !== -1);
   resolvedArticleVideoRefs = _.filter(_.compact(resolvedArticleRefs), item => item.indexOf(video) !== -1);
   resolvedArticleOoyalaRefs = _.filter(_.compact(resolvedArticleRefs), item => item.indexOf(ooyala) !== -1);
   resolvedSingleRelatedStory = _.filter(resolveContentValues(resolvedArticleContentValues), item => item.indexOf(singleRelatedStory) !== -1)
-  resolvedRelatedStory = _.filter(resolveContentValues(resolvedArticleContentValues), item => item.indexOf(relatedStory) !== -1)
+  resolvedRelatedStory = _.filter(resolveContentValues(resolvedArticleContentValues), item => item.indexOf(relatedStory) !== -1);
 
   resolvedArticleProductBuyUrls = _.compact(resolveObjProperty(_.compact(pageData.content), 'buyUrlHistory'));
 
@@ -116,6 +121,7 @@ function articleToBigQuery(instanceUri, instanceJson) {
   if (pageData.tags) {
     pageData.tags = resolveObj(pageData.tags.items);
   }
+
 
   pageData.ogTitle = stripTags(pageData.shortHeadline);
   pageData.overrideHeadline = stripTags(pageData.shortHeadline);
@@ -134,11 +140,18 @@ function articleToBigQuery(instanceUri, instanceJson) {
   pageData.singleRelatedStoryIdsCount = resolvedSingleRelatedStory.length;
   pageData.relatedStoryIds = resolvedRelatedStory;
   pageData.relatedStoryIdsCount = resolvedRelatedStory.length;
-  // pageData.pageUri = instanceUri.replace('http://172.24.17.157', 'http://nymag.com');
+  // pageData.pageUri = instanceUri.replace('http://172.24.17.157', 'http://vulture.com');
   pageData.pageUri = instanceUri;
   pageData.cmsSource = 'clay';
   pageData.featureTypes = _.keys(_.pickBy(pageData.featureTypes));
   pageData.domain = urls.parse(pageData.pageUri).host;
+
+  // The article uri is stored in a different obj depending on pageType 
+  if (pageData.pageType === 'Video') {
+    pageData.articleUri = getVideoArticleUri;
+  } else {
+    pageData.articleUri = getMainArticleUri;
+  }
 
   // Add a timestamp for every entry creation
   pageData.timestamp = new Date();
@@ -146,7 +159,7 @@ function articleToBigQuery(instanceUri, instanceJson) {
   // Remove content because we don't need to import it to big query
   pageData = _.omit(pageData, 'content');
 
-  return bq.insertDataAsStream('clay', 'clay_test_data', [pageData]);
+  return bq.insertDataAsStream('clay', 'clay_test_articles', [pageData]);
 
 }
 
