@@ -154,8 +154,6 @@ function articleToBigQuery(instanceUri, instanceJson) {
     pageData.articleUri = getMainArticleUri;
   }
 
-  console.log('what is page', pageData.articleUri);
-
   // Remove content because we don't need to import it to big query
   pageData = _.omit(pageData, ['content', 'contentVideo']);
 
@@ -168,7 +166,6 @@ function toBigQuery(url, data, dataset, table, schema) {
     .then((results) => {
       return bq.insertDataAsStream(dataset, table, schema, results);
     })
-    // .then(_.partialRight(_.tap, console.log));
   }
 
 

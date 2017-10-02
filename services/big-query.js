@@ -114,7 +114,6 @@ function insertDataAsStream(datasetName, tableId, options, data) {
           }
         });
     })
-    // .then(_.partialRight(_.tap, console.log));
   }
 
 module.exports.createDataset = createDataset;
