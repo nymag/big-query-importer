@@ -140,8 +140,8 @@ function articleToBigQuery(instanceUri, instanceJson) {
   pageData.singleRelatedStoryIdsCount = resolvedSingleRelatedStory.length;
   pageData.relatedStoryIds = resolvedRelatedStory;
   pageData.relatedStoryIdsCount = resolvedRelatedStory.length;
-  // pageData.pageUri = instanceUri.replace('http://172.24.17.157', 'http://vulture.com');
-  pageData.pageUri = instanceUri;
+  pageData.pageUri = instanceUri.replace('http://172.24.17.157', 'http://vulture.com');
+  // pageData.pageUri = instanceUri;
   pageData.cmsSource = 'clay';
   pageData.featureTypes = _.keys(_.pickBy(pageData.featureTypes));
   pageData.domain = urls.parse(pageData.pageUri).host;
@@ -159,7 +159,7 @@ function articleToBigQuery(instanceUri, instanceJson) {
   // Remove content because we don't need to import it to big query
   pageData = _.omit(pageData, 'content');
 
-  return bq.insertDataAsStream('clay', 'clay_test_articles', [pageData]);
+  return bq.insertDataAsStream('thestrategist', 'strategist_page_data', [pageData]);
 
 }
 
