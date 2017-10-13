@@ -6,6 +6,11 @@
         "mode": "required"
       },
       {
+        "name": "site",
+        "type": "string",
+        "mode": "required"
+      },
+      {
         "name": "productName",
         "type": "string",
         "mode": "repeated"
