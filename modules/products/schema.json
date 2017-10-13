@@ -1,0 +1,40 @@
+{ "schema": {
+    "fields": [
+      {
+        "name": "timestamp",
+        "type": "timestamp",
+        "mode": "required"
+      },
+      {
+        "name": "productName",
+        "type": "string",
+        "mode": "repeated"
+      },
+      {
+        "name": "productVendor",
+        "type": "string",
+        "mode": "repeated"
+      },
+      {
+        "name": "productHighPrice",
+        "type": "string",
+        "mode": "repeated"
+      },
+      {
+        "name": "productRef",
+        "type": "string",
+        "mode": "repeated"
+      },
+      {
+        "name": "productLowPrice",
+        "type": "string",
+        "mode": "repeated"
+      },
+      {
+        "name": "productUrl",
+        "type": "string",
+        "mode": "repeated"
+      }
+    ]
+  }
+}
