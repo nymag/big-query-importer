@@ -4,6 +4,7 @@ const _ = require('lodash'),
   stripTags = require('striptags'),
   count = require('word-count'),
   product = 'components/product',
+  paragraph = 'components/clay-paragraph',
   video = 'components/video',
   ooyala = 'components/ooyala-player',
   image = 'pixel.nymag.com',
@@ -69,23 +70,73 @@ function articleToBigQuery(instanceUri, instanceJson) {
     productNames,
     productVendors,
     productRefs,
+    productInlineRefs,
+    productIds,
+    productDescriptions,
     productUrls;
 
   // Assign headData, headLayoutData, splashHeaderData, and mainData to the pageData obj
   Object.assign(pageData, getMainArticleData);
 
 
+  /**
+   * checks if the link is pointing to amazon.com and allows for sub-domains
+   * @param {string} url
+   * @returns {boolean}
+   */
+  function isAmazonUrl(url) {
+    const domain = (url.split('://')[1] || '').split('/')[0].toLowerCase();
+
+    return domain.indexOf('amazon.com') === 0 || domain.indexOf('.amazon.com') > 0;
+  }
+
+  /**
+   * find all of the amazon links in the text and return link url and link text
+   * @param {string} text
+   * @returns {object} keys are urls and values are the link text
+   */
+  function reduceToUniqueAmazonUrls(text) {
+    // assume `href` is first attribute of anchor
+    return text.split('<a href="').reduce(function (urls, anchorFragment) {
+      // assume no html tags within anchor text
+      // assume href surrounded by quotes, but could have other attributes
+      var anchorClose = anchorFragment.indexOf('>'),
+        anchor = anchorFragment.substr(0, anchorClose),
+        anchorEndQuote = anchor.indexOf('" '),
+        url = anchorEndQuote > -1 ? anchor.substr(0, anchorEndQuote) : anchor.substr(0, anchor.length - 1),
+        linkText = anchorFragment.substr(anchorClose + 1).split('</a>')[0];
+
+      if (isAmazonUrl(url)) {
+        urls[url] = linkText;
+      }
+      return urls;
+    }, {});
+  }
+
+
   // Brute force approach for now, since I'm lazy
   productNames = _.reduce(pageData.content, function(results, item) {
     var product_ref = _.get(item, '_ref');
     if (product_ref.indexOf(product) !== -1) {
-       results.push(item.name);
+      if (item.name) {
+        results.push(item.name);
+      } 
     }
     return results;
   }, []);
 
-  console.log('product names')
-  console.log(productNames);
+  productInlineRefs = _.reduce(pageData.content, function(results, item) {
+    var paragraph_ref = _.get(item, '_ref'),
+      getAmazonLinks;
+    if (paragraph_ref.indexOf(paragraph) !== -1) {
+        getAmazonLinks = reduceToUniqueAmazonUrls(item.text)
+        results.push(getAmazonLinks);
+      } 
+    return results;
+  }, []);
+
+  console.log('product inline')
+  console.log(productInlineRefs);
 
   productRefs = _.reduce(pageData.content, function(results, item) {
     var product_ref = _.get(item, '_ref');
@@ -95,22 +146,34 @@ function articleToBigQuery(instanceUri, instanceJson) {
     return results;
   }, []);
 
-
-  productVendors = _.reduce(pageData.content, function(results, item) {
+  productIds = _.reduce(pageData.content, function(results, item) {
     var product_ref = _.get(item, '_ref');
     if (product_ref.indexOf(product) !== -1) {
-       results.push(item.vendor);
+      if (item.producdtId) {
+        results.push(item.productId);
+      } 
     }
     return results;
   }, []);
 
-  console.log('product vendors')
-  console.log(productVendors);
+
+  productVendors = _.reduce(pageData.content, function(results, item) {
+    var product_ref = _.get(item, '_ref');
+    if (product_ref.indexOf(product) !== -1) {
+        if (item.vendor) {
+          results.push(item.vendor);
+        }     
+      }
+    return results;
+  }, []);
+
 
   productHighPrices = _.reduce(pageData.content, function(results, item) {
     var product_ref = _.get(item, '_ref');
     if (product_ref.indexOf(product) !== -1) {
-       results.push(item.priceHigh);
+        if (item.priceHigh) {
+          results.push(item.priceHigh);
+        } 
     }
     return results;
   }, []);
@@ -118,35 +181,56 @@ function articleToBigQuery(instanceUri, instanceJson) {
   productLowPrices = _.reduce(pageData.content, function(results, item) {
     var product_ref = _.get(item, '_ref');
     if (product_ref.indexOf(product) !== -1) {
-       results.push(item.priceLow);
-    }
+        if (item.priceLow) {
+          results.push(item.priceLow);
+        }    
+      }
     return results;
   }, []);
 
   productUrls = _.reduce(pageData.content, function(results, item) {
     var product_ref = _.get(item, '_ref');
     if (product_ref.indexOf(product) !== -1) {
-       results.push(item.buyUrl);
+        if (item.buyUrl) {
+          results.push(item.buyUrl);
+        } 
     }
     return results;
   }, []);
 
 
-  pageData.productName = productNames || '';
-  pageData.productHighPrice = productHighPrices || '';
-  pageData.productLowPrice = productLowPrices || '';
-  pageData.productUrl = productUrls || '';
-  pageData.productVendor = productVendors || '';
-  pageData.productRef = productRefs || '';
+  productDescriptions = _.reduce(pageData.content, function(results, item) {
+    var product_ref = _.get(item, '_ref');
+    if (product_ref.indexOf(product) !== -1) {
+        if (item.description.length > 0) {
+          results.push(item.description[0].text);
+        } 
+    }
+    return results;
+  }, []);
 
+  if (productRefs.length > 0) {
+    var productData = {};
+    productData.productRef = productRefs || '';
+    productData.productName = productNames || '';
+    productData.productHighPrice = productHighPrices || '';
+    productData.productLowPrice = productLowPrices || '';
+    productData.productUrl = productUrls || '';
+    productData.productVendor = productVendors || '';
+    productData.site = 'The Strategist';
+    productData.timestamp = new Date();
+    productData.productPageUri = instanceUri;
+    productData.productId = productIds || '';
+    // productData.productDescription = productDescriptions || '';
+
+    return bq.insertDataAsStream('products', 'nymag_products', [productData]);
+  }
 
   // Add a timestamp for every entry creation
-  pageData.timestamp = new Date();
 
   // Remove content because we don't need to import it to big query
-  pageData = _.omit(pageData, 'content');
+  // pageData = _.omit(pageData, 'content');
 
-  return bq.insertDataAsStream('products', 'nymag_products', [pageData]);
 
 }
 

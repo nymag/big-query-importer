@@ -26,6 +26,16 @@
         "mode": "repeated"
       },
       {
+        "name": "productId",
+        "type": "string",
+        "mode": "repeated"
+      },
+      {
+        "name": "productDescriptions",
+        "type": "string",
+        "mode": "repeated"
+      },
+      {
         "name": "productLowPrice",
         "type": "string",
         "mode": "repeated"
@@ -34,6 +44,16 @@
         "name": "productUrl",
         "type": "string",
         "mode": "repeated"
+      },
+      {
+        "name": "productPageUri",
+        "type": "string",
+        "mode": "nullable"
+      },
+      {
+        "name": "site",
+        "type": "string",
+        "mode": "nullable"
       }
     ]
   }
