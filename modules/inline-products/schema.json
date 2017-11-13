@@ -8,12 +8,7 @@
       {
         "name": "productName",
         "type": "string",
-        "mode": "nullable"
-      },
-      {
-        "name": "productRef",
-        "type": "string",
-        "mode": "nullable"
+        "mode": "repeated"
       },
       {
         "name": "productVendor",
@@ -21,34 +16,24 @@
         "mode": "nullable"
       },
       {
-        "name": "productDescription",
-        "type": "string",
-        "mode": "nullable"
-      },
-      {
-        "name": "productHighPrice",
-        "type": "string",
-        "mode": "nullable"
-      }, 
-      {
-        "name": "productLowPrice",
-        "type": "string",
-        "mode": "nullable"
-      },
-      {
         "name": "productUrl",
         "type": "string",
-        "mode": "nullable"
+        "mode": "repeated"
+      },
+      {
+        "name": "productDescription",
+        "type": "string",
+        "mode": "repeated"
       },
       {
         "name": "productPageUri",
         "type": "string",
-        "mode": "nullable"
+        "mode": "required"
       },
       {
         "name": "productId",
         "type": "string",
-        "mode": "nullable"
+        "mode": "repeated"
       },
       {
         "name": "site",

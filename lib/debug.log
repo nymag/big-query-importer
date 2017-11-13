@@ -1,4804 +1,9363 @@
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-product inline
-[ {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/gp/product/B00023EP3S/ref=pd_sim_194_2?tag=test-bestscent-20': 'Amazon' },
-  {},
-  {} ]
-Done
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Fish-Bubble-Wall-Mounted-Acrylic/dp/B000NBP2JA/?tag=test-fishbowl-20': 'wall-mounted acrylic fishbowl' },
-  {},
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Mountain-Ocean-Moisturizer-Coconut-8-Ounce/dp/B0001TQ9WI?tag=test-bestlotion-20': 'Skin Trip' },
-  {},
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Antler-Juno-Hardside-Carry-Spinner/dp/B06ZZ24YCP?tag=test-luggage-20&ascsubtag=[]st[p]cityk2vnb004bvkydb478reln[d]D[r]nymag.com/search.html': '<em>still available</em>' },
-  {},
-  {},
-  {},
-  { 'https://www.amazon.com/Incase-Travel-Roller-Heather-CL90019/dp/B012BOMO4C?tag=test-luggage-20&ascsubtag=[]st[p]cityk2vnb004bvkydb478reln[d]D[r]nymag.com/search.html': '<em>grey version</em>' },
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Mauviel-MHeritage-6113-26-10-2-Inch-Stainless/dp/B0042RTZY4?tag=test-skillets-20&ascsubtag=[]st[p]cityqvomy000bcsydcfq2ppui[d]D[r]nymag.com/strategist': '<em>here</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/NUXE-Prodigieux-Perfume-Set-1-6/dp/B01G334CXS/?tag=test-frenchpharmacy-20&ascsubtag=[]st[p]citys7q4k002a5dyczfbigieo[d]D[r]google.com': '<em>here</em>' },
-  { 'https://www.amazon.com/Boirion-Homeostick-Lips-Balm-3-5g/dp/B00527TDPO/?ascsubtag=[]st[p]citys7q4k002a5dyczfbigieo[d]D[i]BKNWrn&tag=thestrategistsite-20': '<em>here</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Burgers-Smokehouse-Wild-Game-Sampler/dp/B00126GCXA/?ascsubtag=[]st[p]citysz7jt0004i4ya9biev3li[d]D[i]LBdT69[r]google.com&tag=thestrategistsite-20': '<em>wild game sampler</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Taste-No-Paste-Umami-Bomba/dp/B00KAX6WY0?tag=test-condiments-20&ascsubtag=[]st[p]cityumfcl0005ofyalakum8tx[d]D': '<em>here</em>',
-    'https://www.amazon.com/Taste-No-5-Umami-Paste-70g/dp/B01D6D3310?tag=test-condiments-20&ascsubtag=[]st[p]cityumfcl0005ofyalakum8tx[d]D': '<em>here</em>' },
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-product inline
-[ {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/wedding/home?tag=test-wr-20': 'Amazon' },
-  {} ]
-Done
-product inline
-[ {},
-  { 'http://www.amazon.com/Hartmann-Lineaire-Carry-On-Spinner/dp/B00L0DXB3E?tag=test-wr-20': 'carry-on suitcases',
-    'https://www.amazon.com/wedding/home?tag=test-wr-20': 'Amazon' },
-  {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Hitachi-Magic-Wand-Original-Massager/dp/B00MWHVW5G?tag=test-dysonhairdryer-20': 'Hitachi Magic Wand vibrator' },
-  {},
-  {},
-  {},
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Tom-Dixon-Glasses-Measure-Copper/dp/B01LX9DULF/?tag=test-hostessgift-20&ascsubtag=[]st[p]ciu5zhq0z00007eycte2bxd0p[d]D[r]nymag.com/strategist': '<em>Shot Glasses & Measure Gift Set</em>' },
-  { 'https://www.amazon.com/marimekko-OIVA-teapot-White-japan/dp/B004NRXVRU?tag=test-hostessgift-20&ascsubtag=[]st[p]ciu5zhq0z00007eycte2bxd0p[d]D[r]nymag.com/strategist': '<em>here</em>' },
-  {},
-  { 'https://www.amazon.com/Intex-Hello-Kitty-Inflatable-Center/dp/B00OTJ5VZM/?ascsubtag=[]st[p]ciu5zhq0z00007eycte2bxd0p[d]D[i]aiZTyz[r]nymag.com/strategist&tag=thestrategistsite-20': '<em>here</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-product inline
-[ { 'https://www.amazon.com/dp/B00IUIM110?tag=test-umbrella-20': 'on Amazon' },
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Professional-Strength-Stain-Odor-Eliminator/dp/B00CKFL93K?tag=test-dogcleaners-20': 'enzymatic bacterial spray',
-    'https://www.amazon.com/Natures-Miracle-Remover-32-Ounce-Bottle/dp/B0002ASLMW?tag=test-dogcleaners-20': '$5 odor eliminator' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ { 'http://www.amazon.com/dp/B000HOGHME/ref=twister_B00LVJ86Z0?tag=test-whitet-20': ' Hanes five-pack' },
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/gp/product/B01I58U13E?tag=strat-apartmentaccents-20&ascsubtag=%5B%5Dst%5Bp%5Dciuehw8za0001dhy9pxwqetpr%5Bd%5DD%5Br%5Dnymag.com%2Fstrategist&th=1': '<em>here</em>' },
-  { 'https://www.amazon.com/YAMAZAKI-home-Tower-Fruit-White/dp/B00T8Y0T7I/?tag=strat-apartmentaccents-20': '<em>a similarly sleek one</em>' },
-  {},
-  { 'https://www.amazon.com/Tyoungg-Craspedia-Flowers-Wedding-Christmas/dp/B01EMZKP30?ascsubtag=[]st[p]ciuehw8za0001dhy9pxwqetpr[d]D[i]lYRngw&tag=thestrategistsite-20': '<em>here’s</em>' },
-  { 'https://www.amazon.com/Studio-Silversmiths-Rectangular-Container-Organizer/dp/B00K9ZJM9Q/tag=strat-apartmentaccents-20': '<em>more oblong shape</em>' },
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  { 'https://www.amazon.com/gp/product/B014X68K2G/?tag=strat-celebs101816-20': 'Sleep Sound Machine' },
-  {},
-  { 'https://www.amazon.com/Purple-Movie-Poster-Prince-24x36in/dp/B004E5OH4W/?tag=strat-celebs101816-20': 'poster of Prince' },
-  {},
-  { 'https://www.amazon.com/Goodfellas-25th-Anniversary-Movie-Blu-ray/dp/B014AGF6RG/?tag=strat-celebs101816-20': 'Blu-ray ' },
-  {},
-  {},
-  {},
-  {} ]
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  { 'https://www.amazon.com/Brands-Hanging-Organizer-Metal-Copper/dp/B01DMDYW5U?tag=test-adultschoolsupplies-20&ascsubtag=[]st[p]ciuilqj9e000gsdyaxgoorqq9[d]D': '<em>here</em>' },
-  {},
-  { 'https://www.amazon.com/Perpetual-Calendar-Small-Silver-MoMA/dp/B001BFAN9Q?tag=test-adultschoolsupplies-20&ascsubtag=[]st[p]ciuilqj9e000gsdyaxgoorqq9[d]D[r]nymag.com/strategist': '<em>here</em>',
-    'https://www.amazon.com/MoMA-Cubes-Perpetual-Calendar-CMYK/dp/B00CRAUQOG?tag=test-adultschoolsupplies-20&ascsubtag=[]st[p]ciuilqj9e000gsdyaxgoorqq9[d]D[r]nymag.com/strategist': '<em>here</em>' },
-  { 'https://www.amazon.com/Exaclair-FAF-Deskside-Pad-Small/dp/B00C6O95UO?tag=test-adultschoolsupplies-20&ascsubtag=[]st[p]ciuilqj9e000gsdyaxgoorqq9[d]D[r]nymag.com/strategist': '<em>here</em>' },
-  { 'https://www.amazon.com/gp/product/B00BTMTUX6/?tag=test-adultschoolsupplies-20': '<em> pink</em>',
-    'https://www.amazon.com/gp/product/B00BTMKQ48/?tag=test-adultschoolsupplies-20': '<em>blue</em>' },
-  { 'https://www.amazon.com/piet-hein-clock-stainless-steel/dp/B00Q0N7KXG?tag=test-adultschoolsupplies-20&ascsubtag=[]st[p]ciuilqj9e000gsdyaxgoorqq9[d]D[r]nymag.com/strategist': '<em>here’s</em>',
-    'https://www.amazon.com/Leff-Amsterdam-Copperplated-Bronze-amsterdam/dp/B01MSKT7SF?tag=test-adultschoolsupplies-20&ascsubtag=[]st[p]ciuilqj9e000gsdyaxgoorqq9[d]D[r]nymag.com/strategist': '<em>here</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Beethoven-Symphony-No-~-Karajan/dp/B000001GJR/?tag=strat-ALTfavthings-20': '<em>CD</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  {},
-  { 'https://www.amazon.com/Hunter-Original-Moustache-Mittens-Chartreuse/dp/B01A61Y9EA/ref=sr_1_2?s=apparel&ie=UTF8&qid=1477087503&sr=1-2&nodeID=7141123011&keywords=hunter+gloves': 'gift-worthy pair' },
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  { 'https://www.amazon.com/Kuhn-Rikon-Epicurean-Garlic-Press/dp/B0000CD0HX/?tag=strat-deals102116-20': '<strong><em>Amazon</em></strong>' },
-  { 'https://www.amazon.com/Timex-TW2P97900-Fairfield-Leather-Slip-Thru/dp/B01F8WEVT0/?tag=strat-deals102116-20': '<strong><em>Amazon</em></strong>' },
-  {},
-  {},
-  {} ]
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Peasant-Bell-Sleeve-Chambray-Shirt/dp/B01JK1K6M6/?tag=strat-noncheesyhalloween-20': 'Shirt',
-    'https://www.amazon.com/Love-Stitch-Womens-Juniors-Denim/dp/B015YOPPKQ/?tag=strat-noncheesyhalloween-20': 'skirt',
-    'https://www.amazon.com/Snap-Tone-Embossed-Engraving-Rectangular/dp/B00BAXL69K/?tag=strat-noncheesyhalloween-20': 'belt' },
-  { 'https://www.amazon.com/Choies-Womens-Plunge-Choker-Satin/dp/B01JLU8CC2/?tag=strat-noncheesyhalloween-20': 'Slip dress',
-    'https://www.amazon.com/Choies-Womens-Plunge-Choker-Satin/dp/B01JLU8CC2?tag=strat-noncheesyhalloween-20': 'boots',
-    'https://www.amazon.com/MLC-Eyewear-Retro-Vintage-Sunglasses/dp/B014OGOQ96/?tag=strat-noncheesyhalloween-20': 'sunglasses',
-    'https://www.amazon.com/Uniki-Choker-Necklaces-Vintage-Adjustable/dp/B01LVTSGT8/?tag=strat-noncheesyhalloween-20': 'choker' },
-  { 'https://www.amazon.com/Kenneth-Cole-REACTION-Separate-Jacket/dp/B00421BJZI/?tag=strat-noncheesyhalloween-20': 'Suit',
-    'https://www.amazon.com/Van-Heusen-Poplin-Fitted-Collar/dp/B00BM48D34/?tag=strat-noncheesyhalloween-20': 'dress shirt',
-    'https://www.amazon.com/London-01-Classic-Oxfords-Round-Toe-Wingtip/dp/B01CO97QYC/?tag=strat-noncheesyhalloween-20': 'shoes',
-    'https://www.amazon.com/Rubies-Costume-Avengers-Ultron-Deluxe/dp/B00SSXLX2A/?tag=strat-noncheesyhalloween-20': 'robot sleeve' },
-  { 'https://www.amazon.com/Champion-Half-Zip-Jacket-Heather-Stealth/dp/B00SBSU17A/?tag=strat-noncheesyhalloween-20': 'Zip jacket',
-    'https://www.amazon.com/Lega-Mens-Trench-Cotton-Jacket/dp/B01HRLTC5I?tag=strat-noncheesyhalloween-20': 'trench coat',
-    'https://www.amazon.com/Reehut-4-Inch-High-Density-Workout%EF%BC%88Blue%EF%BC%89/dp/B01FTWEQA8/?tag=strat-noncheesyhalloween-20': 'yoga mat',
-    'https://www.amazon.com/dp/B00ZWC4Y30/?tag=strat-noncheesyhalloween-20': 'cargo shorts',
-    'https://www.amazon.com/adidas-Performance-Galactic-Running-Metallic/dp/B01FGKSURI/?tag=strat-noncheesyhalloween-20': 'shoes',
-    'https://www.amazon.com/Womens-Moisture-Wicking-Micro-fleece-Running/dp/B002SFI782/?tag=strat-noncheesyhalloween-20': 'gloves',
-    'https://www.amazon.com/Welecom-Plastic-Super-Figures-Pokemon/dp/B01AT42SU6/?tag=strat-noncheesyhalloween-20': 'poké ball' },
-  { 'https://www.amazon.com/Lincot-Linen-Nehru-Jacket-White/dp/B0146REGQG/?tag=strat-noncheesyhalloween-20': 'Jacket',
-    'https://www.amazon.com/Nine-West-Womens-Classic-Suit/dp/B00TV24PZY/?tag=strat-noncheesyhalloween-20': 'suit pants',
-    'https://www.amazon.com/Calvin-Klein-Womens-Summer-Utility/dp/B01DOHZWS0//?tag=strat-noncheesyhalloween-20': 'collared shirt' },
-  { 'https://www.amazon.com/April-Apparel-Womens-length-sleeve/dp/B01LYSTD92//?tag=strat-noncheesyhalloween-20': 'Shirt',
-    'https://www.amazon.com/Costume-Culture-Womens-Emma-Brown/dp/B00EC0U9CI//?tag=strat-noncheesyhalloween-20': 'wig',
-    'https://www.amazon.com/Kasper-Womens-Petite-Stretch-Kristy/dp/B01CTBX35Q/?tag=strat-noncheesyhalloween-20': 'pants',
-    'https://www.amazon.com/Melania-Pinback-Button-President-Donald/dp/B01B5BGN08//?tag=strat-noncheesyhalloween-20': 'button' },
-  { 'https://www.amazon.com/Womens-Shoulder-Ruffle-Detail-Solid/dp/B01LYK6IV3/?tag=strat-noncheesyhalloween-20': 'Ruffle top',
-    'https://www.amazon.com/Melansay-Women-Beatiful-Summer-Chiffon/dp/B01EI7PMUI/?tag=strat-noncheesyhalloween-20': 'skirt',
-    'https://www.amazon.com/Louisville-Slugger-WB180BB-NA-Natural-Baseball/dp/B00S18XNGQ/?tag=strat-noncheesyhalloween-20': 'baseball bat' },
-  { 'https://www.amazon.com/Anne-Klein-Womens-Jacket-Breton/dp/B01ERISP3E/?tag=strat-noncheesyhalloween-20': 'Zip jacket',
-    'https://www.amazon.com/Anne-Klein-Womens-Two-Pocket-Skirt/dp/B01ERIP1VI/?tag=strat-noncheesyhalloween-20': 'skirt',
-    'https://www.amazon.com/Ladies-Lobster-Clasp-Linked-Necklace/dp/B00GYR1SGI/?tag=strat-noncheesyhalloween-20': 'pearls' },
-  { 'https://www.amazon.com/Womens-Basic-Cotton-Spandex-Racerback/dp/B00XQG1Q5I/?tag=strat-noncheesyhalloween-20': 'Top',
-    'https://www.amazon.com/Balanced-Tech-Seamless-Thong-Panties/dp/B00S1M2JWG/?tag=strat-noncheesyhalloween-20': 'thong',
-    'https://www.amazon.com/50700-50-AltaSOFT-Protector-AltaGrip-Fastening/dp/B01DGA9VQ4/?tag=strat-noncheesyhalloween-20': 'knee pads',
-    'https://www.amazon.com/NARS-Body-Glow-4-oz/dp/B01LO9IW00/?tag=strat-noncheesyhalloween-20': 'body oil' },
-  { 'https://www.amazon.com/Three-Summer-Royal-White-Trucker/dp/B008M10H2U/?tag=strat-noncheesyhalloween-20': 'Trucker hat',
-    'https://www.amazon.com/Levis-Mens-Straight-Fit-Corduroy-38Wx30L/dp/B01EJUD37I/?tag=strat-noncheesyhalloween-20': 'corduroy pants',
-    'https://www.amazon.com/Smokey-Keep-Green-Licensed-T-shirt/dp/B00G2DUKY0?tag=strat-noncheesyhalloween-20': 'T-shirt',
-    'https://www.amazon.com/dp/B01J1A5B1M/?tag=strat-noncheesyhalloween-20': 'backpack',
-    'https://www.amazon.com/Converse-Unisex-Chuck-Taylor-Sneakers/dp/B004LCIUA0/?tag=strat-noncheesyhalloween-20': 'sneakers' },
-  { 'https://www.amazon.com/Rubies-Womens-Suicide-Deluxe-Costume/dp/B01CQCARPW/?tag=strat-noncheesyhalloween-20': 'Harley Quinn costume',
-    'https://www.amazon.com/Suicide-Universe-Comics-Batman-Harley/dp/B01H2BIV8C/?tag=strat-noncheesyhalloween-20': 'wig',
-    'https://www.amazon.com/Rubies-Suicide-Squad-Harley-Quinns/dp/B01KBB3HEI/?tag=strat-noncheesyhalloween-20': 'baseball bat' },
-  {},
-  {} ]
-product inline
-[ { 'https://www.amazon.com/Roruban-Pocket-Memo-A5-Rose/dp/B00CHI7Y52/?tag=strat-bestnotebook-20': 'pink',
-    'https://www.amazon.com/Roruban-Pocket-Memo-A5-Green/dp/B00CHI5J86/?tag=strat-bestnotebook-20': 'green',
-    'https://www.amazon.com/Japan-Roruban-Pocket-Memo112-138mm-Silver/dp/B00IJY2X18/?tag=strat-bestnotebook-20': 'silver',
-    'https://www.amazon.com/Rollbahn-Spiral-Brass-Notebook-Orange/dp/B00V5AWR6E/?tag=strat-bestnotebook-20': 'orange' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Somewhere-in-the-South/dp/B01M1ECUUC/ref=lp_6685277011_1_46?s=art&ie=UTF8&qid=1477434112&sr=1-46': 'this' },
-  { 'https://www.amazon.com/Alex-Katz-Times-Signed-Designated/dp/B01EQI4DUY/?tag=strat-wallart-20&ascsubtag=[]st[p]ciuq1gi1g00161nyd3i6mbacb[d]D': '<em>here</em>',
-    'https://www.amazon.com/Alex-Katz-Canvas-Print-Reproduction/dp/B00IHJ932C/?tag=strat-wallart-20&ascsubtag=[]st[p]ciuq1gi1g00161nyd3i6mbacb[d]D': '<em>here</em>' },
-  { 'https://www.amazon.com/gp/offer-listing/B01M32JFF2/?tag=strat-wallart-20&ascsubtag=[]st[p]ciuq1gi1g00161nyd3i6mbacb[d]D': '<em>11.7 x 16.5</em>' },
-  { 'https://www.amazon.com/Art-Poster-Print-Family-Lawrence/dp/B000I7IWPK/ref=sr_1_fkmr0_1?s=home-garden&ie=UTF8&qid=1498591631&sr=1-1-fkmr0&keywords=Harlem+Street+Scene+1942+Poster+Print+by+Jacob+Lawrence': '<em>here</em>' },
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Nickelodeon-NSI-Gak-Tickled-Pink/dp/B0073Y19BK/?tag=strat-kineticsand-20&ascsubtag=[]st[p]ciussd3ud003kznybudtxfgc3[d]D': '<em>here</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Page-Pottery-Turquoise-Mug/dp/B016PJGBXE/?tag=test-waterbottle-20&ascsubtag=[]st[p]ciutvk0ac002hlay8ex5ly1km[d]D': '<em>here</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/InterDesign-Tumbler-Bathroom-Vanity-Countertops/dp/B01N0BZ25R?tag=strat-bathroomdecoramazon-20&ascsubtag=[]st[p]ciuyf18u700019ay9ae4ev8md[d]D': '<em>brass-bottomed bathroom cups</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Becoming-Brilliant-Successful-Children-Lifetools/dp/1433822393?tag=strat-twoyearold-20': '<em>Becoming Brilliant: What Science Tells Us About Raising Successful Children</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  {},
-  {},
-  {},
-  { 'https://www.amazon.com/Fitbit-Charge-Heart-Fitness-Wristband/dp/B01K9S24EM?tag=strat-trendforecaster-20': 'Fitbit Charge 2',
-    'https://www.amazon.com/Fitbit-Flex-Accessory-Bangle-Small/dp/B01KH2MHSI?tag=strat-trendforecaster-20': 'lower-priced Flex 2' },
-  { 'https://www.amazon.com/Adidas-Mens-NMD-R1-Running-Shoes/dp/B01D1VGCEC/?tag=strat-trendforecaster-20': 'Adidas NMD’s',
-    'https://www.amazon.com/Adidas-Men-Yeezy-Boost-350/dp/B010O2FZRG?tag=strat-trendforecaster-20': 'Yeezy' },
-  {},
-  { 'https://www.amazon.com/Bean-Womens-Genuine-Leather-Brown/dp/B01LYOSTE4?tag=strat-trendforecaster-20': 'L.L. Bean duck boots',
-    'https://www.amazon.com/Apple-iPhone-Unlocked-32-GB/dp/B01M044EYV?tag=strat-trendforecaster-20': 'Apple',
-    'https://www.amazon.com/ROLEX-DAY-DATE-PRESIDENT-WATCH-DIAMOND/dp/B00M8JE9O4?tag=strat-trendforecaster-20': 'Rolex',
-    'https://www.amazon.com/Fitbit-Flex-Accessory-Bangle-Small/dp/B01KH2MHSI/?tag=strat-trendforecaster-20': 'Fitbit' },
-  { 'https://www.amazon.com/Hatchimals-Hatching-Interactive-Creature-Draggle/dp/B019HP21SC?tag=strat-trendforecaster-20': 'Hatchimal',
-    'https://www.amazon.com/s?rh=n%3A166164011%2Cp_lbr_characters_browse-bin%3ATamagotchi&tag=strat-trendforecaster-20': 'Tamagotchi',
-    'https://www.amazon.com/Hasbro-A3174-Furby-Teal/dp/B008DKA3XI?tag=strat-trendforecaster-20': 'Furby' },
-  { 'https://www.amazon.com/Thames-Kosmos-Barbie-STEM-Scientist/dp/B01DREMVD4?tag=strat-trendforecaster-20': 'Barbie STEM',
-    'https://www.amazon.com/Fisher-Price-Think-Learn-Code-A-Pillar-Toy/dp/B01FAPXJ4I?tag=strat-trendforecaster-20': 'Code-A-Pillar',
-    'https://www.amazon.com/CogniToys-Powered-Cognitive-Electronic-Learning/dp/B014IO4HYS?tag=strat-trendforecaster-20': 'Dino from CogniToys' },
-  {},
-  { 'https://www.amazon.com/TOMY-T19202D-Pok%C3%A9mon-Z-Ring-Set/dp/B01JA03S9A?tag=strat-trendforecaster-20': 'Z-Ring',
-    'https://www.amazon.com/Oculus-Rift-Virtual-Reality-Headset-Pc/dp/B00VF0IXEY?tag=strat-trendforecaster-20': 'Oculus Rift' },
-  {},
-  {},
-  {},
-  {} ]
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  { 'https://www.amazon.com/Feeder-Bloat-Outward-Hound-Orange/dp/B00L3O2956/?ascsubtag=[]st[p]civ3u0yvp0010f6yaqaaiphi9[d]D[i]2QIM4E[r]nymag.com/strategist&tag=thestrategistsite-20': '<em>similar</em>',
-    'https://www.amazon.com/Feeder-Bloat-Outward-Hound-Large/dp/B00FPKNRF0/?ascsubtag=[]st[p]civ3u0yvp0010f6yaqaaiphi9[d]D[i]2QIM4E[r]nymag.com/strategist&tag=thestrategistsite-20': '<em>versions</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {} ]
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Chunk-Marble-Candleholder-Copper-Small/dp/B00EUXN7SK/?ascsubtag=[]st[p]civbdsmdf000658y9egh5z5gs[d]D[i]Y2shht[r]nymag.com/strategist&tag=thestrategistsite-20': '<em>here</em>',
-    'https://www.amazon.com/MENU-4766239-Tealight-Holder-Copper/dp/B00O7XGYH4/?ascsubtag=[]st[p]civbdsmdf000658y9egh5z5gs[d]D[i]Y2shht[r]nymag.com/strategist&tag=thestrategistsite-20': '<em>here</em>' },
-  { 'https://www.amazon.com/Sabatier-Wire-Aacacia-Wood-Trivet/dp/B01GCHOVTA/?ascsubtag=[]st[p]civbdsmdf000658y9egh5z5gs[d]D[i]pbGrzg[r]nymag.com/strategist&tag=thestrategistsite-20': '<em>here</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Victorias-Secret-Hiphugger-Panty-Panties/dp/B016P07JIE/?tag=strat-harinef-20': '<em>Bare No Show Hiphuggers</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Lokai-Classic-Bracelet-Size-Medium/dp/B015QBPUV6/?tag=strat-holiday-10yr-20': 'Lokai bracelets',
-    'https://www.amazon.com/Impact-Bracelet-Medium-Purple-Breast/dp/B01M7YJY8Z/?tag=strat-holiday-10yr-20': 'five',
-    'https://www.amazon.com/Lokaifun-Beautiful-Silicone-Bracelets-Purple/dp/B01M4RUH2J/?tag=strat-holiday-10yr-20': 'army-print ones' },
-  { 'https://www.amazon.com/Bath-Body-Works-Signature-Collection/dp/B00WW0B8DO/?tag=strat-holiday-10yr-20': 'Love and Sunshine',
-    'https://www.amazon.com/Forever-Red-Luxury-Cream-Mist/dp/B017O1EKZ8/?tag=strat-holiday-10yr-20': 'Forever Red',
-    'https://www.amazon.com/Bath-Body-Works-Japanese-Blossom/dp/B00GBFYWBG/?tag=strat-holiday-10yr-20': 'Japanese Cherry Blossom' },
-  { 'https://www.amazon.com/Experimenter-Bath-Bomb-6-3-LUSH/dp/B017J2WM3E/?tag=strat-holiday-10yr-20': 'bath bomb from Lush',
-    'https://www.amazon.com/Sensible-Clippers-Buffer-Fingernail-Toenail/dp/B00U7ML6T0/?tag=strat-holiday-10yr-20': 'so colorful',
-    'https://www.amazon.com/Bath-Body-Works-Shea-infused-Lounge/dp/B00H3573X2?tag=strat-holiday-10yr-20': 'socks with shea butter in them',
-    'https://www.amazon.com/The-Maya-Group-47040-Soothing/dp/B007ORWZ7S?tag=strat-holiday-10yr-20': 'Orbeez' },
-  {},
-  { 'https://www.amazon.com/Beados-Gems-Sunshine-Suncatcher-Activity/dp/B00U1JPRQM/?tag=strat-holiday-10yr-20': 'Beados',
-    'https://www.amazon.com/Chill-Factor-Ice-Cream-Maker-Colour/dp/B00HA8I5S4/?tag=strat-holiday-10yr-20': 'Chill Factor' },
-  { 'https://www.amazon.com/PopSockets-Expanding-Smartphones-Tablets-Mandala/dp/B01EFKS4F8?tag=strat-holiday-10yr-20': 'PopSocket' },
-  { 'https://www.amazon.com/PopSockets-Expanding-Smartphones-Tablets-Mandala/dp/B01EFKS4F8?tag=strat-holiday-10yr-20': 'PopSocket',
-    'https://www.amazon.com/BIRCHs-Shoelaces-Colors-Different-Lengths/dp/B00J5Q0NXE/?tag=strat-holiday-10yr-20': 'neon',
-    'https://www.amazon.com/LZWIN-Luminous-Shoelace-Fluorescent-Shoelaces/dp/B00RBQEOGW/?tag=strat-holiday-10yr-20': 'glow-in-the-dark' },
-  { 'https://www.amazon.com/Fujifilm-INSTAX-Mini-Instant-Blue/dp/B00AWKJPOA/?tag=strat-holiday-10yr-20': 'Polaroid Instax Minis' },
-  { 'https://www.amazon.com/Samsung-Gear-VR-Virtual-Warranty/dp/B016OFYGXQ?tag=strat-holiday-10yr-20': 'VR headset' },
-  {},
-  {},
-  {} ]
-product inline
-[ {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Earrings-Madame-Charles-Boyer/dp/B001BEK8C4?tag=strat-holiday-earrings-20': '<em>The Earrings of Madame de…</em>' },
-  {},
-  {},
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-product inline
-[ {},
-  { 'https://www.amazon.com/Yamaha-APXT2-4-Size-Acoustic-Electric-Guitar/dp/B00DYIIQ0Q?tag=strat-holiday-13yr-20': ' acoustic-electric guitar' },
-  { 'https://www.amazon.com/Starbucks-Holiday-25-Gift-Card/dp/B00NVUDIZ0?tag=strat-holiday-13yr-20': ' Starbucks gift card' },
-  { 'https://www.amazon.com/Nike-Dri-Fit-Elite-Basketball-SX3629-309/dp/B00XM506MM?tag=strat-holiday-13yr-20': 'socks',
-    'https://www.amazon.com/A1191156-teller-orange-rubber-unisex/dp/B0081KXZ6M/?tag=strat-holiday-13yr-20': 'watches',
-    'https://www.amazon.com/dp/B01D2QVPQQ?tag=strat-holiday-13yr-20': ' black',
-    'https://www.amazon.com/gp/product/B0018JDEQY/?tag=strat-holiday-13yr-20': 'generic' },
-  { 'https://www.amazon.com/gp/product/B0018JDEQY/?tag=strat-holiday-13yr-20': 'Dell laptop',
-    'https://www.amazon.com/dp/B01IKFII0U?tag=strat-holiday-13yr-20': ' cool mouse',
-    'https://www.amazon.com/Fancier-Chroma-Screen-Muslin-Backrop/dp/B003TYAN7Y?tag=strat-holiday-13yr-20': ' green screen' },
-  { 'https://www.amazon.com/Yamaha-YPG-235-76-Key-Portable-Grand/dp/B003FVB7XA?tag=strat-holiday-13yr-20': ' keyboard',
-    'https://www.amazon.com/Monoprice-3-Feet-24AWG-Plated-105437/dp/B002KL26JA?tag=strat-holiday-13yr-20': 'USB wire' },
-  { 'https://www.amazon.com/Xbox-One-S-2TB-Console-Launch/dp/B01GW3GM7I?tag=strat-holiday-13yr-20': ' XBox One S',
-    'https://www.amazon.com/Call-Duty-Advanced-Warfare-Atlas-Limited/dp/B00M5PX8B6?tag=strat-holiday-13yr-20': ' Call of Duty',
-    'https://www.amazon.com/Madden-NFL-17-Standard-Xbox-One/dp/B01F84ZRSW?tag=strat-holiday-13yr-20': 'Madden 17',
-    'https://www.amazon.com/Halo-Master-Chief-Collection/dp/B00KSQHX1K?tag=strat-holiday-13yr-20': ' Halo' },
-  { 'https://www.amazon.com/Amazon-Kindle-Ereader-Family/b?ie=UTF8&node=6669702011&tag=strat-holiday-13yr-20': 'Kindle',
-    'https://www.amazon.com/Best-Sellers-Books-Teen-Young-Adult/zgbs/books/28?tag=strat-holiday-13yr-20': 'paper books',
-    'https://www.amazon.com/Torch-Against-Night-Ember-Ashes/dp/1101998873?tag=strat-holiday-13yr-20': ' dystopian fantasy' },
-  {},
-  {} ]
-product inline
-[ {},
-  {},
-  { 'https://www.amazon.com/Bean-Box-Gourmet-Coffee-Sampler/dp/B00UGK4S3Y/?tag=strat-holiday-grandma-20?th=1': 'variety packs' },
-  { 'https://www.amazon.com/Adjustable-Mandoline-Slicer-Interchangeable-Julienne/dp/B01FWLW6LC/?tag=strat-holiday-grandma-20': 'plastic',
-    'https://www.amazon.com/gp/product/B001DDD4DS/?tag=strat-holiday-grandma-20': 'olive oil',
-    'https://www.amazon.com/San-Marzano-Pomodoro-Marinara-Sauce/dp/B000SEMMJK/?tag=strat-holiday-grandma-20?th=1': 'marinara sauce',
-    'https://www.amazon.com/Locatelli-Pecorino-Romano-1-Pound/dp/B0007WAU24?tag=strat-holiday-grandma-20': 'Locatelli Romano cheese' },
-  { 'https://www.amazon.com/Locatelli-Pecorino-Romano-1-Pound/dp/B0007WAU24': 'Locatelli cheese' },
-  { 'https://www.amazon.com/Talisman-Italian-Cookbook-bestselling-cookbook/dp/0517503875?tag=strat-holiday-grandma-20': '<em>Talisman Italian Cookbook</em>',
-    'https://www.amazon.com/Bibas-Italian-Kitchen-Biba-Caggiano/dp/0688138659?tag=strat-holiday-grandma-20': 'Biba' },
-  { 'https://www.amazon.com/Coluccio-Certified-Marzano-Tomatoes-28oz/dp/B0094HHN6Y?tag=strat-holiday-grandma-20': 'Coluccio San Marzano tomatoes',
-    'https://www.amazon.com/Barilla-Pasta-Angel-Hair-Ounce/dp/B00IB1CXFA/?tag=strat-holiday-grandma-20?th=1': 'Barilla pasta' },
-  { 'https://www.amazon.com/gp/product/B008GED5NQ/?tag=strat-holiday-grandma-20': 'pizza oven' },
-  { 'https://www.amazon.com/dp/B01A5UZ9BY?th=1?tag=strat-holiday-grandma-20': 'frames' },
-  {},
-  {},
-  {},
-  {} ]
-product inline
-[ {},
-  { 'https://www.amazon.com/Nintendo-Entertainment-System-NES-Classic/dp/B01IFJBQ1E?tag=strat-holiday-nesclassic-20': 'simple $60 box and controller ',
-    'https://www.amazon.com/Thumbs-Retro-Games-Controller-Cables/dp/B0122N12NG?tag=strat-holiday-nesclassic-20': 'retro plug-and-play games' },
-  {},
-  {},
-  { 'https://www.amazon.com/Nintendo-Classic-Controller-Extension-Cable-Mini/dp/B01N90WMQW': 'controller extension cord',
-    'https://www.amazon.com/Nyko-MiniBoss-NES-Classic-Machine-Specific/dp/B01M7YDB97': 'third-party workarounds in the works' },
-  {},
-  {},
-  {},
-  { 'https://www.amazon.com/Nintendo-Entertainment-System-NES-Classic/dp/B01IFJBQ1E?tag=strat-holiday-nesclassic-20': 'NES Classic' },
-  {},
-  {} ]
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  { 'https://www.amazon.com/Kylie-Lip-Kit-Candy-K/dp/B01E9QCYCM?tag=strat-holiday-16yr-20': '<strong>Kylie Lip Kits</strong>' },
-  {},
-  { 'https://www.amazon.com/Bose-QuietComfort-Acoustic-Cancelling-Headphones/dp/B00M1NEUKK?tag=strat-holiday-16yr-20': 'Bose ones',
-    'https://www.amazon.com/Apple-Charcoal-Gray-Battery-iPhone/dp/B0196WBBH8/?tag=strat-holiday-16yr-20': 'charging phone case',
-    'https://www.amazon.com/mophie-juice-pack-reserve-Lightweight/dp/B01B6PUATI/?tag=strat-holiday-16yr-20': 'Mophie' },
-  {},
-  {},
-  {},
-  {},
-  {},
-  {} ]
-product inline
-[ {},
-  { 'https://www.amazon.com/DJI-CP-PT-000500-Mavic-Pro/dp/B01LZ8QTSU?tag=strat-holiday-earlyadopter-20': 'DJI Mavic Pro' },
-  { 'https://www.amazon.com/HTC-VIVE-Virtual-Reality-System-Pc/dp/B00VF5NT4I?tag=strat-holiday-earlyadopter-20': 'HTC Vive' },
-  {},
-  { 'https://www.amazon.com/PlayStation-VR-4/dp/B01DE9DY8S?tag=strat-holiday-earlyadopter-20': 'PlayStation VR' },
-  { 'https://www.amazon.com/Handmade-Gift-Guide/b/ref=hm_brb_gfts?ie=UTF8&node=13271305011&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-leftnav&pf_rd_r=79BYQQ8SHKCQQV91HVH7&pf_rd_r=79BYQQ8SHKCQQV91HVH7&pf_rd_t=101&pf_rd_p=e1b704ff-7235-413a-9747-d47750735bf8&pf_rd_p=e1b704ff-7235-413a-9747-d47750735bf8&pf_rd_i=11260432011&tag=strat-holiday-earlyadopter-20': 'unique handcrafted gifts' },
-  { 'https://www.amazon.com/Tron-Legacy-Jeff-Bridges/dp/B002ZG99QS?tag=strat-holiday-earlyadopter-20': '<em>Tron</em>' },
-  { 'https://www.amazon.com/Teenage-Engineering-TE010AS012-Machine-Sequencer/dp/B00X6EYNQE?tag=strat-holiday-earlyadopter-20': 'Teenage Engineering Pocket Operator' },
-  {},
-  {},
-  { 'https://www.amazon.com/Coffiest-Ready-Drink-Coffee-Bottle/dp/B01IRFB0G2?tag=strat-holiday-earlyadopter-20': 'Soylent Coffiest' },
-  {},
-  {} ]
-product inline
-[ {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/OXO-Grips-3-Piece-Silicone-Spatula/dp/B005PP9ACY?tag=strat-holiday-foodie-20': ' spatulas' },
-  { 'https://www.amazon.com/Udon-Soba-Noodle-Knife-F-1853/dp/B001KN54FM?tag=strat-holiday-foodie-20': 'soba knife' },
-  { 'https://www.amazon.com/DMT-W6F-Diamond-Whetstone-Sharpener/dp/B000022408?tag=strat-holiday-foodie-20': ' DMT Diamond Whetstone Sharpener.' },
-  { 'https://www.amazon.com/KitchenAid-KSM150PSWH-Artisan-Pouring-Shield/dp/B00005UP2K?tag=strat-holiday-foodie-20': ' ',
-    'https://www.amazon.com/s/ref=nb_sb_ss_i_4_17?url=search-alias%3Dkitchen&field-keywords=kitchenaid+stand+mixer+attachments&sprefix=kitchenaid+stand+%2Ckitchen%2C121&crid=3NR3LUXV8JMPU&tag=strat-holiday-foodie-20': ' ' },
-  {},
-  { 'https://www.amazon.com/Modern-French-Culinary-Art-Twentieth-Century/dp/0004351436': '<em>Modern French Culinary Art</em>',
-    'https://www.amazon.com/International-Confectioner-Wilfred-Editor-FANCE/dp/0900778024/ref=sr_1_2?s=books&ie=UTF8&qid=1479215842&sr=1-2&keywords=the+new+international+confectioner': '<em>The New International Confectioner</em>',
-    'https://www.amazon.com/Way-Cook-Child-Julia-Hardcover/dp/B00OVNHQM2/?tag=strat-holiday-foodie-20': ' <em>The Way to Cook</em>',
-    'https://www.amazon.com/Buffets-Receptions-Abelanet-Editor-Walter/dp/0900778202/ref=sr_1_1?s=books&ie=UTF8&qid=1479215946&sr=1-1&keywords=buffets+and+receptions': '<em>Buffets and Receptions</em>' },
-  {},
-  {},
-  {},
-  {} ]
-product inline
-[ { 'https://www.amazon.com/First-Defense-Nasal-Screens-Multi-Size/dp/B00JZVC40Y/?tag=strat-holiday-sharktank-20': 'nose de-stuffer',
-    'https://www.amazon.com/CordaRoys-Charcoal-Chenille-Beanbag-Sleeper/dp/B00V7B78Z6/?tag=strat-holiday-sharktank-20': 'beanbag-chair-slash-bed' },
-  {},
-  {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/John-Derian-Picture-Book/dp/1579656471?tag=strat-johnderian-20': '400-page photo book' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-product inline
-[ { 'https://www.amazon.com/Poler-Mens-Classic-Rolltop-Bag-Nvy/dp/B01F7RG13A/?tag=strat-deals111816-20': 'backpack' },
-  {},
-  {},
-  { 'https://www.amazon.com/Poler-Classic-Rolltop-Bag-Ofw-Arctic/dp/B01F7WEAEC/?tag=strat-deals111816-20': 'white' },
-  {},
-  {} ]
-Done
-product inline
-[ {},
-  {},
-  { 'https://www.amazon.com/Dexter-Russell-5387-7-cleaver/dp/B008RBTGOK?tag=strat-meatcleaver-20': ' Dexter-Russell cleaver',
-    'https://www.amazon.com/Sopranos-Season-1-James-Gandolfini/dp/B00003CXOP?tag=strat-meatcleaver-20': '<em>Sopranos</em>' },
-  { 'https://www.amazon.com/dp/B01FXMD3JE?tag=strat-meatcleaver-20': 'Ziploc bag',
-    'https://www.amazon.com/Parchment-Baking-Paper-Square-Feet/dp/B00448JSAW?tag=strat-meatcleaver-20': 'parchment paper' },
-  {},
-  {} ]
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Dangerous-Woman-Explicit-Ariana-Grande/dp/B01FRF0L8I/?tag=strat-holiday-18yr-20': ' album',
-    'https://www.amazon.com/E-MO-TION-Carly-Rae-Jepsen/dp/B010DY4IHI/?tag=strat-holiday-18yr-20': '<em>Emotion</em>',
-    'https://www.amazon.com/Emotion-Remixed-CARLY-RAE-JEPSEN/dp/B01BU9ZGOE?tag=strat-holiday-18yr-20': '<em>Remixed</em>',
-    'https://www.amazon.com/Emotion-Side-Carly-Rae-Jepsen/dp/B01KTH51DO/?tag=strat-holiday-18yr-20': '<em>Side B</em>',
-    'https://www.amazon.com/Life-Pablo-Explicit-Kanye-West/dp/B01LZNZ95V/?tag=strat-holiday-18yr-20': 'Kanye' },
-  { 'https://www.amazon.com/Best-Sellers-Toys-Games-Gags-Practical-Joke/zgbs/toys-and-games/166034011?tag=strat-holiday-18yr-20': 'joke gifts' },
-  { 'https://www.amazon.com/SmartWool-Trekking-Heavy-Socks-Large/dp/B000NI662A/?tag=strat-holiday-18yr-20': 'SmartWool socks' },
-  { 'https://www.amazon.com/s/ref=sr_nr_p_89_0?fst=as%3Aoff&rh=n%3A3375251%2Ck%3Asmartwool+socks%2Cp_89%3ASmartWool&keywords=smartwool%2Bsocks&ie=UTF8&qid=1479745590&rnid=2528832011&tag=strat-holiday-18yr-20': 'SmartWool socks',
-    'https://www.amazon.com/SmartWool-Ultra-Light-Chestnut-X-Large/dp/B004I6E8NC/?tag=strat-holiday-18yr-20': 'brown ones' },
-  {},
-  { 'https://www.amazon.com/Nike-Killshot-Black-Anthracite-Tennis/dp/B014SM728S/?tag=strat-holiday-18yr-20': 'Killshot' },
-  { 'https://www.amazon.com/Best-Sellers-Books-Feminist-Theory/zgbs/books/11332?tag=strat-holiday-18yr-20': 'great feminist books',
-    'https://www.amazon.com/Feminism-Everybody-Passionate-bell-hooks/dp/1138821624/?tag=strat-holiday-18yr-20': 'bell hooks',
-    'https://www.amazon.com/Feminine-Mystique-Betty-Friedan/dp/0393322572?tag=strat-holiday-18yr-20': '<em>The Feminine Mystique</em>' },
-  { 'https://www.amazon.com/gp/product/B00OQVZDJM/?tag=strat-holiday-18yr-20': 'Kindle' },
-  { 'https://www.amazon.com/Toad-amiibo-Super-Mario-Bros/dp/B00S7O6R9E/?tag=strat-holiday-18yr-20': 'Amiibos',
-    'https://www.amazon.com/FunKo/pages/2592291011?tag=strat-holiday-18yr-20': 'Funko POP figures',
-    'https://www.amazon.com/FunKo-6228-Pop-Star-Wars/dp/B013G0J4ES/?tag=strat-holiday-18yr-20': '<em>Star Wars</em>',
-    'https://www.amazon.com/Funko-POP-Movies-Clueless-Action/dp/B018LRJ8F6/?tag=strat-holiday-18yr-20': 'Cher',
-    'https://www.amazon.com/Clueless-Alicia-Silverstone/dp/B001JYIJAY': '<em>Clueless</em>' },
-  {},
-  {} ]
-product inline
-[ { 'https://www.amazon.com/ihomy-Toilet-Motion-Activated-Changing/dp/B06X9NLJ5R?tag=strat-holiday-illumibowl-20': '<em>here</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/gp/prime/pipeline/prime_gifting_landing?tag=strategist-20': 'Amazon' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  { 'https://www.amazon.com/GoCat-Cat-Feather-Assorted-Colors/dp/B000F9JJJE?tag=strat-holiday-catlady-20': 'Da Bird' },
-  { 'https://www.amazon.com/GoCat-Cat-Feather-Assorted-Colors/dp/B000F9JJJE?tag=strat-holiday-catlady-20': 'Da Bird' },
-  { 'https://www.amazon.com/OTO-Ice-Cream-Truck-Cats/dp/B01L9CGOP2?tag=strat-holiday-catlady-20': 'Famous Oto' },
-  {},
-  { 'https://www.amazon.com/SmartCat-3833-Peek-Prize-Pet/dp/B0006VMN4O?tag=strat-holiday-catlady-20': 'SmartCat Peek-A-Prize Toy Box' },
-  {},
-  { 'https://www.amazon.com/Leaps-Bounds-Cuddle-Monkey-Catnip/dp/B00OE38HGI?tag=strat-holiday-catlady-20': 'small monkey' },
-  { 'https://www.amazon.com/CATS-MEOW-Undercover-Mouse-Exercise/dp/B00EHS4KPW?tag=strat-holiday-catlady-20': 'Cat’s Meow' },
-  { 'https://www.amazon.com/Basis-Pet-Profile-Stainless-Steel/dp/B00ERXXLKW/?tag=strat-holiday-catlady-20': 'Basis Pet' },
-  { 'https://www.amazon.com/Halo-Holistic-Salmon-Indoor-Kitten/dp/B00153RC9I/?tag=strat-holiday-catlady-20': 'Halo',
-    'https://www.amazon.com/Petcurean-815260000796-Free-Chicken-4-Pound/dp/B0080PZR9G/?tag=strat-holiday-catlady-20': 'Petcurean' },
-  { 'https://www.amazon.com/Glass-Surface-Cleaner-32-Fl/dp/B0170EKFL2/?tag=strat-holiday-catlady-20': 'The Good Home' },
-  { 'https://www.amazon.com/Tangle-Teezer-Salon-Elite-Panther/dp/B001S261Q6?tag=strat-holiday-catlady-20': 'Tangle Teezer',
-    'https://www.amazon.com/Safari-Professional-Stainless-Trimmer-Standard/dp/B0002RJM8C/?tag=strat-holiday-catlady-20': 'nail clippers' },
-  { 'https://www.amazon.com/dp/B001DCAAP4/ref=psdc_2975300011_t2_B0087Y5ONE?tag=strat-holiday-catlady-20': 'pooper scooper' },
-  { 'https://www.amazon.com/PetFusion-Scratcher-Cardboard-Construction-unverified/dp/B004X6UEH6/?tag=strat-holiday-catlady-20': 'cardboard one that looks like the symbol for infinity' },
-  {},
-  { 'https://www.amazon.com/SmartyKat-9345-Organic-Catnip-Canister/dp/B007JCDF9U/?tag=strat-holiday-catlady-20': 'actual catnip' },
-  { 'https://www.amazon.com/GoCat-Cat-Feather-Assorted-Colors/dp/B000F9JJJE?tag=strat-holiday-catlady-20': 'damn bird' },
-  {},
-  {} ]
-product inline
-[ {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Brother-Vellies-Womens-Clog-Shearling/dp/B01M8I6CR3/?tag=strat-bfdeals-1122-20': 'Brother Vellies clogs',
-    'https://www.amazon.com/Soia-Kyo-Womens-Salma-f6-Classic/dp/B01HFMAGYU/?tag=strat-bfdeals-1122-20&th=1&psc=1': 'very warm down jacket' },
-  { 'https://www.amazon.com/Shoshanna-Womens-Beaux-Dress-Ruby/dp/B01LWDYS5T/ref=sr_1_2?m=ATVPDKIKX0DER&s=apparel&ie=UTF8&qid=1479937562&sr=1-2&nodeID=1045024&refinements=p_6%253AATVPDKIKX0DER%252Cp_89%253AShoshannahttps://www.amazon.com/Cosabella-Womens-Perugia-Sleeve-Nebbia/dp/B00NGEZ07U/ref=sr_1_188?m=ATVPDKIKX0DER&s=apparel&ie=UTF8&qid=1479937368&sr=1-188&nodeID=9522931011&refinements=p_6%253AATVPDKIKX0DER%252Cp_89%253ACosabellatag=strat-bfdeals-1122-20&th=1': 'another holiday party dress from Shoshanna' },
-  { 'https://www.amazon.com/Cosabella-Womens-Perugia-Sleeve-Nebbia/dp/B00NGEZ07U/ref=sr_1_188?m=ATVPDKIKX0DER&s=apparel&ie=UTF8&qid=1479937368&sr=1-188&nodeID=9522931011&refinements=p_6%253AATVPDKIKX0DER%252Cp_89%253ACosabellatag=strat-bfdeals-1122-20&th=1': 'a very similar Cosabella three-quarter-sleeve robe' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  { 'https://www.amazon.com/Nespresso-Pixie-Espresso-Electric-Discontinued/dp/B004SQUGH4/?tag=strat-holiday-celebs-20': 'Nespesso' },
-  {},
-  { 'https://www.amazon.com/PurseN-Travel-Pillow-Organizer-Black/dp/B01M0JITCO?tag=strat-holiday-celebs-20': 'this new foam neck pillow',
-    'https://www.amazon.com/oprahsfavoritethings?tag=strat-holiday-celebs-20': 'Oprah’s Favorite Things' },
-  {},
-  { 'https://www.amazon.com/Rumours-Fleetwood-Mac/dp/B004OKFISQ?tag=strat-holiday-celebs-20': 'Fleetwood Mac’s <em>Rumours</em>',
-    'https://www.amazon.com/Solid-Air-Speed-John-Martyn/dp/B01CQ7FNB0/?tag=strat-holiday-celebs-20': 'John Martyn’s <em>Solid Air</em>',
-    'https://www.amazon.com/To-Bonnie-From-Delaney/dp/B003UJ6OAS/ref=sr_1_3_twi_lp__3?s=music&ie=UTF8&qid=1479748343&sr=1-3&keywords=Delaney+%26+Bonnie': ' ',
-    'https://www.amazon.com/To-Bonnie-From-Delaney/dp/B003UJ6OAS/?tag=strat-holiday-celebs-20': 'Delaney & Bonnie',
-    'https://www.amazon.com/Odessey-Oracle-LP-Zombies/dp/B00YZ6MWJC/?tag=strat-holiday-celebs-20': 'the Zombies' },
-  {},
-  { 'https://www.amazon.com/mophie-Powerstation-External-Battery-Smartphones/dp/B01BD8EYM2?tag=strat-holiday-celebs-20': 'Mophie dual charger' },
-  {},
-  {},
-  {},
-  { 'https://www.amazon.com/Nubian-Heritage-Honey-Black-Fluid/dp/B000ZECIDS?tag=strat-holiday-celebs-20': 'Nubian honey soap' },
-  {},
-  {},
-  {},
-  {},
-  {} ]
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/gp/product/B01BOUIJZ2/ref=s9_acsd_hps_bw_c_x_1/?tag=strat-holiday-blackfridayamazon-20': 'a Burkman Bros. hoodie' },
-  { 'https://www.amazon.com/Happy-Socks-Combed-Cotton-Assorted/dp/B014HIKZVO/?tag=strat-holiday-blackfridayamazon-20': 'another Happy Socks gift box' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  { 'https://www.amazon.com/Pioneer-Leather-BookBound-Bi-Directional-Photo/dp/B001AUA5XQ/?tag=strat-holiday-wellness-20': 'book of memories and stories and photos' },
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  { 'https://www.amazon.com/Vitamix-5200-Series-Blender-Black/dp/B008H4SLV6/?tag=strat-holiday-wellness-20': 'Vitamix',
-    'https://www.amazon.com/Moon-Juice-Organic-Wildcrafted-Harmonizing/dp/B00TUAVLSG?tag=strat-holiday-wellness-20': 'Moon Juice Spirit Dust',
-    'https://www.amazon.com/POTION-Organic-Ashwagandha-Root-Extract/dp/B00B638XW2?tag=strat-holiday-wellness-20': 'Sun Potion Ashwagandha',
-    'https://www.amazon.com/Sunwarrior-Warrior-Protein-Chocolate-Servings/dp/B00H7SH1SChttps://www.amazon.com/Sunwarrior-Warrior-Protein-Chocolate-Servings/dp/B00H7SH1SC?tag=strat-holiday-wellness-20': 'Sunwarrior plant-based protein powder in chocolate',
-    'https://www.amazon.com/Moon-Juice-Organic-Wildcrafted-Adaptogenic/dp/B00TUAK3QW/?tag=strat-holiday-wellness-20': 'Brain Dust' },
-  { 'https://www.amazon.com/Vitamix-5200-Series-Blender-Black/dp/B008H4SLV6/?tag=strat-holiday-wellness-20': ' Vitamix' },
-  {},
-  {} ]
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ]
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  { 'https://www.amazon.com/Brodart-Fold-Archival-Jacket-Covers/dp/B003XEWCY2https://www.amazon.com/Brodart-Fold-Archival-Jacket-Covers/dp/B003XEWCY2?tag=strat-holiday-vintagecoffeebooks-20': 'Amazon' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-product inline
-[ {}, {} ]
-Done
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  {},
-  { 'https://www.amazon.com/Nike-Windrunner-Jacket-Yellow-Orange-Blue-XL/dp/B00H0RIDP0/?tag=strat-holiday-fuccboi-20': '<em>similar</em>' },
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  { 'https://www.amazon.com/Apple-Plus-Unlocked-128-GB/dp/B01LY5U0EY?tag=strat-holiday-fuccboi-20': 'iPhone 7 plus' },
-  { 'https://www.amazon.com/DJI-Mobile-Handheld-Stabilized-Gimbal/dp/B01KUX9VT2?tag=strat-holiday-fuccboi-20': 'DJI stabilizer',
-    'https://www.amazon.com/Samsung-Curved-27-Inch-Monitor-C27F591/dp/B01CX26VNC/?tag=strat-holiday-fuccboi-20': 'this curved computer screen',
-    'https://www.amazon.com/Samsung-UN65KU6500-Curved-65-Inch-Ultra/dp/B01E6BL5SO/?tag=strat-holiday-fuccboi-20': 'curved TVs' },
-  {},
-  {},
-  {} ]
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Jacques-Levine-4640-Womens-Slipper/dp/B00YFIVKVQ?tag=strat-slippers-20': 'in gold',
-    'https://www.amazon.com/Jacques-Levine-4640-Womens-Slipper/dp/B00YFJ3EYG?tag=strat-slippers-20': 'the black suede with gold trim' },
-  { 'https://www.amazon.com/Pajar-Womens-Manue-Slip-Chestnut/dp/B013GJ0WGS/?tag=strat-slippers-20': 'Pajar Canada moccasins' },
-  { 'https://www.amazon.com/UGG-Womens-Yvett-Slipper-Black/dp/B01AIJML9K/ref=sr_1_1?ie=UTF8&qid=1480943835&sr=8-1&keywords=Ugg%2BYvett%2Bslipper&th=1&psc=1': 'Ugg Yvett slipper' },
-  { 'https://www.amazon.com/Jacques-Levine-4640-Womens-Slipper/dp/B00YFJ3EYG?tag=strat-slippers-20': 'Jacques Levine slides, $110',
-    'https://www.amazon.com/Jacques-Levine-4640-Womens-Slipper/dp/B00YFJ3EYG?th=1': '<br>',
-    'https://www.amazon.com/Pajar-Womens-Manue-Slip-Chestnut/dp/B013GJ0WGS/?tag=strat-slippers-20': 'Pajar Canada moccasins, from $24',
-    'https://www.amazon.com/Pajar-Womens-Manue-Slip-Chestnut/dp/B013GJ0WGS/ref=sr_1_1?ie=UTF8&qid=1480943784&sr=8-1&keywords=pajar%2Bslippers&th=1': '<br>',
-    'https://www.amazon.com/UGG-Womens-Yvett-Slipper-Black/dp/B01AIJML9K/?tag=strat-slippers-20': 'The Ugg Yvett, $85' },
-  { 'https://www.amazon.com/dp/B001SSZIQY/?tag=strat-slippers-20': 'The Ugg Scuff Slip-On, from $70' },
-  {},
-  {} ]
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Hatchimals-Hatching-Interactive-Creature-Draggle/dp/B01N8S0D1V/?tag=strat-holiday-hatchimal-20': 'well over $200' },
-  {},
-  {} ]
-Done
-product inline
-[ {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {} ]
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/gp/product/B016UZ7FNS?tag=strat-holiday-boss-20': 'ten umbrellas' },
-  { 'https://www.amazon.com/Pilot-Retractable-Premium-12-Pack-31020/dp/B001GAOTSW?tag=strat-holiday-boss-20': 'lot of pens' },
-  { 'https://www.amazon.com/Spectacles-Contact-Lens-Case-Accessories/dp/B01LWMGA97?tag=strat-holiday-boss-20': 'funny contact-lens case' },
-  { 'https://www.amazon.com/Hamilton-Original-Broadway-Recording-Explicit/dp/B0135P6PZA/?tag=strat-holiday-boss-20': '<i>Hamilton</i>',
-    'https://www.amazon.com/Yellow/dp/B00NR43HIS/?tag=strat-holiday-boss-20': 'Yellow',
-    'https://www.amazon.com/Verbatim-Branded-Recordable-10-Disc-95099/dp/B0009YEBWK/?tag=strat-holiday-boss-20': 'DVD',
-    'https://www.amazon.com/Custom-love-Ibiza-shirt-Black/dp/B01M8FT9EI?tag=strat-holiday-boss-20': '“I Heart Ibiza” T-shirt' },
-  {},
-  { 'https://www.amazon.com/gp/product/B01INLBQOQ?tag=strat-holiday-boss-20': 'American Eagle T-shirts',
-    'https://www.amazon.com/Citizen-EM0320-59D-Diamond-Accented-Stainless-Bracelet/dp/B00KL9I8HM?tag=strat-holiday-boss-20&th=1': 'a Citizen watch with a baby-blue face and diamonds' },
-  { 'https://www.amazon.com/Aveeno-Positively-Radiant-Moisturizer-Spectrum/dp/B001IM5VT4/?tag=strat-holiday-boss-20': 'Aveeno moisturizers',
-    'https://www.amazon.com/Aveeno-Positively-Radiant-Brightening-Daily/dp/B0000632EN?tag=strat-holiday-boss-20&th=1': 'scrubs' },
-  {},
-  {} ]
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-product inline
-[ {}, {} ]
-Done
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  { 'https://www.amazon.com/Bluesmart-One-International-Carry-TSA-Approved/dp/B00X5OUC1U?tag=strat-berniesanders-20': 'BlueSmart' },
-  { 'https://www.amazon.com/Big-Skinny-Slimline-Bi-Fold-Wallet/dp/B00PUBBDXC?tag=strat-berniesanders-20': 'Big Skinny wallet' },
-  {},
-  {},
-  { 'https://www.amazon.com/Netflix-Gift-Cards-E-mail-Delivery/dp/B00YD560HA/?tag=strat-berniesanders-20': 'Netflix',
-    'https://www.amazon.com/Netflix-Gift-Card-E-mail-Delivery/dp/B01730QPK8?tag=strat-berniesanders-20': ' ' },
-  { 'https://www.amazon.com/Planet-Earth-Complete-Collection-Various/dp/B0090XO57C/?tag=strat-berniesanders-20': 'nature documentaries',
-    'https://www.amazon.com/Who-Killed-Electric-Martin-Sheen/dp/B000I5Y8FU?tag=strat-berniesanders-20': '<em>Who Killed the Electric Car</em>' },
-  {},
-  { 'https://www.amazon.com/Lifefactory-22-Ounce-Beverage-Bottle-Midnight/dp/B003BFS8WI?tag=strat-berniesanders-20': 'Lifefactory' },
-  { 'https://www.amazon.com/Reusable-Filter-Housing-EXTRA-FILTERS/dp/B00BA052SO/?tag=strat-berniesanders-20': 'reusable K-cups' },
-  { 'https://www.amazon.com/Bodum-Chambord-French-Coffee-Chrome/dp/B00008XEWG?tag=strat-berniesanders-20': 'French press' },
-  {},
-  {},
-  {},
-  {},
-  {} ]
-product inline
-[ {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Becoming-Brilliant-Successful-Children-Lifetools/dp/1433822393?tag=strat-holiday-4yr-20': '<em>Becoming Brilliant: What Science Tells Us About Raising Successful Children</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  {},
-  { 'https://www.amazon.com/Apple-42mm-Smart-Watch-Aluminum/dp/B00WNWJR0W?tag=strat-celebs121416-20': 'Apple Watch' },
-  { 'https://www.amazon.com/Flexible-Flyer-Classic-Wooden-Toboggan/dp/B00009936A?tag=strat-celebs121416-20': 'toboggan' },
-  { 'https://www.amazon.com/Pottery-Wheel-Artista-Table-Top/dp/B0009F76BM?tag=strat-celebs121416-20': 'pottery wheel',
-    'https://www.amazon.com/dp/B00GYE0DLW?tag=strat-celebs121416-20': 'kiln' },
-  { 'https://www.amazon.com/Gentle-Giant-Studios-Star-Wars/dp/B0086URMW0?tag=strat-celebs121416-20': 'life-size Yodas' },
-  {},
-  {},
-  {},
-  {},
-  {} ]
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-product inline
-[ { 'https://www.amazon.com/Michael-Todd-Gentle-Cleanser-Bottle/dp/B016IT3738/?tag=strat-oatfacewash-20&ascsubtag=[]st[p]ciwsd1xc5001r8zy8z2k6ydht[d]D[r]nymag.com/strategist': '<em>here</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Fitbit-Charge-Heart-Fitness-Wristband/dp/B01K9S260E/?tag=strat-holiday-stellagrandmagift-20': 'her Fitbit',
-    'https://www.amazon.com/Anti-Inflammatory-Diet-Action-Plans-Restore/dp/1942411251/?tag=strat-holiday-stellagrandmagift-20&th=1': 'anti-inflammatory diets' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Starbucks-Holiday-25-Gift-Card/dp/B00NVUDIZ0/?tag=strat-holiday-stockingstuffer-20': 'Starbucks cards' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Fleabag-Season-1/dp/B01J4SST1K?tag=strat-holiday-primenow-20': 'Fleabag',
-    'http://primenow.amazon.com': 'here',
-    'https://www.amazon.com/gp/prime/pipeline/prime_gifting_landing?tag=strat-holiday-primenow-20': 'sign up' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  { 'https://www.amazon.com/Under-Armour-Womens-Mirror-Legging/dp/B00YQLFBOO?tag=strat-yogapants-20&ascsubtag=[]st[p]cixkxsax500052ay7zr2knpno[d]D': '<em>here</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Cambridge-SoundWorks-OontZ-Angle-Generation/dp/B010OYASRG?tag=strat-bathroomradio-20&ascsubtag=[]st[p]cixkyo6340004day8p1uzxgim[d]D[r]nymag.com/strategist': '<em>here</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Keysocks-Knee-High-Show-Socks/dp/B00BRYEA1I?tag=strat-keysocks-20': 'Keysocks' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-product inline
-[ {},
-  { 'https://www.amazon.com/Toms-BonBon-Super-Salmiak-Salmiakki/dp/B0136UMTYU?tag=strat-danishthings-20&ascsubtag=[]st[p]cixt4pjbv000ak0ybzzunxozu[d]D': '<em>here</em>',
-    'https://www.amazon.com/Nordic-Sweets-Raspberries-Gummi-Licorice/dp/B00FRUNVI6?tag=strat-danishthings-20&ascsubtag=[]st[p]cixt4pjbv000ak0ybzzunxozu[d]D': '<em>here</em>' },
-  { 'https://www.amazon.com/gp/offer-listing/B00BOTXXIW?tag=strat-danishthings-20&ascsubtag=[]st[p]cixt4pjbv000ak0ybzzunxozu[d]D': '<em>here</em>' },
-  {},
-  { 'https://www.amazon.com/Won-Hundred-Xander-Sweatshirt-Medium/dp/B01MEBT1CY?tag=strat-danishthings-20&ascsubtag=[]st[p]cixt4pjbv000ak0ybzzunxozu[d]D': '<em>Won Hundred sweatshirt</em>' },
-  {},
-  {} ]
-Done
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Becoming-Brilliant-Successful-Children-Lifetools/dp/1433822393?tag=strat-holiday-4yr-20': '<em>Becoming Brilliant: What Science Tells Us About Raising Successful Children</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  {},
-  { 'https://www.amazon.com/FRAME-Womens-Le-Original-Jeans/dp/B071RBKGPV?tag=strat-womensbestjeans-20&ascsubtag=[]st[p]ciy35dx2z00006ayc5wbhswe3[d]D': '<em>a little distressing</em>' },
-  {},
-  {},
-  {},
-  { 'https://www.amazon.com/Surface-Air-Womens-Regular-Skinny/dp/B019EB9BJQ?tag=strat-womensbestjeans-20&ascsubtag=[]st[p]ciy35dx2z00006ayc5wbhswe3[d]D': '<em>this pair</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  { 'https://www.amazon.com/Nudie-Jeans-Mens-Black-36x32/dp/B00XBMPFEK/?tag=strat-celebsfavjeans-20': 'Nudie jeans' },
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {} ]
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Hobonichi-Techo-English-Planner-Notebook/dp/B01LKZ5NXC/?tag=strat-japanesenotebook-20': 'Hobonichi Techo' },
-  {},
-  { 'https://www.amazon.com/Hobonichi-Techo-English-Planner-Notebook/dp/B01LKZ5NXC/?tag=strat-japanesenotebook-20': 'Hobonichi Techo notebooks' },
-  {},
-  { 'https://www.amazon.com/Hobonichi-Techo-Ballpoint-Pen/dp/B01MU0QKG4/ref=pd_sim_229_1?_encoding=UTF8&pd_rd_i=B01MU0QKG4&pd_rd_r=8ATYJTM93VJCSQPPFS30&pd_rd_w=Ckmx3&pd_rd_wg=Ogn7M&psc=1&refRID=8ATYJTM93VJCSQPPFS30': 'this extra-fine ballpoint pen' },
-  { 'https://www.amazon.com/Moleskine-Daily-Planner-Pocket-Black/dp/B015NG44GQ/?tag=strat-japanesenotebook-20': 'Moleskine' },
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Happy-Sleeper-Science-Backed-Helping-Sleep-Newborn/dp/0399166025?tag=strat-sidesleeper-20': '<em>The Happy Sleeper</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Penny-Lane-Brand-Hacky-Guatamala/dp/B012W5SWXC/?tag=strat-chinesejianzi-20': 'Hacky Sack' },
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  {},
-  { 'https://www.amazon.com/gp/product/B007IDM4EM/?tag=strat-americanapparel-20': ' Alternative Apparel',
-    'https://www.amazon.com/Carhartt-Midweight-Sweatshirt-Original-X-Large/dp/B0008KL9PW/?tag=strat-americanapparel-20': 'men',
-    'https://www.amazon.com/Carhartt-Sandpoint-Sweatshirt-Heather-X-Large/dp/B01DIZPXWI/?tag=strat-americanapparel-20': 'women' },
-  {},
-  { 'https://www.amazon.com/Next-Level-Apparel-6200-Cotton/dp/B007N2RIYY/?tag=strat-americanapparel-20': 'T-shirts' },
-  {},
-  {},
-  {},
-  {},
-  {},
-  { 'https://www.amazon.com/Capezio-Professional-3400-Seamed-Fishnet-Tights/dp/B00UKE9DJA/?tag=strat-americanapparel-20': 'seamed fishnets' },
-  {},
-  { 'https://www.amazon.com/Capezio-Womens-Adult-Black-X-Small/dp/B00XAI7V5G/?tag=strat-americanapparel-20': 'crops' },
-  {},
-  {},
-  {},
-  { 'https://www.amazon.com/Vital-Salveo-Outdoor-Fingerless-Recovery/dp/B01IH80BU0/?tag=strat-americanapparel-20': 'gray pair' },
-  {},
-  { 'https://www.amazon.com/gp/product/B013TGEPZW?tag=strat-americanapparel-20': 'only $17.',
-    'https://www.amazon.com/Herschel-Supply-Co-Settlement-Black/dp/B0077BYLKK/?tag=strat-americanapparel-20': 'bag,',
-    'https://www.amazon.com/dp/B00SV72AVQ/?tag=strat-americanapparel-20': 'Carhartt brown',
-    'https://www.amazon.com/JanSport-Classic-Superbreak-Backpack-Aqua/dp/B012BUCY96/ref=sr_1_5?ie=UTF8&qid=1485452466&sr=8-5&keywords=jansport%2Bbackpack&th=1&psc=1': 'teal one' },
-  {},
-  { 'https://www.amazon.com/HDE-Womens-Liquid-Metallic-Pleated/dp/B00KY8IZUK/?tag=strat-americanapparel-20': 'skater-flare skirts',
-    'https://www.amazon.com/dp/B01LWOD7CJ/?tag=strat-americanapparel-20': 'bomber jackets' },
-  {},
-  {} ]
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-product inline
-[ {}, {} ]
-Done
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  { 'https://www.amazon.com/dp/B007NYK1D2?tag=strat-weekenderbags-20&ascsubtag=[]st[p]ciyys11bj037cmvyeqyb3zovw[d]D': '<em>here</em>',
-    'https://www.amazon.com/Filson-70075-Tote-Briefcase/dp/B00C6BYVP6?tag=strat-weekenderbags-20&ascsubtag=[]st[p]ciyys11bj037cmvyeqyb3zovw[d]D': '<em>here</em>' },
-  { 'https://www.amazon.com/Fox-Racing-Shuttle-180-Gearbag/dp/B012CTIE4A?tag=strat-weekenderbags-20&ascsubtag=[]st[p]ciyys11bj037cmvyeqyb3zovw[d]D': '<em>Fox Racing Shuttle Gearbag</em>' },
-  { 'https://www.amazon.com/Kenneth-Colombian-Leather-Weekender-Duffel/dp/B00BTMW290?tag=strat-weekenderbags-20&ascsubtag=[]st[p]ciyys11bj037cmvyeqyb3zovw[d]D': '<em>Amazon</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  {},
-  { 'https://www.amazon.com/Encyclopedia-Aromatherapy-Chrissie-Wildwood/dp/0892816384/?tag=strat-essentialoils-20': '<i>The Encyclopedia of Aromatherapy</i>' },
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/b/?node=15240005011&pf_rd_p=738f0356-25ba-49b9-b23c-4c202ce0d273&pf_rd_r=D9T5T0BBKKE3ST4KKB3G&tag=strat-sale8.62off-20': '$8.62 off all orders over $50 today' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Original-Tiger-Tail-Muscle-Massage/dp/B00ZPMAIO6?tag=strat-musclemassager-20': '<em>Tiger Tail</em>',
-    'https://www.amazon.com/Thera-Cane-No-Model-Massager/dp/B00NH0XG7E/?tag=strat-musclemassager-20': '<em>Thera Cane</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Bohemian-Tablecloth-Oatmeal-Linen/dp/B01F5UW6QA?tag=strat-diningroomdecor-20&ascsubtag=[]st[p]cizq3gm2m00cn8ayeuojximtk[d]D[r]nymag.com/strategist': '<em>tablecloth</em>',
-    'https://www.amazon.com/Oatmeal-linen-Napkins-Set-Napkins/dp/B017J66VA0?tag=strat-diningroomdecor-20&ascsubtag=[]st[p]cizq3gm2m00cn8ayeuojximtk[d]D[r]nymag.com/strategist': '<em>linen napkins</em>' },
-  { 'https://www.amazon.com/Dansk-Classics-16-Inch-Round-Salad/dp/B0035AK67E/?tag=strat-diningroomdecor-20&ascsubtag=[]st[p]cizq3gm2m00cn8ayeuojximtk[d]D[r]nymag.com/strategist': '<em>Dansk wood salad bowl</em>' },
-  { 'https://www.amazon.com/Thomas-Paul-Melamine-Lobster-Serving/dp/B0083K7H82/?tag=strat-diningroomdecor-20&ascsubtag=[]st[p]cizq3gm2m00cn8ayeuojximtk[d]D[r]nymag.com/strategist': '<em>here</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Disney-Beauty-Beast-Enchanted-Jewelry/dp/B01KCECIOO?tag=strat-beautyandbeastcup-20': 'jewelry-box toy',
-    'https://www.amazon.com/Funko-POP-Disney-Beauty-Beast/dp/B00K8UBWCW/?tag=strat-beautyandbeastcup-20': 'Lumiere',
-    'https://www.amazon.com/Funko-POP-Disney-Cogsworth-Action/dp/B00K8UBWJ0/?tag=strat-beautyandbeastcup-20': 'Cogsworth',
-    'https://www.amazon.com/Funko-POP-Disney-Action-Figure/dp/B00K8UBWDQ?tag=strat-beautyandbeastcup-20': 'Mrs. Potts, and Chip' },
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  { 'https://www.amazon.com/Disney-Beauty-Beast-Enchanted-Jewelry/dp/B01KCECIOO?tag=strat-beautyandbeastcup-20': '<strong>this jewelry box</strong>' },
-  {},
-  {},
-  {},
-  {},
-  {},
-  {} ]
-product inline
-[ {}, {}, {}, {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Vietnam-Delicious-Golden-Durian-Candy/dp/B01M246XTH/?ascsubtag=[]st[p]cj016vxkr00u9pkye5va23miv[d]D[i]cg0WXD&tag=thestrategistsite-20': '<em>here</em>',
-    'https://www.amazon.com/Gourmet-Thai-Durian-Candy-Natural/dp/B00TZGVCZW/?ascsubtag=[]st[p]cj016vxkr00u9pkye5va23miv[d]D[i]cg0WXD&tag=thestrategistsite-20': '<em>here</em>' },
-  { 'https://www.amazon.com/Gustafs-Gumbilees-TWO-PACK-Gourmet/dp/B013XD8L3I/?ascsubtag=[]st[p]cj016vxkr00u9pkye5va23miv[d]D[i]SrTuRC&tag=thestrategistsite-20': '<em>here</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/baby-reg/homepage?tag=strat-babyshowergifts-20': 'registry on Amazon' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/adidas-Unisex-Originals-Create-Backpack/dp/B01EIUDWAM?tag=strat-bestbackpack-20': '<em>Create II version</em>' },
-  {},
-  { 'https://www.amazon.com/Coofit-Leather-Backpack-Schoolbag-Daypack/dp/B01EKSDO4Q?tag=strat-bestbackpack-20&ascsubtag=[]st[p]cj02w4mvs00rnszye77qan3ta[d]D': '<em>here</em>' },
-  { 'https://www.amazon.com/Timbuk2-Robin-Pack-Flame-Size/dp/B01IXTSFSI?tag=strat-bestbackpack-20&ascsubtag=[]st[p]cj02w4mvs00rnszye77qan3ta[d]D': '<em>here</em>',
-    'https://www.amazon.com/Timbuk2-Tuck-Pack-Nautical-Handbag/dp/B0198WG4WI?tag=strat-bestbackpack-20&ascsubtag=[]st[p]cj02w4mvs00rnszye77qan3ta[d]D': '<em>here</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Maddie-Diaries-Memoir-Ziegler/dp/1501150669?tag=strat-celebmaddieziegler-20': 'The Maddie Diaries' },
-  {},
-  {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Spiegelau-Beer-Classics-Lager-Glasses/dp/B003QRBYX6?tag=strat-bestwaterglasses-20&ascsubtag=[]st[p]cj046cm1z0119mvye493x5qsu[d]D': '<em>lager glasses available</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-product inline
-[ {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Lalo-Champagne-Writing-Tablet-Envelopes/dp/B001H5CEOM?tag=strat-stationary-20': '<em>champagne color</em>' },
-  { 'https://www.amazon.com/Pen-Paper-Note-Uptown-Girl/dp/B01H0UUR0A?tag=strat-stationary-20': '<em>here</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Huluwa-Toiletry-Multifunction-Waterproof-Organizer/dp/B072M471L2/?tag=strat-millennialpink-20&ascsubtag=[]st[p]cj0ia412k00tatzy68v0lytqs[d]D[r]nymag.com/strategist': '<em>here</em>' },
-  { 'https://www.amazon.com/Uptown-Vertical-Tote-Grain-Leather/dp/B00X7S6EX4/?tag=strat-millennialpink-20&ascsubtag=[]st[p]cj0ia412k00tatzy68v0lytqs[d]D': '<em>here</em>' },
-  { 'https://www.amazon.com/KitchenAid-KHM512PK-5-Speed-Ultra-Power/dp/B00GWUNU54/?tag=strat-millennialpink-20&ascsubtag=[]st[p]cj0ia412k00tatzy68v0lytqs[d]D': '<em>hand mixer</em>' },
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Alchemy-Goods-Elliot-Travel-Kit/dp/B01D204DSO?tag=strat-doppkits-20&ascsubtag=[]st[p]cj0msveqq01flqyy6l1wzc2aa[d]D': '<em>here</em>',
-    'https://www.amazon.com/Alchemy-Goods-Elliot-Mini-Travel/dp/B01DWGHM5Y?tag=strat-doppkits-20&ascsubtag=[]st[p]cj0msveqq01flqyy6l1wzc2aa[d]D': '<em>here</em>' },
-  {},
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  {},
-  { 'https://www.amazon.com/Gold-Toe-Womens-Microfiber-Trouser/dp/B003HC8S8Y?tag=strat-atssocksjeans-20': '<b>Gold Toe’s Microfiber Trouser Dress</b>' },
-  {},
-  { 'https://www.amazon.com/Gold-Toe-Womens-Cotton-Trouser/dp/B0039ZL7R8?tag=strat-atssocksjeans-20 ': 'Gold Toe knee-high cotton socks',
-    'https://www.amazon.com/Gold-Toe-Womens-Microfiber-Trouser/dp/B003HC8S8Y?tag=strat-atssocksjeans-20': 'knee-high microfiber version' },
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-product inline
-[ { 'https://www.amazon.com/Four-Twenty-Blackbirds-Pie-Book/dp/1455520519?tag=strat-bakingessentials-20': '<em>The Four & Twenty Blackbirds Pie Book</em> too).' },
-  { 'https://www.amazon.com/Mrs-Andersons-Baking-Ceramic-Stoneware/dp/B00004S1BT/?ascsubtag=[]st[p]cj0sho0q7007hsnyei7r33jfn[d]D[i]UmK1Ds&tag=thestrategistsite-20': '<em>here</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Girl-Scout-Samoas-Cookies-Box/dp/B00BDSGSOU?tag=strat-girlscoutcookies-20': 'Samoas',
-    'https://www.amazon.com/Girl-Scout-Thin-Mints-Cookies/dp/B00BE4Q514?tag=strat-girlscoutcookies-20': 'Thin Mints',
-    'https://www.amazon.com/Girl-Scouts-Scout-Cookies-Tagalongs/dp/B00MZ9N542?tag=strat-girlscoutcookies-20': 'Tagalongs',
-    'https://www.amazon.com/Little-Brownie-Bakers-Trefoil-Shortbread/dp/B005LK9TYC?tag=strat-girlscoutcookies-20': 'Trefoils' },
-  {},
-  {},
-  {},
-  { 'https://www.amazon.com/s/ref=nb_sb_ss_i_1_10?url=search-alias%3Dgrocery&field-keywords=girl%2Bscout%2Bcookies&sprefix=girl+scout%2Cundefined%2C142&crid=389IYRKFFU1QM&tag=strat-girlscoutcookies-20': 'Amazon phenomenon' },
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {} ]
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Drop-Stop-Original-Patented-Filler/dp/B00BYH6C1E?tag=strat-sharktankspringcleaning-20': 'ap filler',
-    'https://www.amazon.com/BEARD-KING-Official-Clippings-Grooming/dp/B01FJ9GE74?tag=strat-sharktankspringcleaning-20': 'catch your beard hair',
-    'https://www.amazon.com/Bambooee-Original-Reuseable-Washable-Replacement/dp/B00IFHNA48?tag=strat-sharktankspringcleaning-20': 'reusable' },
-  { 'https://www.amazon.com/Original-NeatCheeks-Natural-Flavored-Sensitive/dp/B00OD1FHUA?tag=strat-sharktankspringcleaning-20': '<em>sensitive skin option</em>' },
-  { 'https://www.amazon.com/Saavy-Naturals-Pampering-Body-Wash/dp/B00JDNMTF4/?tag=strat-sharktankspringcleaning-20&ascsubtag=[]st[p]cj13sbzc400e95byerkqp2flx[d]D': '<em>here</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Skyline-Furniture-Ottoman-Canopy-Stripe/dp/B008336PVO?tag=strat-colorfulaptaccents-20': 'striped, super-graphic ottoman' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  { 'https://www.amazon.com/dp/B014SG5WOK?ascsubtag=[]st[p]cj16ko1e40167m0yekwb644dv[d]D[i]2sHqSm&tag=thestrategistsite-20': '<em>here</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  {},
-  {},
-  { 'https://www.amazon.com/Eastpak-Backpacks-Padded-Backpack-Black/dp/B000CRBEJ2/?tag=strat-askthestrat4.7.17-20': ' high-school math class' },
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Schick-TrimStyle-Moisturizing-Bikini-Trimmer/dp/B00SMIIR0W/?tag=strat-peopleschoicerazors-20&th=1': '<em>new Silk version</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Widows-Guide-Sex-Dating-Novel-ebook/dp/B00ANI9FZU?tag=stra': '<em>author</em>' },
-  { 'https://www.amazon.com/dp/B00O1E3RZ6/ref=twister_B00LOCOITW?ascsubtag=[]st[p]cj1gxfg3o02ijhcyexvhjefwz[d]D[i]Rz0sh8[r]nymag.com/strategist&tag=thestrategistsite-20': '<em>here</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Albanese-Candy-Pineapple-Gummi-5-pound/dp/B00NEIYJXE/?tag=strat-redcandy-20': 'pineapple gummy bears',
-    'https://www.amazon.com/Easter-Airheads-White-Mystery-Ounce/dp/B0052XIYSK/?tag=strat-redcandy-20&th=1': '“mystery” Airheads' },
-  {},
-  {} ]
-Done
-product inline
-[ {},
-  {},
-  { 'https://www.amazon.com/GRINDER-Large-Magnetic-Pollen-Screen/dp/B008N62P0Q?tag=strat-askthestrat4.20.17-20': 'classic metal cylinder' },
-  { 'https://www.amazon.com/dp/B01LXHDA18/ref=twister_B01M0E5J77?tag=strat-askthestrat4.20.17-20': 'The Combie' },
-  { 'https://www.amazon.com/dp/B00E7XC6MQ?tag=strat-askthestrat4.20.17-20': ' Sharpstone',
-    'https://www.amazon.com/Grinder-Sifter-Magnetic-Medium-Titanium/dp/B004G3RIRK?tag=strat-askthestrat4.20.17-20': ' Space Case',
-    'https://www.amazon.com/Zip-Grinders-Grinder-Catcher-Aluminum/dp/B00ZVSIOZO?tag=strat-askthestrat4.20.17-20': ' gold',
-    'https://www.amazon.com/Zip-Grinders-Grinder-Catcher-Aluminum/dp/B00ZVEVG0I?tag=strat-askthestrat4.20.17-20': ' black' },
-  {},
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {},
-  {},
-  { 'https://www.amazon.com/Copernicus-Glowing-Putty-Gels-Slime/dp/B00ESHKKCY/?tag=strat-diyslime-20': '<strong>those kits</strong>' },
-  {},
-  {},
-  {},
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  { 'https://www.amazon.com/Newness-Stainless-Steel-Cigarette-Decoration/dp/B014FRV188?ascsubtag=[]st[p]cj1mm3nng007tiuy6b4qu39z2[d]D[i]Y6ftbp&tag=thestrategistsite-20': '<em>here</em>' },
-  { 'https://www.amazon.com/Bauhaus-Archive-Ash-Tray-Finish/dp/B0054JO8VO/?ascsubtag=[]st[p]cj1mm3nng007tiuy6b4qu39z2[d]D[i]JSQVsA&tag=thestrategistsite-20': '<em>here</em>',
-    'https://www.amazon.com/7690-12-Alessi-Spirale-Ashtray/dp/B000X16VYK/?ascsubtag=[]st[p]cj1mm3nng007tiuy6b4qu39z2[d]D[i]JSQVsA&tag=thestrategistsite-20': '<em>here</em>' },
-  {},
-  {},
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  { 'https://www.amazon.com/Vacation-Stylish-Sunscreen-Swimwear-vertical/dp/B06XW8MVLV?tag=strat-memphis-20&ascsubtag=[]st[p]cj1qj2vcn00608ryenpyc57ro[d]D[r]nymag.com/strategist': '<em>here</em>' },
-  { 'https://www.amazon.com/Coat-Rack-Present-Time-Organization/dp/B000H9HU1G?tag=strat-memphis-20&ascsubtag=[]st[p]cj1qj2vcn00608ryenpyc57ro[d]D[r]nymag.com/strategist': '<em>here</em>' },
-  {},
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  {},
-  { 'https://www.amazon.com/Delta-Michelangelo-Two-Bike-Gravity-Storage/dp/B000ACAM38/?tag=strat-askthestrat4.21.17-20': 'Michelangelo',
-    'https://www.amazon.com/Delta-Leonardo-Single-Storage-colors/dp/B000FGTTEW/?tag=strat-askthestrat4.21.17-20': 'Leonardo' },
-  { 'https://www.amazon.com/Delta-Michelangelo-Two-Bike-Gravity-Storage/dp/B000ACAM38/?tag=strat-askthestrat4.21.17-20': 'Michelangelo ' },
-  { 'https://www.amazon.com/Delta-Leonardo-Single-Storage-colors/dp/B000FGTTEW/?tag=strat-askthestrat4.21.17-20': 'Leonardo' },
-  { 'https://www.amazon.com/CLUG-Indoor-Outdoor-Bicycle-Storage/dp/B00Q0IEEXK?tag=strat-askthestrat4.21.17-20': 'Clug' },
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-product inline
-[ {}, {}, {} ]
-Done
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ]
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/La-Perla-Womens-Plumetis-Thong/dp/B01HSXNT3Q?tag=strat-bestwomenunderwear-20&ascsubtag=[]st[p]cj1zf6e9i00d4w9yev0yqa5bh[d]D[r]nymag.com/search.html': '<em>here</em>' },
-  {},
-  {},
-  {},
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  {},
-  {},
-  {},
-  { 'https://www.amazon.com/Wallaroo-Womens-Victoria-Fedora-Hat/dp/B00PHASDWU?tag=strat-bestbeachhat-20': 'all',
-    'https://www.amazon.com/Wallaroo-Womens-Savannah-Sun-Hat/dp/B00ICQ0D8S?tag=strat-bestbeachhat-20': 'different',
-    'https://www.amazon.com/Wallaroo-Harper-UPF50-Packable-Camel/dp/B01MT1HKOI?tag=strat-bestbeachhat-20': 'styles',
-    'https://www.amazon.com/Wallaroo-Womens-Catalina-Sun-Hat/dp/B0015NC5FO?tag=strat-bestbeachhat-20': 'raffia',
-    'https://www.amazon.com/Wallaroo-Womens-Victoria-Diva-Hat/dp/B004RCO7ZQ?tag=strat-bestbeachhat-20': 'divas',
-    'https://www.amazon.com/Wallaroo-Womens-Aqua-Hat-Strap/dp/B00PHE1VPM?tag=strat-bestbeachhat-20': 'waterproof' },
-  {},
-  {},
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {} ]
-product inline
-[ {}, {}, {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Natural-Aqua-Gel-Cure-250ml/dp/B001ABLKK2?tag=strat-exfoliator-20': 'Cure Natural Aqua Gel' },
-  {},
-  { 'https://www.amazon.com/Le-Mieux-Hyaluronic-Serum/dp/B00GXE5QGK?tag=strat-exfoliator-20': 'this' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-product inline
-[ {},
-  { 'https://www.amazon.com/Eden-Foods-Genmaicha-Green-1-01-Oz/dp/B00AIXTXI4?tag=strat-japaneseteapot-20': 'green tea',
-    'https://www.amazon.com/Hario-Chacha-Kyusu-Maru-700ml/dp/B0007WTBQ0?tag=strat-japaneseteapot-20': '<strong>Hario Chacha Kyusu Maru Tea Pot</strong>' },
-  {},
-  {},
-  {},
-  {},
-  {},
-  {} ]
-Done
-Done
-product inline
-[ {},
-  {},
-  { 'https://www.amazon.com/Kuretake-Clean-Watercolor-RB-6000AT-80V/dp/B01BLEISSY/?tag=strat-madeinjapan-20&ascsubtag=[]st[p]cj295yy0a004njfy6hvyfmbvn[d]D': '<em>here</em>' },
-  { 'https://www.amazon.com/Fruits-Shoichi-Aoki/dp/0714840831/?tag=strat-madeinjapan-20&ascsubtag=[]st[p]cj295yy0a004njfy6hvyfmbvn[d]D': '<em>here</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Binchotan-Charcoal-Body-Scrub-Towel/dp/B06ZZ2SH55/?tag=strat-charcoaltowel-20': 'Binchotan Charcoal Body Scrub Towel' },
-  { 'https://www.amazon.com/Dove-Care-Elements-Body-Charcoal/dp/B01MZ9I7YN/?tag=strat-charcoaltowel-20': 'Dove Men + Care' },
-  {},
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  { 'https://www.amazon.com/Japanese-Laundry-Basin-Washboard-JapanBargain/dp/B004K6KG40?tag=strat-washbasin-20 ': 'This Japanese washbasin',
-    'https://www.amazon.com/Woolite-Delicate-Liquid-Laundry-Detergent/dp/B00J5HWBXS?tag=strat-washbasin-20': 'Woolite',
-    'https://www.amazon.com/dp/B002USD5FC?tag=strat-washbasin-20': 'Forever New' },
-  {},
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/dp/B001DT1X9O?tag=strat-knifesharpener-20': 'The King Two Sided Sharpening Stone' },
-  {},
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Kai-000KE0120-Nail-Clipper-Black/dp/B00AS43WNA/?tag=strat-japanesenailclipper-20': 'Kai’s Type 001 Clippers' },
-  { 'https://www.amazon.com/Nestle-KitKat-Maccha-Green-Flavor/dp/B007OVX77G?tag=strat-japanesenailclipper-20': 'Kit Kats' },
-  {},
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {},
-  {},
-  { 'https://www.amazon.com/gp/product/B00B9JIGOS/?tag=strat-peopleschoicemattresses-20&ascsubtag=%5B%5Dst%5Bp%5Dcj2c7ol3g01f5i7y60y0g4nbk%5Bd%5DD&th=1': '<em>here</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Fidget-Spinner-Equpped-Stainless-Bearing/dp/B06Y3VRCMS/?tag=strat-fidgetspinners-20': 'fidget spinners' },
-  { 'https://www.amazon.com/Mmrm-Anxiety-Reducer-Quinary-Spinner/dp/B071XVCT25?tag=strat-fidgetspinners-20&ascsubtag=[]st[p]cj2g8pntr02x0i7y6cmpcz1jc[d]D': '<em>gold</em>',
-    'https://www.amazon.com/ANTI-SPINNER-Fidget-Spinner-Anxiety-Stress/dp/B06XZMDBRM?tag=strat-fidgetspinners-20&ascsubtag=[]st[p]cj2g8pntr02x0i7y6cmpcz1jc[d]D': '<em>rose gold</em>' },
-  { 'https://www.amazon.com/Rainbow-Fidget-Spinner-Reducer-spinner/dp/B071WV9QYK/?tag=strat-fidgetspinners-20&ascsubtag=[]st[p]cj2g8pntr02x0i7y6cmpcz1jc[d]D': '<em>bat</em>',
-    'https://www.amazon.com/Panda-Fidget-Spinner-spinning-Excellent/dp/B072J8YH5L/?tag=strat-fidgetspinners-20&ascsubtag=[]st[p]cj2g8pntr02x0i7y6cmpcz1jc[d]D': '<em>panda</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  {},
-  {},
-  { 'https://www.amazon.com/LOreal-Paris-Voluminous-Waterproof-Blackest/dp/B004Y9M4DE?tag=strat-bestwaterproofmascara-20': 'L’Oreal’s Voluminous Million Lashes Waterproof Mascara' },
-  {},
-  {},
-  { 'https://www.amazon.com/LOreal-Paris-Voluminous-Waterproof-Blackest/dp/B004Y9M4DE?tag=strat-bestwaterproofmascara-20': 'L’Oreal' },
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/ROYAL-CANIN-Canine-Selected-Protein/dp/B0066OSTIE/?tag=strat-dogcollar-20&ascsubtag=[]st[p]cj2kk8t8n01infvy6qgkjalqp[d]D': '<em>here</em>',
-    'https://www.amazon.com/ROYAL-Canine-Hypoallergenic-Selected-Protein/dp/B0050JLFVO?tag=strat-dogcollar-20&ascsubtag=[]st[p]cj2kk8t8n01infvy6qgkjalqp[d]D': '<em>here</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/FURminator-Short-Hair-deShedding-Small/dp/B00452OHXU/?tag=strat-catcomb-20': 'FURminator',
-    'https://www.amazon.com/FURminator-Hairball-Control-Shampoo-8-5-Ounce/dp/B004A9P7IM/?tag=strat-catcomb-20': 'shampoos',
-    'https://www.amazon.com/FURminator-Hairball-Prevention-Waterless-Spray/dp/B0042FMBHO/?tag=strat-catcomb-20': ' sprays',
-    'https://www.amazon.com/Furminator-104014-FURminator-Nail-Clippers/dp/B0062Z0UOI/?tag=strat-catcomb-20': 'nail clippers',
-    'https://www.amazon.com/gp/product/B0040QW39Q/?tag=strat-catcomb-20': 'dogs' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Winsor-Newton-Cotman-Colour-Sketchers/dp/B00004THXI?tag=strat-tsapaintset-20': 'Winsor & Newton pocket paint box',
-    'https://www.amazon.com/dp/B01MYXHRLW?tag=strat-tsapaintset-20': 'water-bearing brush pens',
-    'https://www.amazon.com/Bienfang-12-Inch-Hardcover-Sketch-Book/dp/B001KZH1JM?tag=strat-tsapaintset-20': ' Bienfang sketchbook' },
-  {},
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  { 'https://www.amazon.com/Flight-Route-Hacking-Adventurous-Travelers-ebook/dp/B00LWGOK2K': ' <em>Flight Route Hacking</em>' },
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {} ]
-product inline
-[ {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Rich-People-Problems-Kevin-Kwan/dp/0385542232/?tag=strat-celebkevinkwan-20': '<em>Rich People Problems</em>',
-    'https://www.amazon.com/Crazy-Rich-Asians-Kevin-Kwan/dp/0345803787?tag=strat-celebkevinkwan-20': '<em>Crazy Rich Asians</em>',
-    'https://www.amazon.com/China-Rich-Girlfriend-Kevin-Kwan/dp/0804172064/?tag=strat-celebkevinkwan-20': '<em>China Rich Girlfriend</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/the-strokes-black-t-shirt-l/dp/B01EXMRWYC/?tag=strat-strokesmerch-20': 'which you can still get' },
-  {},
-  {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Oh-Places-Youll-Dr-Seuss/dp/0679805273?tag=strat-graduationbooks-20': '<em>Oh The Places You’ll Go</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  { 'https://www.amazon.com/Office-Star-Ergonomically-Designed-Casters/dp/B002L15NSK?tag=strat-askthestrat5.19.17-20': 'Work Smart kneeling chair' },
-  {},
-  {},
-  { 'https://www.amazon.com/Herman-Miller-Classic-Aeron-Chair/dp/B0014YGGKE/?tag=strat-askthestrat5.19.17-20': 'Aeron chair by Herman Miller' },
-  { 'https://www.amazon.com/Humanscale-Freedom-Headrest-Chair-Wave/dp/B009WX8ILO?tag=strat-askthestrat5.19.17-20': 'headrest',
-    'https://www.amazon.com/Humanscale-Freedom-Task-Chair-F111GV101/dp/B003INLZSC?tag=strat-askthestrat5.19.17-20': 'without',
-    'https://www.amazon.com/Humanscale-Liberty-Chair/dp/B003N8KVY6/ref=sr_1_1?s=home-garden&ie=UTF8&qid=1495224200&sr=1-1&keywords=humanscale+liberty+chair': 'the Liberty' },
-  { 'https://www.amazon.com/dp/B016OIF3VC?tag=strat-askthestrat5.19.17-20': 'wasabi green',
-    'https://www.amazon.com/dp/B016OIF3K8?tag=strat-askthestrat5.19.17-20': 'blue jay blue',
-    'https://www.amazon.com/dp/B016OIEXE0?tag=strat-askthestrat5.19.17-20': 'tangerine' },
-  { 'https://www.amazon.com/WOBI-OFFICE-Phelps-Chair-Upholstery/dp/B00U3CIBDS?tag=strat-askthestrat5.19.17-20': 'Phelps by Wobi' },
-  { 'https://www.amazon.com/BackJoy-Improvement-100-300lbs-Outdoors-Recommended/dp/B006R3FOKK?tag=strat-askthestrat5.19.17-20': 'Easy Posture Lumbar Back Support',
-    'https://www.amazon.com/Herman-Miller-Classic-Aeron-Chair/dp/B0014YGGKE?tag=strat-askthestrat5.19.17-20': 'Aeron chair' },
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {} ]
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Worishofer-Womens-251-Buckled-Slide/dp/B001MS7930?tag=strat-grandmasandals-20': 'Worishofer' },
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-product inline
-[ {}, {}, {}, {} ]
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  { 'https://www.amazon.com/Salt-Water-Sandals-Original-Toddler/dp/B00EQR53SW/?tag=strat-summersandals-20': 'These Salt Water Sandals' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  {},
-  {},
-  { 'https://www.amazon.com/Dr-Scholls-Moleskin-Padding-Count/dp/B007W9MGLI/?tag=strat-babypowder-20 ': 'is moleskin' },
-  { 'https://www.amazon.com/PROFOOT-Pouch-Cushions-Womens-6-10/dp/B0024GREVQ/?tag=strat-babypowder-20': 'toe pouch',
-    'https://www.amazon.com/ProFoot-Vita-Gel-Protector-Each-Pack/dp/B01IAIAB8O?tag=strat-babypowder-20&th=1': 'individual toe protectors' },
-  { 'https://www.amazon.com/Vaseline-100-Pure-Petroleum-Jelly/dp/B00IO135FY/?tag=strat-babypowder-20 ': 'Vaseline',
-    'https://www.amazon.com/Injinji-Unisex-Outdoor-Original-Raspberry/dp/B00NIVNI7K/?tag=strat-babypowder-20': 'Injinji' },
-  { 'https://www.amazon.com/Neosporin-Original-Ointment-Infection-Protection/dp/B001ECQ778?tag=strat-babypowder-20': 'antibiotic ointment',
-    'https://www.amazon.com/Medline-Caring-Woven-Sponges-NonSterile/dp/B0013CB1FM/?tag=strat-babypowder-20 ': 'gauze pad',
-    'https://www.amazon.com/Johnsons-Baby-Powder-Classic-Scent/dp/B00G4EPD12/?tag=strat-babypowder-20 ': 'baby powder' },
-  {},
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  {},
-  {},
-  { 'https://www.amazon.com/LAmour-Pieds-Oraine-Suede-Sandal/dp/B072BKGZRC/?tag=strat-amourdespieds-20': 'Oraines' },
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Party-Girls-Die-Pearls-Mystery-ebook/dp/B01L6R7UOO/ref=la_B001K8IBIE_1_1?s=books&ie=UTF8&qid=1496252471&sr=1-1': 'Party Girls Die in Pearls' },
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/TriggerPoint-Roller-Instructional-Original-13-inch/dp/B0040EKZDY/?tag=strat-bestfoamroller-20': 'TriggerPoint model',
-    'https://www.amazon.com/AmazonBasics-High-Density-Round-Foam-Roller/dp/B00XM2MRGI/?tag=strat-bestfoamroller-20': 'basic dense Amazon version' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ]
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Vulli-6163243-Sophie-la-Girafe/dp/B000IDSLOG?tag=strat-giftsforanewmom-20': 'Sophie the Giraffe' },
-  { 'https://www.amazon.com/Hate-Your-Husband-After-Kids/dp/0316267104': 'How Not to Hate Your Husband After Kids' },
-  {},
-  {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Impatient-Foodie-Delicious-Recipes-Time-Starved/dp/1501128914/?tag=strat-celebelettrawiedemann-20': 'Impatient Foodie' },
-  {},
-  {} ]
-Done
-product inline
-[ {},
-  {},
-  {},
-  {},
-  { 'https://www.amazon.com/AO-Eyewear-Original-Sunglass-Bayonet/dp/B00HQXPFSG?tag=strat-askthestrat6.09.17-20': 'classic navigator shapes,' },
-  {},
-  {},
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-product inline
-[ {}, {} ]
-Done
-Done
-product inline
-[ {}, {}, {} ]
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Becoming-Brilliant-Successful-Children-Lifetools/dp/1433822393?tag=strat-5yearoldgifts-20': 'Becoming Brilliant: What Science Tells Us About Raising Successful Children' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/dp/B01J77H8YC?tag=strat-askthestrat6.16-20': '<strong>I Love Dick</strong>' },
-  { 'https://www.amazon.com/Pilot/dp/B00I3MPZUW/?tag=strat-askthestrat6.16': '<em>Transparent</em>' },
-  {},
-  { 'https://www.amazon.com/PurpleHanger-Womens-Sleeve-Chunky-Cardigan/dp/B00T6EJOI0/?tag=strat-askthestrat6.16': 'on Amazon' },
-  {},
-  {},
-  {},
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Garden-Diamond-Sharpening-Thickest-Leather/dp/B016BBM6FI/?tag=strat-cactusstore-20': 'Japanese gardening tools ' },
-  { 'https://www.amazon.com/Shop-Succulents-Unique-Succulent-Collection/dp/B018WLMXG2/ref=sr_1_3?ie=UTF8&qid=1497628506&sr=8-3&keywords=succulent': 'succulent-packed' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ]
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Aeropress-Coffee-and-Espresso-Maker/dp/B0047BIWSK?tag=strat-perfecttravelcup-20': 'AeroPress brewer',
-    'https://www.amazon.com/Porlex-Mini-Stainless-Coffee-Grinder/dp/B0044ZA066/?tag=strat-perfecttravelcup-20': 'stubby Porlex Mini Grinder',
-    'https://www.amazon.com/Filter-Original-AeroPress-Built-Guaranteed/dp/B00A1GVVMY?tag=strat-perfecttravelcup-20': ' Kaffeologie' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  {},
-  {},
-  { 'https://www.amazon.com/Fit-Simplify-Resistance-Exercise-Instructional/dp/B01AVDVHTI/?tag=strat-yellownightstand-20': 'resistance bands',
-    'https://www.amazon.com/Tiger-Balm-Strength-Sports-Oinment/dp/B000N5WT2O/?tag=strat-yellownightstand-20': 'Tiger Balm',
-    'https://www.amazon.com/Dr-Jart-Korean-Cosmetics-Ceramidin/dp/B00AMAR74K?tag=strat-yellownightstand-20': 'steroid cream' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/wedding/home?tag=strat-weddingregistry-20': 'Amazon' },
-  {},
-  {},
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {},
-  {},
-  {},
-  {},
-  { 'https://www.amazon.com/Poly-Bark-Louis-Ghost-Style/dp/B01AYSU0BQ?tag=strat-clearplasticthings-20&ascsubtag=[]st[p]cj4789ske0000wnyebxispbll[d]D[r]nymag.com/strategist': '<em>here</em>' },
-  { 'https://www.amazon.com/Armitron-Sport-Womens-45-Digital/dp/B015YVDWLI/?tag=strat-clearplasticthings-20&ascsubtag=[]st[p]cj4789ske0000wnyebxispbll[d]D[r]nymag.com/strategist': '<em>digital</em>',
-    'https://www.amazon.com/Nixon-Watches-Time-Teller-Watch/dp/B010WE5CRO/?tag=strat-clearplasticthings-20&ascsubtag=[]st[p]cj4789ske0000wnyebxispbll[d]D[r]nymag.com/strategist': '<em>analog</em>' },
-  { 'https://www.amazon.com/ACRYLIC-CRYSTAL-RAINBOW-SPINNER-GLITTER/dp/B0746HD5ZD?tag=strat-clearplasticthings-20&ascsubtag=[]st[p]cj4789ske0000wnyebxispbll[d]D[r]nymag.com/strategist': '<em>here</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  {},
-  {},
-  { 'https://www.amazon.com/Sturdy-Pool-skimmer-Cleaning-Surface/dp/B00MK3VGA8/?tag=strat-stocktankpool-20': 'a net',
-    'https://www.amazon.com/Pool-Spa-Active99-Chlorinating-Tablets/dp/B00PZZFBUO/?tag=strat-stocktankpool-20': 'chlorine tablets',
-    'https://www.amazon.com/Intex-Krystal-Filter-16-inch-110-120V/dp/B00GSPHS7E?tag=strat-stocktankpool-20': ' a pump filtration system' },
-  {},
-  { 'https://www.amazon.com/Behlen-Country-Galvanized-Approximately-Gallons/dp/B003B6FFUU?tag=strat-stocktankpool-20 ': '<em>available on Amazon</em>' },
-  {},
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/s/ref=sr_nr_p_89_0?sf=qz&fst=as%3Aoff&rh=i%3Aaps%2Ck%3Aikea%2Cp_89%3AIKEA&keywords=ikea&unfiltered=1&ie=UTF8&qid=1498582477&rnid=2528832011&tag=strat-amazonikea-20': 'Ikea on Amazon',
-    'https://www.amazon.com/dp/B00DBYBNEE/?tag=strat-amazonikea-20': 'Prime' },
-  {},
-  {},
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Doll-Parts-Amanda-Lepore/dp/1942872852?tag=strat-celebamandalepore-20': 'Doll Parts' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Burning-Girl-Novel-Claire-Messud/dp/0393635023?tag=strat-carryonclairemessud-20': 'The Burning Girl' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  { 'https://www.amazon.com/Xiaomi-10000mAh-Portable-Ultra-Compact-Lightest/dp/B01MRSX203?tag=strat-stuckonsubway-20&ascsubtag=[]st[p]cj4in3lj300dn5ryemacw4dyk[d]D[r]nymag.com/strategist': '<em>here</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/dp/B013XH2C0C?tag=strat-kitchenlazysusan-20': '<em>another turntable</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/b?ie=UTF8&node=13887280011&tag=strat-primeday17-intropost-20': 'Prime Day' },
-  { 'https://www.amazon.com/dp/B00DBYBNEE?_encoding=UTF8&primeCampaignId=prime_assoc_ft&tag=strat-primeday17-intropost-20': '30-day trial',
-    'https://www.amazon.com/Fleabag-Season-1-Official-Trailer/dp/B01J4SST1K?tag=strat-primeday17-intropost-20': '<em>Fleabag</em>',
-    'https://www.amazon.com/Pilot/dp/B00I3MPZUW?tag=strat-primeday17-intropost-20': '<em>Transparent</em>' },
-  {},
-  {},
-  {},
-  { 'https://www.amazon.com/gp/dmusic/promotions/AmazonMusicUnlimited?tag=strat-primeday17-intropost-20': 'Amazon Music Unlimited deal' },
-  {},
-  {} ]
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/dp/B00DBYBNEE?_encoding=UTF8&primeCampaignId=prime_assoc_ft&tag=strat-primeday17-hubpage-20': '30-day free trial' },
-  {},
-  {} ]
-product inline
-[ {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Becoming-Brilliant-Successful-Children-Lifetools/dp/1433822393/?tag=strat-6yearoldtoys-20': '<em>Becoming Brilliant: What Science Tells Us About Raising Successful Children</em> ' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/dp/B00DBYBNEE?_encoding=UTF8&primeCampaignId=prime_assoc_ft&tag=strat-primeday17-greatesthits-20': '30-day trial' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Prime-Day/b?ie=UTF8&node=13887280011&tag=strat-primeday17-peopleschoiceprime-20': '<em>Amazon Prime Day</em>' },
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/ref=nav_logo?tag=strat-primeday17-greatesthits-20': 'Prime Day',
-    'https://www.amazon.com/dp/B00DBYBNEE?tag=strat-primeday17-greatesthits-20': '30-day trial' },
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Prime-Day/b?ie=UTF8&node=13887280011&tag=strat-primeday17-expensivelooking-20': 'Prime Day',
-    'https://www.amazon.com/dp/B005GCBDKS/?tag=strat-primeday17-expensivelooking-20': 'these' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-product inline
-[ {}, {}, {}, {} ]
-Done
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-product inline
-[ {}, {}, {} ]
-Done
-Done
-product inline
-[ {},
-  {},
-  {},
-  {},
-  { 'https://www.amazon.com/Geff-House-VLVT-RNG-Black-Velvet/dp/B008NVNAD2/?tag=strat-askthestrat7.14.17-20': 'ring box' },
-  { 'https://www.amazon.com/Alora-Pill-Vitamin-Case-Blue/dp/B00FFE3E40/?tag=strat-askthestrat7.14.17-20': 'one from Amazon' },
-  { 'https://www.amazon.com/Ezy-Dose-Squeeze-Pouch-White/dp/B001CE0PS0/?tag=strat-pillbox-20': ' ',
-    'https://www.amazon.com/Ezy-Dose-Squeeze-Pouch-White/dp/B001CE0PS0/?tag=strat-askthestrat7.14.17-20': 'soft plastic squeeze pouch' },
-  { 'https://www.amazon.com/Organic-BIOLOGIQUE-Cotton-Balls-organic/dp/B00F51RET4/?tag=strat-askthestrat7.14.17-20': 'cotton ball or two',
-    'https://www.amazon.com/PuTwo-Round-Metal-Organizer-Mirror/dp/B01E14XFZ2/?tag=strat-askthestrat7.14.17-20': 'round metal circular one',
-    'https://www.amazon.com/MYNER-Compartments-Organizer-Dustproof-Dampproof/dp/B06XRDCBR7/?tag=strat-askthestrat7.14.17-20': 'foldable pink one' },
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Himalayan-Chandra-Porcelain-Neti-Pot/dp/B000WJIC3G?tag=strat-sinusrinse-20': 'neti pot' },
-  {},
-  {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Washed-Linen-Queen-Duvet-Cover/dp/B00NKPA8FO?ascsubtag=[]st[p]cj58ddufi00pj60ye65d70wbi[d]D[i]gQMfJY&tag=thestrategistsite-20': '<em>here</em>' },
-  {},
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/AmazonFresh/b/ref=topnav_storetab_fresh?ie=UTF8&node=10329849011&tag=strat-onthegostainremover-20': 'Prime Fresh',
-    'https://www.amazon.com/Spray-Wash-Treat-Stain-Stick/dp/B002M37QHS?tag=strat-onthegostainremover-20 ': 'one stick for $2' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Lucano-Design-Folding-Lightweight-Aluminum/dp/B015W64IJ0?tag=strat-hasegawaladder-20': '<em>available at Amazon</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  {},
-  {},
-  { 'https://www.amazon.com/gp/product/B01A1VF35Y?tag=strat-gamingchair-20': 'DXRacer' },
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Hejmo-Solid-Coffee-Natural-finish/dp/B01GRNYMZ2/?ascsubtag=[]st[p]cj5i7c7rx00h2jky66jfzq443[d]D[i]dS5Yhr[r]nymag.com/strategist&tag=thestrategistsite-20': '<em>here</em>' },
-  { 'https://www.amazon.com/Accent-Tables-78050044-Wooden-Inches/dp/B01MQ2TB8G/?ascsubtag=[]st[p]cj5i7c7rx00h2jky66jfzq443[d]D[i]9Cgdih[r]nymag.com/strategist&tag=thestrategistsite-20': '<em>here</em>' },
-  { 'https://www.amazon.com/Modway-Outdoor-Tempered-Storage-Espresso/dp/B0180NKITG/?ascsubtag=[]st[p]cj5i7c7rx00h2jky66jfzq443[d]D[i]MaMi6d[r]nymag.com/strategist&tag=thestrategistsite-20': '<em>here</em>',
-    'https://www.amazon.com/Best-Choice-Products-Outdoor-Furniture/dp/B01DTMYK7E/?ascsubtag=[]st[p]cj5i7c7rx00h2jky66jfzq443[d]D[i]MaMi6d[r]nymag.com/strategist&tag=thestrategistsite-20': '<em>here</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Birkenstock-R66731-N66733-London-Clog/dp/B00171ESOU?tag=strat-plasticbirkenstocks-20': 'Londons',
-    'https://www.amazon.com/Birkenstock-Arizona-2-Strap-Footbed-Sandals/dp/B000OCSJN4?tag=strat-plasticbirkenstocks-20': 'Arizonas' },
-  { 'https://www.amazon.com/Birkenstock-Womens-Gizeh-Sandals-Black/dp/B00N3KRX8Q?tag=strat-plasticbirkenstocks-20': 'Birkenstock Gizehs' },
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Fitness-Junkie-Novel-Lucy-Sykes/dp/0385541805?tag=strat-celeblucysykes-20': 'Fitness Junkie' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/dp/B00DBYBNEE?tag=strat-amazonbrands-20': 'Prime members only' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Sour-Heart-Stories-Jenny-Zhang/dp/0399589384?tag=strat-celeblenadunham-20': 'Sour Heart' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Daniel-Wellington-0511DW-Classic-Bristol/dp/B00EX1GLXM/?ascsubtag=[]st[p]cj5trx20l00h6n2y6wmzokdh3[d]D[i]QKQTQS[r]nymag.com/strategist&tag=thestrategistsite-20': '<em>this</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Ikea-601-467-64-Forsa-Nickel-Plated/dp/B00T8AOFDG?tag=strat-dormitemsamazon-20&ascsubtag=[]st[p]cj5tr76gz00hsmoy6mxucuztx[d]D[r]nymag.com/strategist': '<em>here</em>',
-    'https://www.amazon.com/Tomons-Natural-Designer-Living-Bedroom/dp/B016XWX1HC?tag=strat-dormitemsamazon-20&ascsubtag=[]st[p]cj5tr76gz00hsmoy6mxucuztx[d]D[r]nymag.com/strategist': '<em>here</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  {},
-  { 'https://www.amazon.com/Takenaka-Bento-Double-900ml-Peach/dp/B01AZLT5T0?tag=strat-bentoboxes-20&ascsubtag=[]st[p]cj5vd9fqa00gwjwye31teri9c[d]D[r]nymag.com/strategist': '<em>here</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/gp/product/B00PKGXZ24?tag=strat-safetyrazor-20': 'Weishi Safety Razor' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Anne-Frank-Diary-Young-Girl/dp/0553296981?tag=strat-judithjonesreading-20': '<em>Anne Frank: The Diary of a Young Girl</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Pack-SimpleHouseware-Pop-Up-Laundry-Hamper/dp/B01DYXFHR0/?tag=strat-feelsnaptha-20': 'the pop-up hamper',
-    'https://www.amazon.com/Command-Mini-Hooks-White-24-Hooks/dp/B00ID0E62C/?tag=strat-feelsnaptha-20': 'stick-on Command hooks',
-    'https://www.amazon.com/Fels-Naptha-Laundry-Stain-Remover/dp/B0063KXEIG/?tag=strat-feelsnaptha-20': 'Fels-Naptha' },
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-product inline
-[ {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Doug-Pug-Coloring-Activity-Book/dp/0062658824?tag=strat-celebdougthepug-20': '<em>self-titled coloring book</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  { 'https://www.amazon.com/Vans-Unisex-Skool-Black-White/dp/B000R3QPEA/?tag=strat-eastpakbackpack-20': 'Vans Old Skool',
-    'https://www.amazon.com/Timberland-Premium-Waterproof-Wheat-Nubuck/dp/B000VX6YGA/r?tag=strat-eastpakbackpack-20': 'Timberland yellow boot' },
-  {},
-  {},
-  {},
-  { 'https://www.amazon.com/Eastpak-Backpacks-Padded-Backpack-Gingham/dp/B01M7NGWBC/?ascsubtag=[]st[p]cj65bc1td000o2uye1aq330os[d]D[i]ldoCj5[r]nymag.com/strategist&tag=thestrategistsite-20': '<em>here</em>',
-    'https://www.amazon.com/Eastpak-Collection-Authentic-Backpacks-40x30x18cm/dp/B01NCAN6PI/?ascsubtag=[]st[p]cj65bc1td000o2uye1aq330os[d]D[i]ldoCj5[r]nymag.com/strategist&tag=thestrategistsite-20': '<em>here</em>' },
-  { 'https://www.amazon.com/Eastpak-Padded-Pakr-Backpack-Trio/dp/B071HVJTDP/?ascsubtag=[]st[p]cj65bc1td000o2uye1aq330os[d]D[i]18UF3K[r]nymag.com/strategist&tag=thestrategistsite-20': '<em>here</em>',
-    'https://www.amazon.com/Eastpak-Mens-Padded-PakR-Backpack/dp/B01NA9U830/?ascsubtag=[]st[p]cj65bc1td000o2uye1aq330os[d]D[i]18UF3K[r]nymag.com/strategist&tag=thestrategistsite-20': '<em>here</em>' },
-  { 'https://www.amazon.com/EASTPAK-PADDED-PAKR-INTO-CAMO/dp/B06XRWYM6C/?ascsubtag=[]st[p]cj65bc1td000o2uye1aq330os[d]D[i]18UF3K[r]nymag.com/strategist&tag=thestrategistsite-20': '<em>here</em>',
-    'https://www.amazon.com/Eastpak-Unisex-Padded-PakR-Backpack/dp/B01M98T43I/?ascsubtag=[]st[p]cj65bc1td000o2uye1aq330os[d]D[i]18UF3K[r]nymag.com/strategist&tag=thestrategistsite-20': '<em>here</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Modfacture-Garlic-Peeler-1-Blue/dp/B00WFJXXOE/?tag=strat-garlicpeelerode-20': 'weird rubber log' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/How-Get-Dressed-Costume-Designers/dp/1607747065?tag=strat-laundrybagode-20': 'shameless plug' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/My-Beauty-Diary-Brightening-Version/dp/B01H4P9JPK/?tag=strat-bestsheetmasks-20': 'Black Pearl',
-    'https://www.amazon.com/My-Beauty-Diary-Hyaluronic-Moisturizing/dp/B01H4VZ5WA?tag=strat-bestsheetmasks-20': 'Hyaluronic Acid',
-    'https://www.amazon.com/My-Beauty-Diary-Mask-Piece/dp/B00WASFDH0?tag=strat-bestsheetmasks-20': 'Red Vine',
-    'https://www.amazon.com/My-Beauty-Diary-Radiance-Version/dp/B01H4VPTYY?tag=strat-bestsheetmasks-20': 'Royal Pearl Radiance',
-    'https://www.amazon.com/My-Beauty-Diary-Birds-Nest/dp/B00DOKA468?tag=strat-bestsheetmasks-20': 'Imperial Bird’s Nest',
-    'https://www.amazon.com/My-Beauty-Diary-Package-VERSION/dp/B01H544W8Y?tag=strat-bestsheetmasks-20': 'sampler pack' },
-  { 'https://www.amazon.com/23YEARS-C-TRAGEL-MODELING-Vitamin-brightening/dp/B01EXX9D2K?tag=strat-bestsheetmasks-20': 'other C-Tragel' },
-  { 'https://www.amazon.com/Naruko-Astringent-Mask-Rose-Count/dp/B01GIJLQ5E?tag=strat-bestsheetmasks-20&th=1': 'Rose',
-    'https://www.amazon.com/Naruko-Edelweiss-Soothing-Calming-Count/dp/B01GIJ9GCY/?tag=strat-bestsheetmasks-20&th=1': 'Edelweiss',
-    'https://www.amazon.com/Naruko-Snail-Essence-Intense-Repair/dp/B00KC3PCLM/?tag=strat-bestsheetmasks-20&th=1': 'Snail Essence',
-    'https://www.amazon.com/Naruko-Snail-Essence-Intense-Repair/dp/B01BQCLBBW?tag=strat-bestsheetmasks-20&th=1': 'Collagen Booster' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ { 'http://amazon.com/oprah?tag=strat-celebadamglassman-20': 'Fall Beauty O-Wards' },
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Tryone-Gooseneck-Nintendo-Cellphone-Android/dp/B01AUQ33K2?tag=strat-ipadmount-20': 'Tryone’s “Gooseneck” Mount' },
-  {},
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Shopkins-56145-Season-5-12-Pack/dp/B019IJ690I/?tag=strat-squishies-20': 'Shopkins' },
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Not-Your-Mothers-Refreshing-Shampoo/dp/B072BGVMKC?tag=strat-dryshampooode-20': 'Not Your Mother’s Clean Freak Dry Shampoo',
-    'https://www.amazon.com/Klorane-Dry-Shampoo-Oat-Milk/dp/B000PY9HG4/?tag=strat-dryshampooode-20': 'Klorane’s culty dry shampoo' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/ORISTAND-Standing-Desk-Converter-Workstations/dp/B01FG4U1SA?tag=strat-oristanddesk-20': 'Oristand' },
-  { 'https://www.amazon.com/Spark-Ergodriven-Perfect-Standing-Medium/dp/B01GGNV6VQ/?tag=strat-oristanddesk-20': '<em>Ergodriven Spark</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  {},
-  { 'https://www.amazon.com/Cosrx-Acne-Pimple-Master-Patch/dp/B00PBX3TN6?tag=strat-shoppingcart-8.25.17-20': 'Cosrx Pimple Patches',
-    'https://www.amazon.com/Cosrx-Bha-Blackhead-Power-Liquid/dp/B00OZEJ8R8?tag=strat-shoppingcart-8.25.17-20': 'Cosrx Bha Blackhead Power Liquid',
-    'https://www.amazon.com/Neogen-Fresh-Cleansing-Stick-Green/dp/B01GODUBGE/?tag=strat-shoppingcart-8.25.17-20': 'Neogen Green Tea Cleanser',
-    'https://www.amazon.com/BENTON-content-Korean-cosmetic-beauty/dp/B00SR9S8R8?tag=strat-shoppingcart-8.25.17-20': 'Snail Bee High Content Sheet Mask Pack',
-    'https://www.amazon.com/Etude-House-Moistfull-Collagen-Cream/dp/B016AEC63I?tag=strat-shoppingcart-8.25.17-20': 'Etude House Moistfull Collagen Cream' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Preggie-Pops-Lolliepop-Kosher-Lollipop/dp/B0006O2NNC?tag=strat-queasydrops-20': 'Preggie Pops' },
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/dp/B00DEFAHVA/ref=twister_B06XB2SLWC?ascsubtag=[]st[p]cj71yfk1x006cary6ihwiurls[d]D[i]kd0Um7[r]nymag.com/tags&tag=thestrategistsite-20': '<em>here</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Satanic-Verses-Novel-Salman-Rushdie/dp/0812976711?tag=strat-celebsalmanrushdie-20': 'The Satanic Verses',
-    'https://www.amazon.com/Golden-House-Novel-Salman-Rushdie/dp/0399592806/?tag=strat-celebsalmanrushdie-20': 'The Golden House' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Lodge-LCC3-Cooker-Pre-Seasoned-3-2-Quart/dp/B0009JKG9M': 'This Lodge combo cooker' },
-  { 'https://www.amazon.com/My-Bread-Revolutionary-No-Work-No-Knead/dp/0393066304': '<em>My Bread</em>',
-    'https://www.amazon.com/Tartine-Bread-Chad-Robertson/dp/0811870413': 'Tartine’s Chad Robertson' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Kikkerland-WC01-Vintage-Watering-Can/dp/B071KVWMVY': '<em>here</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Daisity-Womens-Yoga-Capris-Activewear/dp/B01HE7124O?th=1&psc=1': '<strong><em> here.</em></strong>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  {},
-  { 'https://www.amazon.com/Lacrosse-Balls-NCAA-Certified-Yellow/dp/B006JANLLU/ref=sr_1_9?s=sports-and-fitness&ie=UTF8&qid=1505426326&sr=1-9&keywords=lacrosse+ball': 'lacrosse balls',
-    'https://www.amazon.com/Kieba-Massage-Lacrosse-Myofascial-Therapy/dp/B017V7UKW2/ref=sr_1_4?s=sports-and-fitness&ie=UTF8&qid=1505426326&sr=1-4&keywords=lacrosse+ball': 'massage balls',
-    'https://www.amazon.com/Wilson-Smart-Core-Golf-Ball/dp/B003RPXXMM/ref=sr_1_5?s=sporting-goods&ie=UTF8&qid=1505426533&sr=1-5&keywords=golf+balls': 'golf balls' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/Hanskin-Cleansing-Black-Head-200ml/dp/B002PV59MG?th=1&ascsubtag=[]st[p]cj7rsf48301dp44y6qkxeydlm[d]D[i]XvcfEL[r]nymag.com/strategist&tag=thestrategistsite-20': '<em>here</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Crazy-Rich-Asians-Kevin-Kwan/dp/0345803787': 'Crazy Rich Asians' },
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/CeraVe-Foaming-Facial-Cleanser-Ounce/dp/B003YMJJSK': 'CeraVe face wash',
-    'https://www.amazon.com/Stri-dex-Pads-Maximum-Strength-Pack/dp/B004WP0S74/': 'Stridex pads' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  { 'https://www.amazon.com/4-drawer-chest-Stained-Veneer-903-604-65/dp/B071JQ6BN2/ref=sr_1_16?ie=UTF8&qid=1506523731&sr=8-16&keywords=ikea+malm+dresser': '<em>here</em>' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {},
-  {},
-  {},
-  {},
-  {},
-  { 'https://www.amazon.com/Anker-Wireless-Charger-Charging-Devices/dp/B00Y839YMU/?ascsubtag=[]st[p]cj8688onj00ynddy6x3w48vvd[d]D[i]r0Qtf9[r]nymag.com/strategist&tag=thestrategistsite-20': '<em>here</em>' },
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Ronco-ST5000PLGEN-Showtime-Rotisserie-Platinum/dp/B00004RFQL': 'Ronco Showtime Rotisserie Oven',
-    'https://www.amazon.com/Standard-Vejibag-Reusable-Vegetable-Preservation/dp/B00CZDKZE6': 'Vejibag' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Sally-Hansen-Effects-French-Polish/dp/B00AWR9MIW': 'Sally Hansen nail stickers' },
-  { 'https://www.amazon.com/Cutex-Polish-Remover-Advanced-Revival/dp/B00I4BUSCC/ref=sr_1_1_s_it?s=beauty&ie=UTF8&qid=1506722552&sr=1-1&keywords=nail%2Bpolish%2Bremover%2Bpads%2Bindividually%2Bwrapped&th=1': 'these nail-polish-removal pads' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Hatchimals-Glittering-Garden-Interactive-Shimmering/dp/B01N9KR2SZ': 'Hatchimals' },
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Ziploc-Easy-Open-Sandwich-count/dp/B002A1SE5U': 'cheap sandwich bags' },
-  {},
-  {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Art-Flavor-Practices-Principles-Delicious/dp/1594634300': 'The Art of Flavor' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-product inline
-[ {}, {}, {}, {} ]
-Done
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Leg-Avenue-Paratrooper-Jumpsuit-Harness/dp/B00D1K1ERY': 'paratrooper',
-    'https://www.amazon.com/Forum-Alice-Wonderland-Hearts-Costume/dp/B015NZI6UW/': 'Queen of Hearts' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/MASGLO-Nail-POLISH-Color-COLOMBIA/dp/B071SHMPH1/ref=sr_1_cc_2_a_it?s=aps&ie=UTF8&qid=1508428287&sr=1-2-catcorr&keywords=masglo': 'Masglo nail polish',
-    'https://www.amazon.com/Luxury-Beauty-essie/b?ie=UTF8&node=10090975011': 'Essie' },
-  {},
-  { 'https://www.amazon.com/Masglo-Garlic-Lemon-Strengthen-Limon/dp/B00EUQQ7TI': 'Masglo Base De Ajo Y Limon base coat' },
-  {},
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ { 'https://www.amazon.com/Instant-Pot-V3-Multi-Use-Programmable/dp/B00FLYWNYQ': 'Instant Pot' },
-  {},
-  {} ]
-Done
-product inline
-[ {}, {}, {} ]
-Done
-product inline
-[ {}, {}, {} ]
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+STREAM FAILURE
+http://172.24.17.157/strategist/pages/ciz5xxd2o02f9dgye0bk5u4u2@published.json
+{ statusCode: 502,
+  body: '<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor="white">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.10.2</center>\r\n</body>\r\n</html>\r\n',
+  jsonBody: undefined,
+  thrown: undefined }
+STREAM FAILURE
+http://172.24.17.157/strategist/pages/ciz5vl7cw02gqpjy6u5jygebu@published.json
+{ statusCode: 502,
+  body: '<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor="white">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.10.2</center>\r\n</body>\r\n</html>\r\n',
+  jsonBody: undefined,
+  thrown: undefined }
+STREAM FAILURE
+http://172.24.17.157/strategist/pages/ciz63a0l5003x41yeye21tb2r@published.json
+{ statusCode: 502,
+  body: '<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor="white">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.10.2</center>\r\n</body>\r\n</html>\r\n',
+  jsonBody: undefined,
+  thrown: undefined }
+STREAM FAILURE
+http://172.24.17.157/strategist/pages/ciz7334x200nwy4y66yr7hrfv@published.json
+{ statusCode: 502,
+  body: '<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor="white">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.10.2</center>\r\n</body>\r\n</html>\r\n',
+  jsonBody: undefined,
+  thrown: undefined }
+STREAM FAILURE
+http://172.24.17.157/strategist/pages/ciz7cqnac00ckvcyekzd2ss65@published.json
+{ statusCode: 502,
+  body: '<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor="white">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.10.2</center>\r\n</body>\r\n</html>\r\n',
+  jsonBody: undefined,
+  thrown: undefined }
+STREAM FAILURE
+http://172.24.17.157/strategist/pages/ciz7etp0y00h9vcyet9uvdgc9@published.json
+{ statusCode: 502,
+  body: '<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor="white">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.10.2</center>\r\n</body>\r\n</html>\r\n',
+  jsonBody: undefined,
+  thrown: undefined }
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
 Done
 Done!
-product inline
-[]

@@ -1,0 +1,35 @@
+{ "schema": {
+    "fields": [
+      {
+        "name": "productDescription",
+        "type": "string",
+        "mode": "nullable"
+      },
+      {
+        "name": "productPageUri",
+        "type": "string",
+        "mode": "required"
+      },
+      {
+        "name": "productCategory",
+        "type": "string",
+        "mode": "nullable"
+      },
+      {
+        "name": "productCategoryConfidence",
+        "type": "string",
+        "mode": "nullable"
+      },
+      {
+        "name": "productId",
+        "type": "string",
+        "mode": "required"
+      },
+      {
+        "name": "site",
+        "type": "string",
+        "mode": "required"
+      }
+    ]
+  }
+}
